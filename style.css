@@ -1,0 +1,51 @@
+body {
+	background-color: #fff;
+	color: #111;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+a {
+	color: #000;
+	text-decoration: none;
+}
+h1 {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 38px;
+	margin: 1em 0;
+}
+p {
+	font-size: 23px;
+}
+ul {
+	margin: 4.45em 0 0 110px;
+	padding: 0;
+}
+li {
+	list-style-type: none;
+	font-size: 18px;
+	margin: 1em 0;
+	padding: 0;
+}
+#wrapper {
+	width: 510px;
+	height: 600px;
+	position: absolute;
+	top: 73px;
+	left: 50%;
+	margin-left: -510px;
+	padding-left: 492px;
+	background-image: url(strawberry.jpg);
+	background-repeat: no-repeat;
+}
+#download {
+	display: block;
+	margin-top: 3.6em;
+	float: right;
+	border: 2px solid #900;
+	background-color: #fcc;
+	padding: 5px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+#download b {
+	color: #900;
+	text-decoration: underline;
+}
