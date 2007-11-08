@@ -2,40 +2,47 @@ body {
 	background-color: #fff;
 	color: #111;
 	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 10px;
 }
+
 a {
 	color: #000;
 	text-decoration: none;
 }
+
 h1 {
 	font-family: Geneva, Arial, Helvetica, sans-serif;
-	font-size: 38px;
-	margin: 1em 0;
+	font-size: 3.8em;
+	margin: 0 0 1em;
 }
+
 p {
-	font-size: 23px;
+	font-size: 2.3em;
 }
+
 ul {
-	margin: 4.45em 0 0 110px;
+	margin: 5.8em 0 0 11em;
 	padding: 0;
 }
+
 li {
 	list-style-type: none;
-	font-size: 18px;
+	font-size: 1.8em;
 	margin: 1em 0;
 	padding: 0;
 }
-#wrapper {
-	width: 510px;
-	height: 600px;
+
+#content {
+	width: 51em;
+	height: 53em;
 	position: absolute;
-	top: 73px;
-	left: 50%;
-	margin-left: -510px;
-	padding-left: 492px;
-	background-image: url(strawberry.jpg);
-	background-repeat: no-repeat;
+	top: 111px;
+	padding-left: 49.2em;
+	right: 50%;
+	margin-right: -492px;
+	background: url(strawberry.jpg) no-repeat left bottom;
 }
+
 #download {
 	display: block;
 	margin-top: 3.6em;
@@ -44,7 +51,9 @@ li {
 	background-color: #fcc;
 	padding: 5px;
 	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.3em;
 }
+
 #download b {
 	color: #900;
 	text-decoration: underline;
