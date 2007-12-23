@@ -56,6 +56,7 @@ p {
 }
 
 .downloads li {
+	font-size: 1em;
 	border: 2px solid #900;
 	background-color: #fcc;
 	padding: 5px;
