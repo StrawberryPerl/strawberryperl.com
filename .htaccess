@@ -1,2 +1,4 @@
 RewriteEngine On
 RewriteRule ^strawberry-perl-5.10.0-final(/.*)?$ / [L,R=301]
+RedirectMatch 403 /\..*$
+
