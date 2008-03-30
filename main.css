@@ -1,0 +1,17 @@
+body {
+	background-color: #fff;
+	color: #111;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	background: url(images/strawberry_half.jpg) no-repeat top right;
+}
+
+h1 {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 3.2em;
+}
+
+a {
+	color: #f00;
+	text-decoration: underline;
+}
+

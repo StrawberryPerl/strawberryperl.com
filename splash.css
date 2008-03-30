@@ -1,0 +1,85 @@
+body {
+	background-color: #fff;
+	color: #111;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 10px;
+}
+
+#content {
+	width: 51em;
+	height: 53em;
+	position: absolute;
+	top: 50px;
+	padding-left: 49.2em;
+	right: 50%;
+	margin-right: -492px;
+	background: url(images/strawberry.jpg) no-repeat left bottom;
+}
+
+h1 {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 3.2em;
+	margin: 1em 0 1em;
+}
+
+a {
+	color: #000;
+	text-decoration: none;
+}
+
+.link {
+	color: #900;
+	text-decoration: underline;
+}
+
+p.slogan {
+	margin: 1em 0;
+	font-size: 2.3em;
+}
+
+ul {
+	margin: 2em 0 0 11em;
+	padding: 0;
+}
+
+li {
+	list-style-type: none;
+	font-size: 1.8em;
+	margin: 1em 0;
+	padding: 0;
+}
+
+p {
+	margin: 1em 0 1em 6.1111em; /* 11/1.8 */
+	padding: 0;
+	font-size: 1.8em;
+}
+
+.downloads {
+	margin-top: 1.6em;
+	float: right;
+}
+
+.downloads li {
+	font-size: 1em;
+	border: 2px solid #900;
+	background-color: #fcc;
+}
+
+.downloads a {
+	display: block;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.3em;
+	padding: 5px;
+}
+
+.downloads a b {
+	color: #900;
+	text-decoration: underline;
+}
+
+.downloads a i {
+	font-style: normal;
+	color: #900;
+	text-decoration: underline;
+}
