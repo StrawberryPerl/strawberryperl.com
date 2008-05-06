@@ -2,16 +2,41 @@ body {
 	background-color: #fff;
 	color: #111;
 	font-family: Georgia, "Times New Roman", Times, serif;
-	background: url(images/strawberry_half.jpg) no-repeat top right;
+	margin-top: 0px;
+	padding-top: 0px;
 }
 
 h1 {
 	font-family: Geneva, Arial, Helvetica, sans-serif;
 	font-size: 3.2em;
+	margin-top: 5px;
+	margin-bottom: 5px;
 }
 
 a {
-	color: #f00;
+	color: #900;
 	text-decoration: underline;
 }
 
+table.file {
+	border-color: #900;
+	border-style: solid;
+	border-width: 2px;
+}
+
+table.file td {
+	padding-right: 10px;
+	background-color: #fcc;
+}
+
+table.file p {
+	font-size: 0.9em;
+	margin: 0px;
+	padding: 0px;
+}
+
+table.file a {
+	font-family: monospace;
+	font-size: 1.1em;
+	font-weight: bold;
+}
