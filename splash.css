@@ -35,7 +35,10 @@ body {
 h1 {
 	font-family: Geneva, Arial, Helvetica, sans-serif;
 	font-size: 3.8em;
-	margin: 1em 0 1em;
+	margin-top: 0.5em;
+	margin-right: 0;
+	margin-bottom: 0.5em;
+	margin-left: 0;
 }
 
 a {
