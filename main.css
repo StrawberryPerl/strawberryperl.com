@@ -4,6 +4,7 @@ body {
 	font-family: Georgia, "Times New Roman", Times, serif;
 	margin-top: 0px;
 	padding-top: 0px;
+	margin-right: 0px;
 }
 
 h1 {
@@ -39,4 +40,9 @@ table.file a {
 	font-family: monospace;
 	font-size: 1.1em;
 	font-weight: bold;
+}
+
+img.topright {
+	position: relative;
+	
 }
