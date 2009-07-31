@@ -7,13 +7,17 @@ body {
 	padding: 0px;
 }
 
+#top {
+	border-bottom-color: #FF9999;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
 #leader {
 	font-family: Arial;
 	font-size: 14px;
 	color: #666666;
-	border-bottom-color: #FF9999;
-	border-bottom-width: 1px;
-	border-bottom-style: solid;
+	width: 70em;
 }
 
 #leader a {
@@ -22,83 +26,64 @@ body {
 }
 
 #content {
-	width: 51em;
-	height: 53em;
-	position: absolute;
-	top: 25px;
-	padding-left: 49.2em;
-	right: 50%;
-	margin-right: -492px;
+	width: 100em;
+	height: 55em;
+}
+
+#main {
 	background: url(images/strawberry.jpg) no-repeat left bottom;
+}
+
+#main a {
+	color: #900;
 }
 
 h1 {
 	font-family: Geneva, Arial, Helvetica, sans-serif;
-	font-size: 3.8em;
-	margin-top: 0.5em;
+	font-size: 4.1em;
+	margin-top: 0.2em;
 	margin-right: 0;
-	margin-bottom: 0.5em;
+	margin-bottom: 0.2em;
 	margin-left: 0;
 }
 
-a {
-	color: #000000;
-	text-decoration: none;
-}
-
-.link {
-	color: #990000;
-	text-decoration: underline;
-}
-
-p.slogan {
-	margin: 1em 0;
-	font-size: 2.4em;
-}
-
-ul {
-	margin: 2em 0 0 11em;
-	padding: 0;
-}
-
-li {
-	list-style-type: none;
-	font-size: 1.8em;
-	margin: 1em 0;
-	padding: 0;
-}
-
 p {
-	margin: 1em 0 1em 6.1111em; /* 11/1.8 */
-	padding: 0;
 	font-size: 1.8em;
 }
 
-.regular li {
-	font-size: 1em;
-	border: none;
-	background-color: none;
+.lr {
+	text-align: left;
+	float: right;
+	clear: both;
+	display: inline;
+	margin-left: 0em;
+	margin-right: 0em;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
 }
 
 .downloads {
-	margin-top: 1.6em;
 	float: right;
+	clear: both;
+	margin: 2em 3em 1em 0;
+	padding: 0;
+	list-style: none;
 }
-
 
 .downloads li {
 	font-size: 1em;
 	border: 2px solid #900;
 	background-color: #fcc;
+	margin-bottom: 1em;
 }
 
 .downloads p {
 	display: block;
-    text-align: left;
+	text-align: center;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 1.3em;
 	padding: 5px;
-    margin: 0;
+	margin: 0;
 }
 
 .downloads a {
@@ -106,6 +91,8 @@ p {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 1.3em;
 	padding: 5px;
+	text-decoration: none;
+	color: #000;
 }
 
 .downloads a b {
