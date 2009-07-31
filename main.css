@@ -46,3 +46,27 @@ img.topright {
 	position: relative;
 	
 }
+
+table.future {
+	border-color: #C88;
+	border-style: solid;
+	border-width: 2px;
+}
+
+table.future td {
+	padding-right: 10px;
+	background-color: #fdd;
+	color: #666;
+}
+
+table.future p {
+	font-size: 0.9em;
+	margin: 0px;
+	padding: 0px;
+}
+
+table.future a {
+	font-family: monospace;
+	font-size: 1.1em;
+	font-weight: bold;
+}
