@@ -19,11 +19,12 @@
 <body class="releasenotes">
 <!-- InstanceBeginEditable name="body" -->
 <img src="http://strawberryperl.com/images/320554_9491.jpg" alt="strawberries" width="357" height="728" border="0" align="right">
+<br />
 <h2>Strawberry Perl Release Notes</h2>
 <p><i>Version 5.10.0.6, released 31 July 2009</i>.</p>
 <p>Check out what is new, what known issues there are, and frequently asked questions about this version of Strawberry Perl. As always, you're encouraged to tell us what you think.</p>
 
-<h3>What's new in Strawberry Perl 5.10.0.6: <a href="javascript:unhide('whatsnew', 'whatsnew_switch')" id="whatsnew_switch">-</a><br />
+<h3>What's new in Strawberry Perl 5.10.0.6: <a href="javascript:unhide('whatsnew', 'whatsnew_switch')" id="whatsnew_switch">Shrink</a><br />
 <hr /></h3>
 <div id="whatsnew">
 <p>This release is the largest update to Strawberry Perl ever.  It was built with the 4th generation WiX-based builder Perl-Dist-WiX.  Because of that, we now generate an .msi installer, instead of an .exe one.  This allows Strawberry Perl to be installable across entire organizations using Active Directory.</p>
@@ -33,7 +34,7 @@
 <p>DBD::mysql and local::lib are also included within the default install, and CPANPLUS is now pre-configured correctly.</p>
 </div>
 <br />
-<h3>Known issues: <a href="javascript:unhide('issues', 'issues_switch')" id="issues_switch">-</a>
+<h3>Known issues: <a href="javascript:unhide('issues', 'issues_switch')" id="issues_switch">Shrink</a>
 <hr /></h3>
 <div id="issues">
 <ul>
@@ -41,7 +42,7 @@
 </ul>
 </div>
 <br />
-<h3>List of distributions added to Perl 5.10.0: <a href="javascript:unhide('distlist', 'distlist_switch')" id="distlist_switch">-</a>
+<h3>List of distributions added to Perl 5.10.0: <a href="javascript:unhide('distlist', 'distlist_switch')" id="distlist_switch">Shrink</a>
 <hr /></h3>
 <div id="distlist" class="unhidden">
 <table>
@@ -212,19 +213,26 @@
 </div>
 <script type="text/javascript">
 function unhide(divID, switchID) {
+  // Hide or unhide the available item.
   var item = document.getElementById(divID);
   if (item) {
     item.className = ( item.className == 'hidden' ) ? 'unhidden' : 'hidden';
   }
+  // Swap what the link says.
   var switchitem = document.getElementById(switchID);
   if (switchitem) {
-	switchitem.innerHTML = ( switchitem.innerHTML == '+' ) ? '-' : '+' ;
+	switchitem.innerHTML = ( switchitem.innerHTML == 'Expand' ) ? 'Shrink' : 'Expand' ;
 	switchitem.className = 'switchon';
   }
 }
 </script>
 <script type="text/javascript">
-  unhide('whatsnew', 'whatsnew_switch');
+  // Leave whatsnew expanded by default
+  var switchitem = document.getElementById('whatsnew_switch');
+  if (switchitem) {
+	switchitem.className = 'switchon';
+  }
+  // Shrink others.
   unhide('issues', 'issues_switch');
   unhide('distlist', 'distlist_switch');
 </script>
