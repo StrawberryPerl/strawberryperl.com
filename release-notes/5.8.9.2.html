@@ -14,6 +14,7 @@
 .releasenotes .unhidden { display: block; }
 .releasenotes .switchoff { display: none; }
 .releasenotes .switchon { text-decoration: none; display: inline; }
+.releasenotes .switch { font-size: 80% }
 </style>
 </head>
 <body class="releasenotes">
@@ -23,7 +24,7 @@
 <p><i>Version 5.8.9.2, released 31 July 2009.<br />Version 5.8.9.2-1, released 5 August 2009.</i></p>
 <p>Check out what is new, what known issues there are, and frequently asked questions about this version of Strawberry Perl. As always, you're encouraged to tell us what you think.</p>
 
-<h3>What's new in Strawberry Perl 5.8.9.2: <a href="javascript:unhide('whatsnew', 'whatsnew_switch')" id="whatsnew_switch">Shrink</a><br />
+<h3>What's new in Strawberry Perl 5.8.9.2: <span class="switch"><a href="javascript:unhide('whatsnew', 'whatsnew_switch')" id="whatsnew_switch">Collapse</a><br /></span>
 <hr /></h3>
 <div id="whatsnew">
 <p>This release is the largest update to Strawberry Perl ever.  It was built with the 4th generation WiX-based builder Perl-Dist-WiX.  Because of that, we now generate an .msi installer, instead of an .exe one.  This allows Strawberry Perl to be installable across entire organizations using Active Directory.</p>
@@ -33,7 +34,7 @@
 <p>DBD::mysql and local::lib are also included within the default install.</p>
 </div>
 <br />
-<h3>Known issues: <a href="javascript:unhide('issues', 'issues_switch')" id="issues_switch">Shrink</a>
+<h3>Known issues: <span class="switch"><a href="javascript:unhide('issues', 'issues_switch')" id="issues_switch">Collapse</a></span>
 <hr /></h3>
 <div id="issues">
 <ul>
@@ -58,7 +59,7 @@ cpan&gt; <i><b>exit</b></i><br />
 <p>You may wish to <i><b style="font-family: monospace;">install IPC::System::Simple</b></i> before you exit the CPAN prompt. That'll serve two purposes: 1) It tests that Win32::Process will indeed build with the fix installed (because ISS depends on Win32::Process) and 2) It allows system() to be autodie'd - which I couldn't include in 5.8.9.2 due to this problem.</p>
 </div>
 <br />
-<h3>List of distributions added to Perl 5.8.9: <a href="javascript:unhide('distlist', 'distlist_switch')" id="distlist_switch">Shrink</a>
+<h3>List of distributions added to Perl 5.8.9: <span class="switch"><a href="javascript:unhide('distlist', 'distlist_switch')" id="distlist_switch">Collapse</a></span>
 <hr /></h3>
 <div id="distlist" class="unhidden">
 <table>
@@ -210,7 +211,7 @@ function unhide(divID, switchID) {
   // Swap what the link says.
   var switchitem = document.getElementById(switchID);
   if (switchitem) {
-	switchitem.innerHTML = ( switchitem.innerHTML == 'Expand' ) ? 'Shrink' : 'Expand' ;
+	switchitem.innerHTML = ( switchitem.innerHTML == 'Expand' ) ? 'Collapse' : 'Expand' ;
 	switchitem.className = 'switchon';
   }
 }
