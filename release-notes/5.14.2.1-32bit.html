@@ -1,0 +1,333 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<!-- InstanceBeginEditable name="title" -->
+<title>Strawberry Perl for Windows - 5.14.2.1-32bit Release Notes</title>
+<!-- InstanceEndEditable -->
+<link rel="shortcut icon" type="image/vnd.microsoft.icon" href="http://strawberryperl.com/favicon.ico">
+<link rel="stylesheet" type="text/css" href="http://strawberryperl.com/common.css">
+<link rel="stylesheet" type="text/css" href="http://strawberryperl.com/main.css">
+<!-- InstanceBeginEditable name="head" --><!-- InstanceEndEditable -->
+<style>
+.releasenotes .hidden { display: none; }
+.releasenotes .unhidden { display: block; }
+.releasenotes .switchoff { display: none; }
+.releasenotes .switchon { text-decoration: none; display: inline; }
+.releasenotes .switch { font-size: 80% }
+</style>
+</head>
+<body class="releasenotes">
+<!-- InstanceBeginEditable name="body" -->
+<img src="http://strawberryperl.com/images/320554_9491.jpg" alt="strawberries" width="357" height="728" border="0" align="right">
+<br /><h2>Strawberry Perl Release Notes</h2>
+<p><i>Version 5.14.2.1-32bit, released 22 Nov 2011</i></p>
+<p>Check out what is new, what known issues there are, and frequently asked questions about this version of Strawberry Perl. As always, you're encouraged to tell us what you think.</p>
+
+<h3>What's new in Strawberry Perl 5.14.2.1-32bit: <span class="switch"><a href="javascript:unhide('whatsnew', 'whatsnew_switch')" id="whatsnew_switch">Collapse</a><br /></span>
+<hr /></h3>
+<div id="whatsnew">
+<p>Currently the latest perl-5.14.2</p>
+<p>Upgraded gcc toolchain + external libraries + perl modules installed on top of perl core.</p>
+<p>Cosmetic changes concerning Start Menu + README.txt</p>
+<p>Improved updating of PATH environment variable during MSI installation.</p>
+<p>Huge improvements and fixes in 32bit portable edition.</p>
+</div>
+<br />
+<h3>Known issues: <span class="switch"><a href="javascript:unhide('issues', 'issues_switch')" id="issues_switch">Collapse</a></span>
+<hr /></h3>
+<div id="issues">
+<ul>
+<li>MSI installer: Update of PATH environment variable was improved however it still might happen that after installing MSI you will need to logout/login.</li>
+<li>Under some (quit rare) circumstances the gcc-4.4.7 may generate 32bit code that causes perl.exe to crash.</li>
+</ul>
+</div>
+<br />
+<h3>List of distributions added to Perl 5.14.2: <span class="switch"><a href="javascript:unhide('distlist', 'distlist_switch')" id="distlist_switch">Collapse</a></span>
+<hr /></h3>
+<div id="distlist" class="unhidden">
+<table>
+<tr><td><b>Distribution</b></td><td><b>Version</b></td><td><b>Link</b></td></tr>
+<tr><td>Algorithm-Diff</td><td>1.1902</td><td><a href="http://search.cpan.org/CPAN/authors/id/T/TY/TYEMQ/Algorithm-Diff-1.1902.tar.gz">Source</a></td></tr>
+<tr><td>Alien-Tidyp</td><td>1.4.7</td><td><a href="http://search.cpan.org/CPAN/authors/id/K/KM/KMX/Alien-Tidyp-v1.4.7.tar.gz">Source</a></td></tr>
+<tr><td>App-local-lib-Win32Helper</td><td>0.990</td><td><a href="http://search.cpan.org/CPAN/authors/id/C/CS/CSJEWELL/App-local-lib-Win32Helper-0.990.tar.gz">Source</a></td></tr>
+<tr><td>Archive-Extract</td><td>0.58</td><td><a href="http://search.cpan.org/CPAN/authors/id/B/BI/BINGOS/Archive-Extract-0.58.tar.gz">Source</a></td></tr>
+<tr><td>Archive-Tar</td><td>1.80</td><td><a href="http://search.cpan.org/CPAN/authors/id/B/BI/BINGOS/Archive-Tar-1.80.tar.gz">Source</a></td></tr>
+<tr><td>Archive-Zip</td><td>1.30</td><td><a href="http://search.cpan.org/CPAN/authors/id/A/AD/ADAMK/Archive-Zip-1.30.tar.gz">Source</a></td></tr>
+<tr><td>Attribute-Handlers</td><td>0.91</td><td><a href="http://search.cpan.org/CPAN/authors/id/S/SM/SMUELLER/Attribute-Handlers-0.91.tar.gz">Source</a></td></tr>
+<tr><td>BerkeleyDB</td><td>0.49</td><td><a href="http://search.cpan.org/CPAN/authors/id/P/PM/PMQS/BerkeleyDB-0.49.tar.gz">Source</a></td></tr>
+<tr><td>bignum</td><td>0.29</td><td><a href="http://search.cpan.org/CPAN/authors/id/F/FL/FLORA/bignum-0.29.tar.gz">Source</a></td></tr>
+<tr><td>Capture-Tiny</td><td>0.11</td><td><a href="http://search.cpan.org/CPAN/authors/id/D/DA/DAGOLDEN/Capture-Tiny-0.11.tar.gz">Source</a></td></tr>
+<tr><td>Carp</td><td>1.23</td><td><a href="http://search.cpan.org/CPAN/authors/id/Z/ZE/ZEFRAM/Carp-1.23.tar.gz">Source</a></td></tr>
+<tr><td>CGI.pm</td><td>3.58</td><td><a href="http://search.cpan.org/CPAN/authors/id/M/MA/MARKSTOS/CGI.pm-3.58.tar.gz">Source</a></td></tr>
+<tr><td>Class-ErrorHandler</td><td>0.01</td><td><a href="http://search.cpan.org/CPAN/authors/id/B/BT/BTROTT/Class-ErrorHandler-0.01.tar.gz">Source</a></td></tr>
+<tr><td>Class-Inspector</td><td>1.25</td><td><a href="http://search.cpan.org/CPAN/authors/id/A/AD/ADAMK/Class-Inspector-1.25.tar.gz">Source</a></td></tr>
+<tr><td>Class-Loader</td><td>2.03</td><td><a href="http://search.cpan.org/CPAN/authors/id/V/VI/VIPUL/Class-Loader-2.03.tar.gz">Source</a></td></tr>
+<tr><td>common-sense</td><td>3.4</td><td><a href="http://search.cpan.org/CPAN/authors/id/M/ML/MLEHMANN/common-sense-3.4.tar.gz">Source</a></td></tr>
+<tr><td>Compress-Bzip2</td><td>2.09</td><td><a href="http://search.cpan.org/CPAN/authors/id/A/AR/ARJAY/Compress-Bzip2-2.09.tar.gz">Source</a></td></tr>
+<tr><td>Compress-Raw-Bzip2</td><td>2.042</td><td><a href="http://search.cpan.org/CPAN/authors/id/P/PM/PMQS/Compress-Raw-Bzip2-2.042.tar.gz">Source</a></td></tr>
+<tr><td>Compress-Raw-Lzma</td><td>2.042</td><td><a href="http://search.cpan.org/CPAN/authors/id/P/PM/PMQS/Compress-Raw-Lzma-2.042.tar.gz">Source</a></td></tr>
+<tr><td>Compress-Raw-Zlib</td><td>2.042</td><td><a href="http://search.cpan.org/CPAN/authors/id/P/PM/PMQS/Compress-Raw-Zlib-2.042.tar.gz">Source</a></td></tr>
+<tr><td>Compress-unLZMA</td><td>0.04</td><td><a href="http://search.cpan.org/CPAN/authors/id/F/FE/FERREIRA/Compress-unLZMA-0.04.tar.gz">Source</a></td></tr>
+<tr><td>Convert-ASCII-Armour</td><td>1.4</td><td><a href="http://search.cpan.org/CPAN/authors/id/V/VI/VIPUL/Convert-ASCII-Armour-1.4.tar.gz">Source</a></td></tr>
+<tr><td>Convert-ASN1</td><td>0.22</td><td><a href="http://search.cpan.org/CPAN/authors/id/G/GB/GBARR/Convert-ASN1-0.22.tar.gz">Source</a></td></tr>
+<tr><td>Convert-PEM</td><td>0.08</td><td><a href="http://search.cpan.org/CPAN/authors/id/B/BT/BTROTT/Convert-PEM-0.08.tar.gz">Source</a></td></tr>
+<tr><td>CPAN</td><td>1.9800</td><td><a href="http://search.cpan.org/CPAN/authors/id/A/AN/ANDK/CPAN-1.9800.tar.gz">Source</a></td></tr>
+<tr><td>CPAN-Checksums</td><td>2.08</td><td><a href="http://search.cpan.org/CPAN/authors/id/A/AN/ANDK/CPAN-Checksums-2.08.tar.gz">Source</a></td></tr>
+<tr><td>CPAN-DistnameInfo</td><td>0.12</td><td><a href="http://search.cpan.org/CPAN/authors/id/G/GB/GBARR/CPAN-DistnameInfo-0.12.tar.gz">Source</a></td></tr>
+<tr><td>CPAN-Inject</td><td>1.13</td><td><a href="http://search.cpan.org/CPAN/authors/id/A/AD/ADAMK/CPAN-Inject-1.13.tar.gz">Source</a></td></tr>
+<tr><td>CPAN-Meta</td><td>2.112621</td><td><a href="http://search.cpan.org/CPAN/authors/id/D/DA/DAGOLDEN/CPAN-Meta-2.112621.tar.gz">Source</a></td></tr>
+<tr><td>CPAN-Meta-YAML</td><td>0.004</td><td><a href="http://search.cpan.org/CPAN/authors/id/D/DA/DAGOLDEN/CPAN-Meta-YAML-0.004.tar.gz">Source</a></td></tr>
+<tr><td>CPAN-SQLite</td><td>0.202</td><td><a href="http://search.cpan.org/CPAN/authors/id/S/ST/STRO/CPAN-SQLite-0.202.tar.gz">Source</a></td></tr>
+<tr><td>CPANPLUS</td><td>0.9112</td><td><a href="http://search.cpan.org/CPAN/authors/id/B/BI/BINGOS/CPANPLUS-0.9112.tar.gz">Source</a></td></tr>
+<tr><td>CPANPLUS-Dist-Build</td><td>0.60</td><td><a href="http://search.cpan.org/CPAN/authors/id/B/BI/BINGOS/CPANPLUS-Dist-Build-0.60.tar.gz">Source</a></td></tr>
+<tr><td>Crypt-Blowfish</td><td>2.12 (+fix for <a href="https://rt.cpan.org/Public/Bug/Display.html?id=55173">#55173</a>)</td><td><a href="http://strawberryperl.com/package/kmx/perl-modules-patched/Crypt-Blowfish-2.12_patched.tar.gz">Source</a></td></tr>
+<tr><td>Crypt-CAST5_PP</td><td>1.04</td><td><a href="http://search.cpan.org/CPAN/authors/id/B/BO/BOBMATH/Crypt-CAST5_PP-1.04.tar.gz">Source</a></td></tr>
+<tr><td>Crypt-CBC</td><td>2.30</td><td><a href="http://search.cpan.org/CPAN/authors/id/L/LD/LDS/Crypt-CBC-2.30.tar.gz">Source</a></td></tr>
+<tr><td>Crypt-DES</td><td>2.05</td><td><a href="http://search.cpan.org/CPAN/authors/id/D/DP/DPARIS/Crypt-DES-2.05.tar.gz">Source</a></td></tr>
+<tr><td>Crypt-DES_EDE3</td><td>0.01</td><td><a href="http://search.cpan.org/CPAN/authors/id/B/BT/BTROTT/Crypt-DES_EDE3-0.01.tar.gz">Source</a></td></tr>
+<tr><td>Crypt-DH</td><td>0.06</td><td><a href="http://search.cpan.org/CPAN/authors/id/B/BT/BTROTT/Crypt-DH-0.06.tar.gz">Source</a></td></tr>
+<tr><td>Crypt-DSA</td><td>1.17</td><td><a href="http://search.cpan.org/CPAN/authors/id/A/AD/ADAMK/Crypt-DSA-1.17.tar.gz">Source</a></td></tr>
+<tr><td>Crypt-IDEA</td><td>1.08 (+fix for <a href="https://rt.cpan.org/Public/Bug/Display.html?id=55158">#55158</a>)</td><td><a href="http://strawberryperl.com/package/kmx/perl-modules-patched/Crypt-IDEA-1.08_patched.tar.gz">Source</a></td></tr>
+<tr><td>Crypt-OpenPGP</td><td>1.06</td><td><a href="http://search.cpan.org/CPAN/authors/id/B/BT/BTROTT/Crypt-OpenPGP-1.06.tar.gz">Source</a></td></tr>
+<tr><td>Crypt-Primes</td><td>0.50</td><td><a href="http://search.cpan.org/CPAN/authors/id/V/VI/VIPUL/Crypt-Primes-0.50.tar.gz">Source</a></td></tr>
+<tr><td>Crypt-Random</td><td>1.25</td><td><a href="http://search.cpan.org/CPAN/authors/id/V/VI/VIPUL/Crypt-Random-1.25.tar.gz">Source</a></td></tr>
+<tr><td>Crypt-Rijndael</td><td>1.09</td><td><a href="http://search.cpan.org/CPAN/authors/id/B/BD/BDFOY/Crypt-Rijndael-1.09.tar.gz">Source</a></td></tr>
+<tr><td>Crypt-RIPEMD160</td><td>0.05</td><td><a href="http://search.cpan.org/CPAN/authors/id/T/TO/TODDR/Crypt-RIPEMD160-0.05.tar.gz">Source</a></td></tr>
+<tr><td>Crypt-RSA</td><td>1.99</td><td><a href="http://search.cpan.org/CPAN/authors/id/V/VI/VIPUL/Crypt-RSA-1.99.tar.gz">Source</a></td></tr>
+<tr><td>Crypt-SSLeay</td><td>0.58</td><td><a href="http://search.cpan.org/CPAN/authors/id/N/NA/NANIS/Crypt-SSLeay-0.58.tar.gz">Source</a></td></tr>
+<tr><td>Crypt-Twofish</td><td>2.14</td><td><a href="http://search.cpan.org/CPAN/authors/id/A/AM/AMS/Crypt-Twofish-2.14.tar.gz">Source</a></td></tr>
+<tr><td>Data-Buffer</td><td>0.04</td><td><a href="http://search.cpan.org/CPAN/authors/id/B/BT/BTROTT/Data-Buffer-0.04.tar.gz">Source</a></td></tr>
+<tr><td>Data-Compare</td><td>1.22</td><td><a href="http://search.cpan.org/CPAN/authors/id/D/DC/DCANTRELL/Data-Compare-1.22.tar.gz">Source</a></td></tr>
+<tr><td>Data-Dumper</td><td>2.131</td><td><a href="http://search.cpan.org/CPAN/authors/id/S/SM/SMUELLER/Data-Dumper-2.131.tar.gz">Source</a></td></tr>
+<tr><td>Data-Random</td><td>0.06</td><td><a href="http://search.cpan.org/CPAN/authors/id/B/BA/BAREFOOT/Data-Random-0.06.tar.gz">Source</a></td></tr>
+<tr><td>DB_File</td><td>1.824</td><td><a href="http://search.cpan.org/CPAN/authors/id/P/PM/PMQS/DB_File-1.824.tar.gz">Source</a></td></tr>
+<tr><td>DBD-ADO</td><td>2.99</td><td><a href="http://search.cpan.org/CPAN/authors/id/S/SG/SGOELDNER/DBD-ADO-2.99.tar.gz">Source</a></td></tr>
+<tr><td>DBD-mysql</td><td>4.020 (+fix for <a href="https://rt.cpan.org/Public/Bug/Display.html?id=71047">#71047</a>)</td><td><a href="http://strawberryperl.com/package/kmx/perl-modules-patched/DBD-mysql-4.020_patched.tar.gz">Source</a></td></tr>
+<tr><td>DBD-ODBC</td><td>1.31</td><td><a href="http://search.cpan.org/CPAN/authors/id/M/MJ/MJEVANS/DBD-ODBC-1.31.tar.gz">Source</a></td></tr>
+<tr><td>DBD-Pg</td><td>2.18.1</td><td><a href="http://search.cpan.org/CPAN/authors/id/T/TU/TURNSTEP/DBD-Pg-2.18.1.tar.gz">Source</a></td></tr>
+<tr><td>DBD-SQLite</td><td>1.33</td><td><a href="http://search.cpan.org/CPAN/authors/id/A/AD/ADAMK/DBD-SQLite-1.33.tar.gz">Source</a></td></tr>
+<tr><td>DBI</td><td>1.616</td><td><a href="http://search.cpan.org/CPAN/authors/id/T/TI/TIMB/DBI-1.616.tar.gz">Source</a></td></tr>
+<tr><td>DBIx-Simple</td><td>1.35</td><td><a href="http://search.cpan.org/CPAN/authors/id/J/JU/JUERD/DBIx-Simple-1.35.tar.gz">Source</a></td></tr>
+<tr><td>DBM-Deep</td><td>2.0004</td><td><a href="http://search.cpan.org/CPAN/authors/id/S/SP/SPROUT/DBM-Deep-2.0004.tar.gz">Source</a></td></tr>
+<tr><td>Devel-DProf</td><td>20110802.00</td><td><a href="http://search.cpan.org/CPAN/authors/id/F/FL/FLORA/Devel-DProf-20110802.00.tar.gz">Source</a></td></tr>
+<tr><td>Devel-PPPort</td><td>3.20</td><td><a href="http://search.cpan.org/CPAN/authors/id/M/MH/MHX/Devel-PPPort-3.20.tar.gz">Source</a></td></tr>
+<tr><td>Digest</td><td>1.17</td><td><a href="http://search.cpan.org/CPAN/authors/id/G/GA/GAAS/Digest-1.17.tar.gz">Source</a></td></tr>
+<tr><td>Digest-BubbleBabble</td><td>0.02</td><td><a href="http://search.cpan.org/CPAN/authors/id/B/BT/BTROTT/Digest-BubbleBabble-0.02.tar.gz">Source</a></td></tr>
+<tr><td>Digest-HMAC</td><td>1.03</td><td><a href="http://search.cpan.org/CPAN/authors/id/G/GA/GAAS/Digest-HMAC-1.03.tar.gz">Source</a></td></tr>
+<tr><td>Digest-MD2</td><td>2.03</td><td><a href="http://search.cpan.org/CPAN/authors/id/G/GA/GAAS/Digest-MD2-2.03.tar.gz">Source</a></td></tr>
+<tr><td>Digest-SHA</td><td>5.63</td><td><a href="http://search.cpan.org/CPAN/authors/id/M/MS/MSHELOR/Digest-SHA-5.63.tar.gz">Source</a></td></tr>
+<tr><td>Digest-SHA1</td><td>2.13</td><td><a href="http://search.cpan.org/CPAN/authors/id/G/GA/GAAS/Digest-SHA1-2.13.tar.gz">Source</a></td></tr>
+<tr><td>Encode</td><td>2.44</td><td><a href="http://search.cpan.org/CPAN/authors/id/D/DA/DANKOGAI/Encode-2.44.tar.gz">Source</a></td></tr>
+<tr><td>Encode-Locale</td><td>1.02</td><td><a href="http://search.cpan.org/CPAN/authors/id/G/GA/GAAS/Encode-Locale-1.02.tar.gz">Source</a></td></tr>
+<tr><td>Env</td><td>1.03</td><td><a href="http://search.cpan.org/CPAN/authors/id/F/FL/FLORA/Env-1.03.tar.gz">Source</a></td></tr>
+<tr><td>Exporter</td><td>5.65</td><td><a href="http://search.cpan.org/CPAN/authors/id/T/TO/TODDR/Exporter-5.65.tar.gz">Source</a></td></tr>
+<tr><td>ExtUtils-MakeMaker</td><td>6.62</td><td><a href="http://search.cpan.org/CPAN/authors/id/M/MS/MSCHWERN/ExtUtils-MakeMaker-6.62.tar.gz">Source</a></td></tr>
+<tr><td>ExtUtils-Manifest</td><td>1.60</td><td><a href="http://search.cpan.org/CPAN/authors/id/F/FL/FLORA/ExtUtils-Manifest-1.60.tar.gz">Source</a></td></tr>
+<tr><td>ExtUtils-ParseXS</td><td>3.05</td><td><a href="http://search.cpan.org/CPAN/authors/id/S/SM/SMUELLER/ExtUtils-ParseXS-3.05.tar.gz">Source</a></td></tr>
+<tr><td>FCGI</td><td>0.74</td><td><a href="http://search.cpan.org/CPAN/authors/id/F/FL/FLORA/FCGI-0.74.tar.gz">Source</a></td></tr>
+<tr><td>File-chmod</td><td>0.32</td><td><a href="http://search.cpan.org/CPAN/authors/id/P/PI/PINYAN/File-chmod-0.32.tar.gz">Source</a></td></tr>
+<tr><td>File-Find-Rule</td><td>0.33</td><td><a href="http://search.cpan.org/CPAN/authors/id/R/RC/RCLAMP/File-Find-Rule-0.33.tar.gz">Source</a></td></tr>
+<tr><td>File-HomeDir</td><td>0.98</td><td><a href="http://search.cpan.org/CPAN/authors/id/A/AD/ADAMK/File-HomeDir-0.98.tar.gz">Source</a></td></tr>
+<tr><td>File-Listing</td><td>6.03</td><td><a href="http://search.cpan.org/CPAN/authors/id/G/GA/GAAS/File-Listing-6.03.tar.gz">Source</a></td></tr>
+<tr><td>File-pushd</td><td>1.001</td><td><a href="http://search.cpan.org/CPAN/authors/id/D/DA/DAGOLDEN/File-pushd-1.001.tar.gz">Source</a></td></tr>
+<tr><td>File-Remove</td><td>1.51</td><td><a href="http://search.cpan.org/CPAN/authors/id/A/AD/ADAMK/File-Remove-1.51.tar.gz">Source</a></td></tr>
+<tr><td>File-ShareDir</td><td>1.03</td><td><a href="http://search.cpan.org/CPAN/authors/id/A/AD/ADAMK/File-ShareDir-1.03.tar.gz">Source</a></td></tr>
+<tr><td>File-Slurp</td><td>9999.19</td><td><a href="http://search.cpan.org/CPAN/authors/id/U/UR/URI/File-Slurp-9999.19.tar.gz">Source</a></td></tr>
+<tr><td>File-Which</td><td>1.09</td><td><a href="http://search.cpan.org/CPAN/authors/id/A/AD/ADAMK/File-Which-1.09.tar.gz">Source</a></td></tr>
+<tr><td>Filter</td><td>1.39</td><td><a href="http://search.cpan.org/CPAN/authors/id/P/PM/PMQS/Filter-1.39.tar.gz">Source</a></td></tr>
+<tr><td>Filter-Simple</td><td>0.87</td><td><a href="http://search.cpan.org/CPAN/authors/id/S/SM/SMUELLER/Filter-Simple-0.87.tar.gz">Source</a></td></tr>
+<tr><td>GD</td><td>2.46 (+fix for <a href="https://rt.cpan.org/Public/Bug/Display.html?id=67990">#67990</a>)</td><td><a href="http://strawberryperl.com/package/kmx/perl-modules-patched/GD-2.46_patched.tar.gz">Source</a></td></tr>
+<tr><td>HTML-Parser</td><td>3.69</td><td><a href="http://search.cpan.org/CPAN/authors/id/G/GA/GAAS/HTML-Parser-3.69.tar.gz">Source</a></td></tr>
+<tr><td>HTML-Tagset</td><td>3.20</td><td><a href="http://search.cpan.org/CPAN/authors/id/P/PE/PETDANCE/HTML-Tagset-3.20.tar.gz">Source</a></td></tr>
+<tr><td>HTTP-Cookies</td><td>6.00</td><td><a href="http://search.cpan.org/CPAN/authors/id/G/GA/GAAS/HTTP-Cookies-6.00.tar.gz">Source</a></td></tr>
+<tr><td>HTTP-Daemon</td><td>6.00</td><td><a href="http://search.cpan.org/CPAN/authors/id/G/GA/GAAS/HTTP-Daemon-6.00.tar.gz">Source</a></td></tr>
+<tr><td>HTTP-Date</td><td>6.00</td><td><a href="http://search.cpan.org/CPAN/authors/id/G/GA/GAAS/HTTP-Date-6.00.tar.gz">Source</a></td></tr>
+<tr><td>HTTP-Message</td><td>6.02</td><td><a href="http://search.cpan.org/CPAN/authors/id/G/GA/GAAS/HTTP-Message-6.02.tar.gz">Source</a></td></tr>
+<tr><td>HTTP-Negotiate</td><td>6.00</td><td><a href="http://search.cpan.org/CPAN/authors/id/G/GA/GAAS/HTTP-Negotiate-6.00.tar.gz">Source</a></td></tr>
+<tr><td>HTTP-Tiny</td><td>0.016</td><td><a href="http://search.cpan.org/CPAN/authors/id/D/DA/DAGOLDEN/HTTP-Tiny-0.016.tar.gz">Source</a></td></tr>
+<tr><td>Imager</td><td>0.86</td><td><a href="http://search.cpan.org/CPAN/authors/id/T/TO/TONYC/Imager-0.86.tar.gz">Source</a></td></tr>
+<tr><td>IO-Compress</td><td>2.042</td><td><a href="http://search.cpan.org/CPAN/authors/id/P/PM/PMQS/IO-Compress-2.042.tar.gz">Source</a></td></tr>
+<tr><td>IO-Compress-Lzma</td><td>2.042</td><td><a href="http://search.cpan.org/CPAN/authors/id/P/PM/PMQS/IO-Compress-Lzma-2.042.tar.gz">Source</a></td></tr>
+<tr><td>IO-Interactive</td><td>0.0.6</td><td><a href="http://search.cpan.org/CPAN/authors/id/B/BD/BDFOY/IO-Interactive-0.0.6.tar.gz">Source</a></td></tr>
+<tr><td>IO-Socket-SSL</td><td>1.49</td><td><a href="http://search.cpan.org/CPAN/authors/id/S/SU/SULLR/IO-Socket-SSL-1.49.tar.gz">Source</a></td></tr>
+<tr><td>IO-String</td><td>1.08</td><td><a href="http://search.cpan.org/CPAN/authors/id/G/GA/GAAS/IO-String-1.08.tar.gz">Source</a></td></tr>
+<tr><td>IO-stringy</td><td>2.110</td><td><a href="http://search.cpan.org/CPAN/authors/id/D/DS/DSKOLL/IO-stringy-2.110.tar.gz">Source</a></td></tr>
+<tr><td>IPC-Cmd</td><td>0.72</td><td><a href="http://search.cpan.org/CPAN/authors/id/B/BI/BINGOS/IPC-Cmd-0.72.tar.gz">Source</a></td></tr>
+<tr><td>IPC-Run</td><td>0.90</td><td><a href="http://search.cpan.org/CPAN/authors/id/T/TO/TODDR/IPC-Run-0.90.tar.gz">Source</a></td></tr>
+<tr><td>IPC-Run3</td><td>0.044</td><td><a href="http://search.cpan.org/CPAN/authors/id/R/RJ/RJBS/IPC-Run3-0.044.tar.gz">Source</a></td></tr>
+<tr><td>IPC-System-Simple</td><td>1.21</td><td><a href="http://search.cpan.org/CPAN/authors/id/P/PJ/PJF/IPC-System-Simple-1.21.tar.gz">Source</a></td></tr>
+<tr><td>JSON</td><td>2.53</td><td><a href="http://search.cpan.org/CPAN/authors/id/M/MA/MAKAMAKA/JSON-2.53.tar.gz">Source</a></td></tr>
+<tr><td>JSON-PP</td><td>2.27200</td><td><a href="http://search.cpan.org/CPAN/authors/id/M/MA/MAKAMAKA/JSON-PP-2.27200.tar.gz">Source</a></td></tr>
+<tr><td>JSON-XS</td><td>2.32</td><td><a href="http://search.cpan.org/CPAN/authors/id/M/ML/MLEHMANN/JSON-XS-2.32.tar.gz">Source</a></td></tr>
+<tr><td>libwww-perl</td><td>6.03</td><td><a href="http://search.cpan.org/CPAN/authors/id/G/GA/GAAS/libwww-perl-6.03.tar.gz">Source</a></td></tr>
+<tr><td>local-lib</td><td>1.008004</td><td><a href="http://search.cpan.org/CPAN/authors/id/A/AP/APEIRON/local-lib-1.008004.tar.gz">Source</a></td></tr>
+<tr><td>Locale-Codes</td><td>3.18</td><td><a href="http://search.cpan.org/CPAN/authors/id/S/SB/SBECK/Locale-Codes-3.18.tar.gz">Source</a></td></tr>
+<tr><td>Locale-Maketext</td><td>1.19</td><td><a href="http://search.cpan.org/CPAN/authors/id/T/TO/TODDR/Locale-Maketext-1.19.tar.gz">Source</a></td></tr>
+<tr><td>LWP-MediaTypes</td><td>6.01</td><td><a href="http://search.cpan.org/CPAN/authors/id/G/GA/GAAS/LWP-MediaTypes-6.01.tar.gz">Source</a></td></tr>
+<tr><td>LWP-Online</td><td>1.08</td><td><a href="http://search.cpan.org/CPAN/authors/id/A/AD/ADAMK/LWP-Online-1.08.tar.gz">Source</a></td></tr>
+<tr><td>LWP-Protocol-https</td><td>6.02</td><td><a href="http://search.cpan.org/CPAN/authors/id/G/GA/GAAS/LWP-Protocol-https-6.02.tar.gz">Source</a></td></tr>
+<tr><td>Math-BigInt</td><td>1.997</td><td><a href="http://search.cpan.org/CPAN/authors/id/P/PJ/PJACKLAM/Math-BigInt-1.997.tar.gz">Source</a></td></tr>
+<tr><td>Math-BigInt-FastCalc</td><td>0.30</td><td><a href="http://search.cpan.org/CPAN/authors/id/P/PJ/PJACKLAM/Math-BigInt-FastCalc-0.30.tar.gz">Source</a></td></tr>
+<tr><td>Math-BigInt-GMP</td><td>1.37</td><td><a href="http://search.cpan.org/CPAN/authors/id/P/PJ/PJACKLAM/Math-BigInt-GMP-1.37.tar.gz">Source</a></td></tr>
+<tr><td>Math-Complex</td><td>1.58</td><td><a href="http://search.cpan.org/CPAN/authors/id/Z/ZE/ZEFRAM/Math-Complex-1.58.tar.gz">Source</a></td></tr>
+<tr><td>Math-GMP</td><td>2.06</td><td><a href="http://search.cpan.org/CPAN/authors/id/T/TU/TURNSTEP/Math-GMP-2.06.tar.gz">Source</a></td></tr>
+<tr><td>Math-MPC</td><td>0.91</td><td><a href="http://search.cpan.org/CPAN/authors/id/S/SI/SISYPHUS/Math-MPC-0.91.tar.gz">Source</a></td></tr>
+<tr><td>Math-MPFR</td><td>3.10</td><td><a href="http://search.cpan.org/CPAN/authors/id/S/SI/SISYPHUS/Math-MPFR-3.10.tar.gz">Source</a></td></tr>
+<tr><td>Math-Pari</td><td>2.01080605</td><td><a href="http://search.cpan.org/CPAN/authors/id/I/IL/ILYAZ/modules/Math-Pari-2.01080605.tar.gz">Source</a></td></tr>
+<tr><td>Module-Build</td><td>0.3800</td><td><a href="http://search.cpan.org/CPAN/authors/id/D/DA/DAGOLDEN/Module-Build-0.3800.tar.gz">Source</a></td></tr>
+<tr><td>Module-CoreList</td><td>2.57</td><td><a href="http://search.cpan.org/CPAN/authors/id/B/BI/BINGOS/Module-CoreList-2.57.tar.gz">Source</a></td></tr>
+<tr><td>Module-Load</td><td>0.22</td><td><a href="http://search.cpan.org/CPAN/authors/id/B/BI/BINGOS/Module-Load-0.22.tar.gz">Source</a></td></tr>
+<tr><td>Module-Load-Conditional</td><td>0.46</td><td><a href="http://search.cpan.org/CPAN/authors/id/B/BI/BINGOS/Module-Load-Conditional-0.46.tar.gz">Source</a></td></tr>
+<tr><td>Module-Metadata</td><td>1.000007</td><td><a href="http://search.cpan.org/CPAN/authors/id/D/DA/DAGOLDEN/Module-Metadata-1.000007.tar.gz">Source</a></td></tr>
+<tr><td>Module-Signature</td><td>0.68</td><td><a href="http://search.cpan.org/CPAN/authors/id/F/FL/FLORA/Module-Signature-0.68.tar.gz">Source</a></td></tr>
+<tr><td>Mozilla-CA</td><td>20111025</td><td><a href="http://search.cpan.org/CPAN/authors/id/A/AB/ABH/Mozilla-CA-20111025.tar.gz">Source</a></td></tr>
+<tr><td>Net-HTTP</td><td>6.01</td><td><a href="http://search.cpan.org/CPAN/authors/id/G/GA/GAAS/Net-HTTP-6.01.tar.gz">Source</a></td></tr>
+<tr><td>Net-SMTP-TLS</td><td>0.12</td><td><a href="http://search.cpan.org/CPAN/authors/id/A/AW/AWESTHOLM/Net-SMTP-TLS-0.12.tar.gz">Source</a></td></tr>
+<tr><td>Net-SSH2</td><td>0.40</td><td><a href="http://search.cpan.org/CPAN/authors/id/R/RK/RKITOVER/Net-SSH2-0.40.tar.gz">Source</a></td></tr>
+<tr><td>Net-SSLeay</td><td>1.42</td><td><a href="http://search.cpan.org/CPAN/authors/id/M/MI/MIKEM/Net-SSLeay-1.42.tar.gz">Source</a></td></tr>
+<tr><td>Number-Compare</td><td>0.03</td><td><a href="http://search.cpan.org/CPAN/authors/id/R/RC/RCLAMP/Number-Compare-0.03.tar.gz">Source</a></td></tr>
+<tr><td>Object-Accessor</td><td>0.42</td><td><a href="http://search.cpan.org/CPAN/authors/id/B/BI/BINGOS/Object-Accessor-0.42.tar.gz">Source</a></td></tr>
+<tr><td>PAR</td><td>1.002</td><td><a href="http://search.cpan.org/CPAN/authors/id/S/SM/SMUELLER/PAR-1.002.tar.gz">Source</a></td></tr>
+<tr><td>PAR-Dist</td><td>0.48</td><td><a href="http://search.cpan.org/CPAN/authors/id/S/SM/SMUELLER/PAR-Dist-0.48.tar.gz">Source</a></td></tr>
+<tr><td>PAR-Dist-FromPPD</td><td>0.03</td><td><a href="http://search.cpan.org/CPAN/authors/id/S/SM/SMUELLER/PAR-Dist-FromPPD-0.03.tar.gz">Source</a></td></tr>
+<tr><td>PAR-Dist-InstallPPD</td><td>0.02</td><td><a href="http://search.cpan.org/CPAN/authors/id/S/SM/SMUELLER/PAR-Dist-InstallPPD-0.02.tar.gz">Source</a></td></tr>
+<tr><td>PAR-Repository-Client</td><td>0.25</td><td><a href="http://search.cpan.org/CPAN/authors/id/S/SM/SMUELLER/PAR-Repository-Client-0.25.tar.gz">Source</a></td></tr>
+<tr><td>PAR-Repository-Query</td><td>0.14</td><td><a href="http://search.cpan.org/CPAN/authors/id/S/SM/SMUELLER/PAR-Repository-Query-0.14.tar.gz">Source</a></td></tr>
+<tr><td>Params-Check</td><td>0.32</td><td><a href="http://search.cpan.org/CPAN/authors/id/B/BI/BINGOS/Params-Check-0.32.tar.gz">Source</a></td></tr>
+<tr><td>Params-Util</td><td>1.04</td><td><a href="http://search.cpan.org/CPAN/authors/id/A/AD/ADAMK/Params-Util-1.04.tar.gz">Source</a></td></tr>
+<tr><td>Parse-Binary</td><td>0.11</td><td><a href="http://search.cpan.org/CPAN/authors/id/A/AU/AUDREYT/Parse-Binary-0.11.tar.gz">Source</a></td></tr>
+<tr><td>pip</td><td>1.19</td><td><a href="http://search.cpan.org/CPAN/authors/id/A/AD/ADAMK/pip-1.19.tar.gz">Source</a></td></tr>
+<tr><td>pler</td><td>1.06</td><td><a href="http://search.cpan.org/CPAN/authors/id/A/AD/ADAMK/pler-1.06.tar.gz">Source</a></td></tr>
+<tr><td>Pod-Simple</td><td>3.19</td><td><a href="http://search.cpan.org/CPAN/authors/id/D/DW/DWHEELER/Pod-Simple-3.19.tar.gz">Source</a></td></tr>
+<tr><td>Probe-Perl</td><td>0.01</td><td><a href="http://search.cpan.org/CPAN/authors/id/K/KW/KWILLIAMS/Probe-Perl-0.01.tar.gz">Source</a></td></tr>
+<tr><td>SOAP-Lite</td><td>0.714</td><td><a href="http://search.cpan.org/CPAN/authors/id/M/MK/MKUTTER/SOAP-Lite-0.714.tar.gz">Source</a></td></tr>
+<tr><td>Sort-Versions</td><td>1.5</td><td><a href="http://search.cpan.org/CPAN/authors/id/E/ED/EDAVIS/Sort-Versions-1.5.tar.gz">Source</a></td></tr>
+<tr><td>Storable</td><td>2.30</td><td><a href="http://search.cpan.org/CPAN/authors/id/A/AM/AMS/Storable-2.30.tar.gz">Source</a></td></tr>
+<tr><td>String-CRC32</td><td>1.4</td><td><a href="http://search.cpan.org/CPAN/authors/id/S/SO/SOENKE/String-CRC32-1.4.tar.gz">Source</a></td></tr>
+<tr><td>Sub-Uplevel</td><td>0.22</td><td><a href="http://search.cpan.org/CPAN/authors/id/D/DA/DAGOLDEN/Sub-Uplevel-0.22.tar.gz">Source</a></td></tr>
+<tr><td>Task-Weaken</td><td>1.04</td><td><a href="http://search.cpan.org/CPAN/authors/id/A/AD/ADAMK/Task-Weaken-1.04.tar.gz">Source</a></td></tr>
+<tr><td>Term-ANSIColor</td><td>3.01</td><td><a href="http://search.cpan.org/CPAN/authors/id/R/RR/RRA/Term-ANSIColor-3.01.tar.gz">Source</a></td></tr>
+<tr><td>Term-ReadLine-Perl</td><td>1.0303</td><td><a href="http://search.cpan.org/CPAN/authors/id/I/IL/ILYAZ/modules/Term-ReadLine-Perl-1.0303.tar.gz">Source</a></td></tr>
+<tr><td>TermReadKey</td><td>2.30.02</td><td><a href="http://search.cpan.org/CPAN/authors/id/S/ST/STSI/TermReadKey-2.30.02.tar.gz">Source</a></td></tr>
+<tr><td>Test-Deep</td><td>0.108</td><td><a href="http://search.cpan.org/CPAN/authors/id/R/RJ/RJBS/Test-Deep-0.108.tar.gz">Source</a></td></tr>
+<tr><td>Test-Exception</td><td>0.31</td><td><a href="http://search.cpan.org/CPAN/authors/id/A/AD/ADIE/Test-Exception-0.31.tar.gz">Source</a></td></tr>
+<tr><td>Test-Manifest</td><td>1.23</td><td><a href="http://search.cpan.org/CPAN/authors/id/B/BD/BDFOY/Test-Manifest-1.23.tar.gz">Source</a></td></tr>
+<tr><td>Test-NoWarnings</td><td>1.03</td><td><a href="http://search.cpan.org/CPAN/authors/id/A/AD/ADAMK/Test-NoWarnings-1.03.tar.gz">Source</a></td></tr>
+<tr><td>Test-Script</td><td>1.07</td><td><a href="http://search.cpan.org/CPAN/authors/id/A/AD/ADAMK/Test-Script-1.07.tar.gz">Source</a></td></tr>
+<tr><td>Test-Tester</td><td>0.107</td><td><a href="http://search.cpan.org/CPAN/authors/id/F/FD/FDALY/Test-Tester-0.107.tar.gz">Source</a></td></tr>
+<tr><td>Test-Warn</td><td>0.23</td><td><a href="http://search.cpan.org/CPAN/authors/id/C/CH/CHORNY/Test-Warn-0.23.tar.gz">Source</a></td></tr>
+<tr><td>Text-Diff</td><td>1.41</td><td><a href="http://search.cpan.org/CPAN/authors/id/O/OV/OVID/Text-Diff-1.41.tar.gz">Source</a></td></tr>
+<tr><td>Text-Glob</td><td>0.09</td><td><a href="http://search.cpan.org/CPAN/authors/id/R/RC/RCLAMP/Text-Glob-0.09.tar.gz">Source</a></td></tr>
+<tr><td>threads</td><td>1.85</td><td><a href="http://search.cpan.org/CPAN/authors/id/J/JD/JDHEDDEN/threads-1.85.tar.gz">Source</a></td></tr>
+<tr><td>threads-shared</td><td>1.40</td><td><a href="http://search.cpan.org/CPAN/authors/id/J/JD/JDHEDDEN/threads-shared-1.40.tar.gz">Source</a></td></tr>
+<tr><td>Tie-EncryptedHash</td><td>1.24</td><td><a href="http://search.cpan.org/CPAN/authors/id/V/VI/VIPUL/Tie-EncryptedHash-1.24.tar.gz">Source</a></td></tr>
+<tr><td>Time-HiRes</td><td>1.9724</td><td><a href="http://search.cpan.org/CPAN/authors/id/Z/ZE/ZEFRAM/Time-HiRes-1.9724.tar.gz">Source</a></td></tr>
+<tr><td>Tree-DAG_Node</td><td>1.06</td><td><a href="http://search.cpan.org/CPAN/authors/id/C/CO/COGENT/Tree-DAG_Node-1.06.tar.gz">Source</a></td></tr>
+<tr><td>Unicode-Collate</td><td>0.84</td><td><a href="http://search.cpan.org/CPAN/authors/id/S/SA/SADAHIRO/Unicode-Collate-0.84.tar.gz">Source</a></td></tr>
+<tr><td>Unicode-Normalize</td><td>1.13</td><td><a href="http://search.cpan.org/CPAN/authors/id/S/SA/SADAHIRO/Unicode-Normalize-1.13.tar.gz">Source</a></td></tr>
+<tr><td>URI</td><td>1.59</td><td><a href="http://search.cpan.org/CPAN/authors/id/G/GA/GAAS/URI-1.59.tar.gz">Source</a></td></tr>
+<tr><td>version</td><td>0.95</td><td><a href="http://search.cpan.org/CPAN/authors/id/J/JP/JPEACOCK/version-0.95.tar.gz">Source</a></td></tr>
+<tr><td>Win32-API</td><td>0.64</td><td><a href="http://search.cpan.org/CPAN/authors/id/C/CO/COSIMO/Win32-API-0.64.tar.gz">Source</a></td></tr>
+<tr><td>Win32-EventLog</td><td>0.076</td><td><a href="http://search.cpan.org/CPAN/authors/id/J/JD/JDB/Win32-EventLog-0.076.tar.gz">Source</a></td></tr>
+<tr><td>Win32-Exe</td><td>0.17</td><td><a href="http://search.cpan.org/CPAN/authors/id/M/MD/MDOOTSON/Win32-Exe-0.17.tar.gz">Source</a></td></tr>
+<tr><td>Win32-File</td><td>0.06</td><td><a href="http://search.cpan.org/CPAN/authors/id/J/JD/JDB/Win32-File-0.06.tar.gz">Source</a></td></tr>
+<tr><td>Win32-File-Object</td><td>0.02</td><td><a href="http://search.cpan.org/CPAN/authors/id/A/AD/ADAMK/Win32-File-Object-0.02.tar.gz">Source</a></td></tr>
+<tr><td>Win32-OLE</td><td>0.1709</td><td><a href="http://search.cpan.org/CPAN/authors/id/J/JD/JDB/Win32-OLE-0.1709.tar.gz">Source</a></td></tr>
+<tr><td>Win32-Process</td><td>0.14</td><td><a href="http://search.cpan.org/CPAN/authors/id/J/JD/JDB/Win32-Process-0.14.tar.gz">Source</a></td></tr>
+<tr><td>Win32-TieRegistry</td><td>0.26</td><td><a href="http://search.cpan.org/CPAN/authors/id/A/AD/ADAMK/Win32-TieRegistry-0.26.tar.gz">Source</a></td></tr>
+<tr><td>Win32-UTCFileTime</td><td>1.52</td><td><a href="http://search.cpan.org/CPAN/authors/id/S/SH/SHAY/Win32-UTCFileTime-1.52.tar.gz">Source</a></td></tr>
+<tr><td>Win32-WinError</td><td>0.03</td><td><a href="http://search.cpan.org/CPAN/authors/id/J/JD/JDB/Win32-WinError-0.03.tar.gz">Source</a></td></tr>
+<tr><td>Win32API-File</td><td>0.1200</td><td><a href="http://search.cpan.org/CPAN/authors/id/C/CH/CHORNY/Win32API-File-0.1200.tar.gz">Source</a></td></tr>
+<tr><td>Win32API-Registry</td><td>0.32</td><td><a href="http://search.cpan.org/CPAN/authors/id/B/BL/BLM/Win32API-Registry-0.32.tar.gz">Source</a></td></tr>
+<tr><td>WWW-RobotRules</td><td>6.01</td><td><a href="http://search.cpan.org/CPAN/authors/id/G/GA/GAAS/WWW-RobotRules-6.01.tar.gz">Source</a></td></tr>
+<tr><td>XML-LibXML</td><td>1.88</td><td><a href="http://search.cpan.org/CPAN/authors/id/S/SH/SHLOMIF/XML-LibXML-1.88.tar.gz">Source</a></td></tr>
+<tr><td>XML-LibXSLT</td><td>1.75</td><td><a href="http://search.cpan.org/CPAN/authors/id/S/SH/SHLOMIF/XML-LibXSLT-1.75.tar.gz">Source</a></td></tr>
+<tr><td>XML-NamespaceSupport</td><td>1.11</td><td><a href="http://search.cpan.org/CPAN/authors/id/P/PE/PERIGRIN/XML-NamespaceSupport-1.11.tar.gz">Source</a></td></tr>
+<tr><td>XML-Parser</td><td>2.41</td><td><a href="http://search.cpan.org/CPAN/authors/id/T/TO/TODDR/XML-Parser-2.41.tar.gz">Source</a></td></tr>
+<tr><td>XML-SAX</td><td>0.99</td><td><a href="http://search.cpan.org/CPAN/authors/id/G/GR/GRANTM/XML-SAX-0.99.tar.gz">Source</a></td></tr>
+<tr><td>XML-SAX-Base</td><td>1.08</td><td><a href="http://search.cpan.org/CPAN/authors/id/G/GR/GRANTM/XML-SAX-Base-1.08.tar.gz">Source</a></td></tr>
+<tr><td>XML-Simple</td><td>2.18</td><td><a href="http://search.cpan.org/CPAN/authors/id/G/GR/GRANTM/XML-Simple-2.18.tar.gz">Source</a></td></tr>
+<tr><td>XSLoader</td><td>0.15</td><td><a href="http://search.cpan.org/CPAN/authors/id/S/SA/SAPER/XSLoader-0.15.tar.gz">Source</a></td></tr>
+<tr><td>YAML</td><td>0.77</td><td><a href="http://search.cpan.org/CPAN/authors/id/I/IN/INGY/YAML-0.77.tar.gz">Source</a></td></tr>
+<tr><td>YAML-Tiny</td><td>1.50</td><td><a href="http://search.cpan.org/CPAN/authors/id/A/AD/ADAMK/YAML-Tiny-1.50.tar.gz">Source</a></td></tr>
+
+</table>
+
+<p>The list of packages related to gcc-toolchain and external libraries included in Strawberry Perl:</p>
+
+<table>
+<tr><td><b>Package</b></td><td><b>Homepage</b></td><td><b>Link</b></td><td><b>Comment</b></td></tr>
+<tr><td>binutils-2.21.90</td><td><a href='http://www.gnu.org/software/binutils/'>http://www.gnu.org/software/binutils/</a></td><td><a href='http://ftp.gnu.org/gnu/binutils/'>Source</a></td><td></td></tr>
+<tr><td>db-5.1.25</td><td><a href='http://www.oracle.com/technetwork/database/berkeleydb/downloads/index.html'>http://www.oracle.com/technetwork/database/berkeleydb/downloads/index.html</a></td><td><a href='http://download.oracle.com/berkeley-db/db-5.1.25.tar.gz'>Source</a></td><td></td></tr>
+<tr><td>dmake-SVN20091127</td><td><a href='http://tools.openoffice.org/dmake/index.html'>http://tools.openoffice.org/dmake/index.html</a></td><td><a href='http://tools.openoffice.org/dmake/dmake_4.11.zip'>Source</a></td><td></td></tr>
+<tr><td>expat-2.0.1</td><td><a href='http://expat.sourceforge.net/'>http://expat.sourceforge.net/</a></td><td><a href=''>Source</a></td><td></td></tr>
+<tr><td>freeglut-2.6.0</td><td><a href='http://freeglut.sourceforge.net/'>http://freeglut.sourceforge.net/</a></td><td><a href='http://downloads.sourceforge.net/freeglut/freeglut/freeglut-2.6.0.tar.gz'>Source</a></td><td></td></tr>
+<tr><td>freetype-2.4.4</td><td><a href='http://www.freetype.org/'>http://www.freetype.org/</a></td><td><a href='http://mirror.lihnidos.org/GNU/savannah/freetype/freetype-2.4.4.tar.gz'>Source</a></td><td></td></tr>
+<tr><td>gcc-4.4.7-prerelease</td><td><a href='http://gcc.gnu.org/'>http://gcc.gnu.org/</a></td><td><a href='ftp://gcc.gnu.org/pub/gcc/releases/'>Source</a></td><td>v4.6.2 + patches (svn rev.180339)</td></tr>
+<tr><td>gd-2.0.35</td><td><a href='http://www.libgd.org/'>http://www.libgd.org/</a></td><td><a href='http://www.libgd.org/releases/gd-2.0.35.tar.gz'>Source</a></td><td>linked with libjpg-v6 - see <a href="https://rt.cpan.org/Public/Bug/Display.html?id=49053">#49053</a></td></tr>
+<tr><td>gdbm-1.8.3</td><td><a href='http://www.gnu.org/software/gdbm/'>http://www.gnu.org/software/gdbm/</a></td><td><a href='ftp://ftp.gnu.org/gnu/gdbm/gdbm-1.8.3.tar.gz'>Source</a></td><td></td></tr>
+<tr><td>giflib-4.1.6</td><td><a href='http://giflib.sourceforge.net/'>http://giflib.sourceforge.net/</a></td><td><a href='http://downloads.sourceforge.net/giflib/giflib-4.1.6.tar.gz'>Source</a></td><td></td></tr>
+<tr><td>gmp-5.0.1</td><td><a href='http://gmplib.org/'>http://gmplib.org/</a></td><td><a href='ftp://ftp.gmplib.org/pub/gmp-5.0.1/gmp-5.0.1.tar.gz'>Source</a></td><td></td></tr>
+<tr><td>jpeg-8c</td><td><a href='http://www.ijg.org/'>http://www.ijg.org/</a></td><td><a href='http://www.ijg.org/files/jpegsrc.v8c.tar.gz'>Source</a></td><td></td></tr>
+<tr><td>libXpm-3.5.9</td><td><a href='http://www.freedesktop.org/wiki/Software/xlibs'>http://www.freedesktop.org/wiki/Software/xlibs</a></td><td><a href='http://ftp.x.org/pub/individual/lib/libXpm-3.5.9.tar.gz'>Source</a></td><td></td></tr>
+<tr><td>libiconv-1.13.1</td><td><a href='http://www.gnu.org/software/libiconv/'>http://www.gnu.org/software/libiconv/</a></td><td><a href=''>Source</a></td><td></td></tr>
+<tr><td>libpng-1.5.2</td><td><a href='http://www.libpng.org/pub/png/libpng.html'>http://www.libpng.org/pub/png/libpng.html</a></td><td><a href='http://downloads.sourceforge.net/libpng/libpng-1.5.2.tar.gz'>Source</a></td><td></td></tr>
+<tr><td>libssh2-1.2.8</td><td><a href='http://www.libssh2.org'>http://www.libssh2.org</a></td><td><a href='http://www.libssh2.org/download/libssh2-1.2.8.tar.gz'>Source</a></td><td></td></tr>
+<tr><td>libxml2-2.7.8</td><td><a href='http://xmlsoft.org/'>http://xmlsoft.org/</a></td><td><a href='ftp://xmlsoft.org/libxslt/libxml2-2.7.8.tar.gz'>Source</a></td><td></td></tr>
+<tr><td>libxslt-1.1.26</td><td><a href='http://xmlsoft.org/XSLT/'>http://xmlsoft.org/XSLT/</a></td><td><a href='ftp://xmlsoft.org/libxslt/libxslt-1.1.26.tar.gz'>Source</a></td><td></td></tr>
+<tr><td>make-3.82</td><td><a href='http://www.gnu.org/software/make/'>http://www.gnu.org/software/make/</a></td><td><a href='ftp://ftp.gnu.org/gnu/make/make-3.82.tar.gz'>Source</a></td><td></td></tr>
+<tr><td>mingw-w64-crt</td><td><a href='http://mingw-w64.sourceforge.net/'>http://mingw-w64.sourceforge.net/</a></td><td><a href='http://sourceforge.net/projects/mingw-w64/files/Toolchain%20sources/'>Source</a></td><td>v1.0.1 (svn rev.4560) + OpenGL/OpenCL headers</td></tr>
+<tr><td>mpc-0.9</td><td><a href='http://www.multiprecision.org/'>http://www.multiprecision.org/</a></td><td><a href='http://www.multiprecision.org/mpc/download/mpc-0.9.tar.gz'>Source</a></td><td></td></tr>
+<tr><td>mpfr-3.0.1</td><td><a href='http://www.mpfr.org/'>http://www.mpfr.org/</a></td><td><a href='ftp://ftp.gnu.org/gnu/mpfr/mpfr-3.0.1.tar.gz'>Source</a></td><td></td></tr>
+<tr><td>mysql-5.1.44</td><td><a href='http://www.mysql.com/'>http://www.mysql.com/</a></td><td><a href='http://mysql.linux.cz/Downloads/MySQL-5.1/mysql-5.1.44.tar.gz'>Source</a></td><td></td></tr>
+<tr><td>openssl-1.0.0d</td><td><a href='http://www.openssl.org/'>http://www.openssl.org/</a></td><td><a href='http://www.openssl.org/source/openssl-1.0.0d.tar.gz'>Source</a></td><td></td></tr>
+<tr><td>patch-2.5.9-7</td><td><a href='http://gnuwin32.sourceforge.net/packages/patch.htm'>http://gnuwin32.sourceforge.net/packages/patch.htm</a></td><td><a href='http://downloads.sourceforge.net/gnuwin32/patch-2.5.9-7-src.zip'>Source</a></td><td></td></tr>
+<tr><td>pexports-0.44</td><td><a href='http://www.emmestech.com/software/pexports-0.43/download_pexports.html'>http://www.emmestech.com/software/pexports-0.43/download_pexports.html</a></td><td><a href='http://tml.pp.fi/pexports-0.44.zip'>Source</a></td><td></td></tr>
+<tr><td>postgresql-9.0.4</td><td><a href='http://www.postgresql.org/'>http://www.postgresql.org/</a></td><td><a href='http://wwwmaster.postgresql.org/redir/33/h/source/v9.0.4/postgresql-9.0.4.tar.gz'>Source</a></td><td></td></tr>
+<tr><td>tiff-3.9.5</td><td><a href='http://remotesensing.org/libtiff/'>http://remotesensing.org/libtiff/</a></td><td><a href='ftp://ftp.remotesensing.org/pub/libtiff/tiff-3.9.5.tar.gz'>Source</a></td><td></td></tr>
+<tr><td>xz-5.0.2</td><td><a href='http://tukaani.org/xz/'>http://tukaani.org/xz/</a></td><td><a href='http://tukaani.org/xz/xz-5.0.2.tar.gz'>Source</a></td><td></td></tr>
+<tr><td>zlib-1.2.5</td><td><a href='http://www.zlib.net/'>http://www.zlib.net/</a></td><td><a href='http://www.zlib.net/zlib-1.2.5.tar.gz'>Source</a></td><td></td></tr>
+</table>
+
+</div>
+<script type="text/javascript">
+function unhide(divID, switchID) {
+  // Hide or unhide the available item.
+  var item = document.getElementById(divID);
+  if (item) {
+    item.className = ( item.className == 'hidden' ) ? 'unhidden' : 'hidden';
+  }
+  // Swap what the link says.
+  var switchitem = document.getElementById(switchID);
+  if (switchitem) {
+	switchitem.innerHTML = ( switchitem.innerHTML == 'Expand' ) ? 'Collapse' : 'Expand' ;
+	switchitem.className = 'switchon';
+  }
+}
+</script>
+<script type="text/javascript">
+  // Leave whatsnew expanded by default
+  var switchitem = document.getElementById('whatsnew_switch');
+  if (switchitem) {
+	switchitem.className = 'switchon';
+  }
+  // Shrink others.
+  unhide('issues', 'issues_switch');
+  unhide('distlist', 'distlist_switch');
+</script>
+<!-- Start Quantcast tag -->
+<script type="text/javascript">
+_qoptions={
+qacct:"p-44rvHMFUvK7tg"
+};
+</script>
+<script type="text/javascript" src="http://edge.quantserve.com/quant.js"></script>
+<noscript>
+<img src="http://pixel.quantserve.com/pixel/p-44rvHMFUvK7tg.gif" style="display: none;" border="0" height="1" width="1" alt="Quantcast"/>
+</noscript>
+<!-- End Quantcast tag -->
+
+<!-- InstanceEndEditable -->
+</body>
+<!-- InstanceEnd --></html>
