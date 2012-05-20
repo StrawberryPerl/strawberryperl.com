@@ -74,25 +74,26 @@ p {
 	font-size: 1em;
 	border: 2px solid #900;
 	background-color: #fcc;
-	margin-bottom: 1em;
+	margin-bottom: 0.8em;
 }
 
 .downloads p {
 	display: block;
-	text-align: center;
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 1.3em;
-	padding: 5px;
-	margin: 0;
+	text-align: left;
+	/*font-family: Arial, Helvetica, sans-serif;*/
+	font-size: 1.8em;
+	padding: 3px;
+	margin: 0em;
 }
 
 .downloads a {
 	display: block;
-	font-family: Arial, Helvetica, sans-serif;
+	/*font-family: Arial, Helvetica, sans-serif;*/
 	font-size: 1.3em;
 	padding: 5px;
 	text-decoration: none;
 	color: #000;
+        margin: 0em;
 }
 
 .downloads a b {
