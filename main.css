@@ -26,19 +26,21 @@ table.file {
 }
 
 table.file td {
+	font-family: monospace;
+	font-size: 10pt;
 	padding-right: 10px;
 	background-color: #fcc;
 }
 
 table.file p {
-	font-size: 0.9em;
+	font-size: 10pt;
 	margin: 0px;
 	padding: 0px;
 }
 
 table.file a {
 	font-family: monospace;
-	font-size: 1.1em;
+	font-size: 10pt;
 	font-weight: bold;
 }
 
