@@ -27,8 +27,9 @@
 <hr /></h3>
 <div id="whatsnew">
 <ul>
-<li>XXX-TODO Put blurb here.</li>
-<li>XXX-TODO Put blurb here.</li>
+<li>New perl core (5.16.1) + update of all CPAN modules.</li>
+<li>Env variables PERL_JSON_BACKEND and PERL_YAML_BACKEND not set by MSI installer.</li>
+<li>MSI upgrade from 5.16.0.1 should work.
 </ul>
 </div>
 
@@ -36,8 +37,7 @@
 <hr /></h3>
 <div id="issues">
 <ul>
-<li>XXX-TODO Put issues here.</li>
-<li>XXX-TODO Put issues here.</li>
+<li>Do not intall the MSI over the 5.14.x or 5.12.x installation as automatic uninstallation does not work correctly. Uninstall the old version manually + remove all residuals (e.g. delete c:\strawberry directory) before installing this version.</li>
 </ul>
 </div>
 
@@ -51,7 +51,7 @@
 <tr><td>3.</td><td>Alien-Tidyp</td><td>v1.4.7</td><td></td></tr>
 <tr><td>4.</td><td>Any-Moose</td><td>0.18</td><td></td></tr>
 <tr><td>5.</td><td>App-Cpan</td><td>1.5902</td><td></td></tr>
-<tr><td>6.</td><td>App-cpanminus</td><td>1.5017_fixed_issue132</td><td></td></tr>
+<tr><td>6.</td><td>App-cpanminus</td><td>1.5017</td><td>+fix for <a href="https://github.com/miyagawa/cpanminus/issues/132">issue 132</a></td></tr>
 <tr><td>7.</td><td>App-local-lib-Win32Helper</td><td>0.990</td><td></td></tr>
 <tr><td>8.</td><td>App-module-version</td><td>1.004</td><td></td></tr>
 <tr><td>9.</td><td>AppConfig</td><td>1.66</td><td></td></tr>
@@ -92,14 +92,14 @@
 <tr><td>44.</td><td>CPAN-Mini</td><td>1.111008</td><td></td></tr>
 <tr><td>45.</td><td>CPAN-SQLite</td><td>0.202</td><td></td></tr>
 <tr><td>46.</td><td>CPANPLUS</td><td>0.9130</td><td></td></tr>
-<tr><td>47.</td><td>Crypt-Blowfish</td><td>2.12_patched</td><td></td></tr>
+<tr><td>47.</td><td>Crypt-Blowfish</td><td>2.12</td><td>+fix for <a href="https://rt.cpan.org/Public/Bug/Display.html?id=55173">#55173</a></td></tr>
 <tr><td>48.</td><td>Crypt-CAST5_PP</td><td>1.04</td><td></td></tr>
 <tr><td>49.</td><td>Crypt-CBC</td><td>2.30</td><td></td></tr>
 <tr><td>50.</td><td>Crypt-DES</td><td>2.05</td><td></td></tr>
 <tr><td>51.</td><td>Crypt-DES_EDE3</td><td>0.01</td><td></td></tr>
 <tr><td>52.</td><td>Crypt-DH</td><td>0.07</td><td></td></tr>
 <tr><td>53.</td><td>Crypt-DSA</td><td>1.17</td><td></td></tr>
-<tr><td>54.</td><td>Crypt-IDEA</td><td>1.08_patched</td><td></td></tr>
+<tr><td>54.</td><td>Crypt-IDEA</td><td>1.08</td><td>+fix for <a href="https://rt.cpan.org/Public/Bug/Display.html?id=55158">#55158</a></td></tr>
 <tr><td>55.</td><td>Crypt-OpenPGP</td><td>1.06</td><td></td></tr>
 <tr><td>56.</td><td>Crypt-Primes</td><td>0.50</td><td></td></tr>
 <tr><td>57.</td><td>Crypt-Random</td><td>1.25</td><td></td></tr>
@@ -117,7 +117,7 @@
 <tr><td>69.</td><td>DateTime-TimeZone</td><td>1.48</td><td></td></tr>
 <tr><td>70.</td><td>DB_File</td><td>1.826</td><td></td></tr>
 <tr><td>71.</td><td>DBD-ADO</td><td>2.99</td><td></td></tr>
-<tr><td>72.</td><td>DBD-mysql</td><td>4.021_patched</td><td></td></tr>
+<tr><td>72.</td><td>DBD-mysql</td><td>4.021</td><td>+fix for <a href="https://rt.cpan.org/Public/Bug/Display.html?id=71047">#71047</a></td></tr>
 <tr><td>73.</td><td>DBD-ODBC</td><td>1.39</td><td></td></tr>
 <tr><td>74.</td><td>DBD-Pg</td><td>2.19.2</td><td></td></tr>
 <tr><td>75.</td><td>DBD-SQLite</td><td>1.37</td><td></td></tr>
@@ -151,7 +151,7 @@
 <tr><td>103.</td><td>File-Slurp</td><td>9999.19</td><td></td></tr>
 <tr><td>104.</td><td>File-Which</td><td>1.09</td><td></td></tr>
 <tr><td>105.</td><td>Filter</td><td>1.45</td><td></td></tr>
-<tr><td>106.</td><td>GD</td><td>2.46_patched</td><td></td></tr>
+<tr><td>106.</td><td>GD</td><td>2.46</td><td>+fix for <a href="https://rt.cpan.org/Public/Bug/Display.html?id=67990">#67990</a></td></tr>
 <tr><td>107.</td><td>Hook-LexWrap</td><td>0.24</td><td></td></tr>
 <tr><td>108.</td><td>HTML-Form</td><td>6.03</td><td></td></tr>
 <tr><td>109.</td><td>HTML-Parser</td><td>3.69</td><td></td></tr>
@@ -330,7 +330,7 @@
 <tr><td>5.</td><td>freeglut-2.8.0</td><td><a href="http://freeglut.sourceforge.net/">http://freeglut.sourceforge.net/</a></td><td></td></tr>
 <tr><td>6.</td><td>freetype-2.4.9</td><td><a href="http://www.freetype.org/">http://www.freetype.org/</a></td><td></td></tr>
 <tr><td>7.</td><td>gcc-4.6.3</td><td><a href="http://gcc.gnu.org/">http://gcc.gnu.org/</a></td><td></td></tr>
-<tr><td>8.</td><td>gd-2.0.35</td><td><a href="http://www.libgd.org/">http://www.libgd.org/</a></td><td></td></tr>
+<tr><td>8.</td><td>gd-2.0.35</td><td><a href="http://www.libgd.org/">http://www.libgd.org/</a></td><td>linked with libjpg-v6 - see <a href="https://rt.cpan.org/Public/Bug/Display.html?id=49053">#49053</a></td></tr>
 <tr><td>9.</td><td>gdbm-1.8.3</td><td><a href="http://www.gnu.org/software/gdbm/">http://www.gnu.org/software/gdbm/</a></td><td></td></tr>
 <tr><td>10.</td><td>gendef-rev4724</td><td><a href="http://mingw-w64.sourceforge.net/">http://mingw-w64.sourceforge.net/</a></td><td></td></tr>
 <tr><td>11.</td><td>gfortran-4.6.3</td><td><a href="http://gcc.gnu.org/">http://gcc.gnu.org/</a></td><td></td></tr>
@@ -478,18 +478,6 @@ function unhide(divID, switchID) {
   unhide('pkglist', 'pkglist_switch');
   unhide('verlist', 'verlist_switch');
 </script>
-
-<!-- Start Quantcast tag -->
-<script type="text/javascript">
-_qoptions={
-qacct:"p-44rvHMFUvK7tg"
-};
-</script>
-<script type="text/javascript" src="http://edge.quantserve.com/quant.js"></script>
-<noscript>
-<img src="http://pixel.quantserve.com/pixel/p-44rvHMFUvK7tg.gif" style="display: none;" border="0" height="1" width="1" alt="Quantcast"/>
-</noscript>
-<!-- End Quantcast tag -->
 
 <!-- InstanceEndEditable -->
 </body>
