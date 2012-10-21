@@ -27,8 +27,11 @@
 <hr /></h3>
 <div id="whatsnew">
 <ul>
-<li>XXX-TODO Put blurb here.</li>
-<li>XXX-TODO Put blurb here.</li>
+<li>The new perl core 5.14.3</li>
+<li>Switch to gcc-4.6.3, credits go to Mark Dootson's <a href="http://perlmingw.sf.net/">http://perlmingw.sf.net/</a></li>
+<li>Updated all external libraries (openssl, graphics etc.)</li>
+<li>Added gfortran + pthreads library (PDL)</li>
+<li>Added new modules: App::cpanminus, Moose + many others (the same set as in 5.16 series)</li>
 </ul>
 </div>
 
@@ -36,8 +39,8 @@
 <hr /></h3>
 <div id="issues">
 <ul>
-<li>XXX-TODO Put issues here.</li>
-<li>XXX-TODO Put issues here.</li>
+<li>Do not intall the MSI over the 5.14.2.1 installation as automatic uninstallation does not work correctly. Uninstall the old version manually + remove all residuals (e.g. delete c:\strawberry directory) before installing this version.</li>
+<li>The 64-bit version does not contain all of the modules that the 32-bit version does - Math::Pari (<a href="https://rt.cpan.org/Public/Bug/Display.html?id=52146">#52146</a>) + all dependants (e.g. Module::Signature).</li>
 </ul>
 </div>
 
@@ -51,7 +54,7 @@
 <tr><td>3.</td><td>Alien-Tidyp</td><td>v1.4.7</td><td></td></tr>
 <tr><td>4.</td><td>Any-Moose</td><td>0.18</td><td></td></tr>
 <tr><td>5.</td><td>App-Cpan</td><td>1.5902</td><td></td></tr>
-<tr><td>6.</td><td>App-cpanminus</td><td>1.5018_fixed_issue132</td><td></td></tr>
+<tr><td>6.</td><td>App-cpanminus</td><td>1.5018</td><td>+fix for <a href="https://github.com/miyagawa/cpanminus/issues/132">issue 132</a></td></tr>
 <tr><td>7.</td><td>App-local-lib-Win32Helper</td><td>0.990</td><td></td></tr>
 <tr><td>8.</td><td>App-module-version</td><td>1.004</td><td></td></tr>
 <tr><td>9.</td><td>AppConfig</td><td>1.66</td><td></td></tr>
@@ -104,14 +107,14 @@
 <tr><td>56.</td><td>CPAN-SQLite</td><td>0.202</td><td></td></tr>
 <tr><td>57.</td><td>CPANPLUS</td><td>0.9133</td><td></td></tr>
 <tr><td>58.</td><td>CPANPLUS-Dist-Build</td><td>0.62</td><td></td></tr>
-<tr><td>59.</td><td>Crypt-Blowfish</td><td>2.12_patched</td><td></td></tr>
+<tr><td>59.</td><td>Crypt-Blowfish</td><td>2.12</td><td>+fix for <a href="https://rt.cpan.org/Public/Bug/Display.html?id=55173">#55173</a></td></tr>
 <tr><td>60.</td><td>Crypt-CAST5_PP</td><td>1.04</td><td></td></tr>
 <tr><td>61.</td><td>Crypt-CBC</td><td>2.30</td><td></td></tr>
 <tr><td>62.</td><td>Crypt-DES</td><td>2.05</td><td></td></tr>
 <tr><td>63.</td><td>Crypt-DES_EDE3</td><td>0.01</td><td></td></tr>
 <tr><td>64.</td><td>Crypt-DH</td><td>0.07</td><td></td></tr>
 <tr><td>65.</td><td>Crypt-DSA</td><td>1.17</td><td></td></tr>
-<tr><td>66.</td><td>Crypt-IDEA</td><td>1.08_patched</td><td></td></tr>
+<tr><td>66.</td><td>Crypt-IDEA</td><td>1.08</td><td>+fix for <a href="https://rt.cpan.org/Public/Bug/Display.html?id=55158">#55158</a></td></tr>
 <tr><td>67.</td><td>Crypt-Rijndael</td><td>1.11</td><td></td></tr>
 <tr><td>68.</td><td>Crypt-RIPEMD160</td><td>0.05</td><td></td></tr>
 <tr><td>69.</td><td>Crypt-SSLeay</td><td>0.64</td><td></td></tr>
@@ -173,7 +176,7 @@
 <tr><td>125.</td><td>File-Which</td><td>1.09</td><td></td></tr>
 <tr><td>126.</td><td>Filter</td><td>1.45</td><td></td></tr>
 <tr><td>127.</td><td>Filter-Simple</td><td>0.88</td><td></td></tr>
-<tr><td>128.</td><td>GD</td><td>2.46_patched2</td><td></td></tr>
+<tr><td>128.</td><td>GD</td><td>2.46</td><td>+fix for <a href="https://rt.cpan.org/Public/Bug/Display.html?id=67990">#67990</a></td></tr>
 <tr><td>129.</td><td>Hook-LexWrap</td><td>0.24</td><td></td></tr>
 <tr><td>130.</td><td>HTML-Form</td><td>6.03</td><td></td></tr>
 <tr><td>131.</td><td>HTML-Parser</td><td>3.69</td><td></td></tr>
@@ -338,7 +341,7 @@
 <tr><td>290.</td><td>Variable-Magic</td><td>0.51</td><td></td></tr>
 <tr><td>291.</td><td>version</td><td>0.9901</td><td></td></tr>
 <tr><td>292.</td><td>Win32</td><td>0.45</td><td></td></tr>
-<tr><td>293.</td><td>Win32-API</td><td>0.68_patched</td><td></td></tr>
+<tr><td>293.</td><td>Win32-API</td><td>0.68</td><td>+fix related to x64</td></tr>
 <tr><td>294.</td><td>Win32-Console-ANSI</td><td>1.04</td><td></td></tr>
 <tr><td>295.</td><td>Win32-EventLog</td><td>0.076</td><td></td></tr>
 <tr><td>296.</td><td>Win32-Exe</td><td>0.17</td><td></td></tr>
