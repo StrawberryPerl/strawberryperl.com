@@ -1,169 +1,0 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"><html><!-- InstanceBegin template="/Templates/main.dwt" codeOutsideHTMLIsLocked="false" --><head><meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"><!-- InstanceBeginEditable name="title" --><title>Strawberry Perl for Windows - 5.10.1.1 Beta 1 Release Notes</title><!-- InstanceEndEditable --><link rel="shortcut icon" type="image/vnd.microsoft.icon" href="http://strawberryperl.com/favicon.ico"><link rel="stylesheet" type="text/css" href="http://strawberryperl.com/common.css"><link rel="stylesheet" type="text/css" href="http://strawberryperl.com/main.css"><!-- InstanceBeginEditable name="head" --><!-- InstanceEndEditable --><style>.releasenotes .hidden { display: none; }.releasenotes .unhidden { display: block; }.releasenotes .switchoff { display: none; }.releasenotes .switchon { text-decoration: none; display: inline; }.releasenotes .switch { font-size: 80% }</style></head><body class="releasenotes"><!-- InstanceBeginEditable name="body" --><img src="http://strawberryperl.com/images/320554_9491.jpg" alt="strawberries" width="357" height="728" border="0" align="right"><br /><h2>Strawberry Perl Release Notes</h2><p><i>Version 5.10.1.1 Beta 1, released 11 Jan 2010</i></p><p>Check out what is new, what known issues there are, and frequently asked questions about this version of Strawberry Perl. As always, you're encouraged to tell us what you think.</p><h3>What's new in Strawberry Perl 5.10.1.1 Beta 1: <span class="switch"><a href="javascript:unhide('whatsnew', 'whatsnew_switch')" id="whatsnew_switch">Collapse</a><br /></span><hr /></h3><div id="whatsnew"><p>This beta is for internal work on the installation routines. It includes some fixes that should <a href="https://rt.cpan.org/Ticket/Display.html?id=50028#txn-717858">improve uninstallation speed.</a> (Unfortunately, these fixes only work when uninstalling THIS version, not previous versions.)</p><p>It also includes updated modules since 5.8.9.3.</p><p>Upgrading from this beta will NOT remove the "site" directory, unlike previous versions. (Uninstalling without upgrading will remove it.)</p></div><br /><h3>Known issues: <span class="switch"><a href="javascript:unhide('issues', 'issues_switch')" id="issues_switch">Collapse</a></span><hr /></h3><div id="issues"><ul><li>The color scheme has been changed - please check and see if (<a href="http://rt.cpan.org/Public/Ticket/Display.html?id=51802">RT#51802</a>) has been fixed.</li><li>The XML modules may not be able to find their parsers. (<a href="http://rt.cpan.org/Public/Ticket/Display.html?id=53065">RT#53065</a>)</li></ul></div><br /><h3>List of distributions added to Perl 5.10.1: <span class="switch"><a href="javascript:unhide('distlist', 'distlist_switch')" id="distlist_switch">Collapse</a></span><hr /></h3><div id="distlist" class="unhidden"><table><tr><td><b>Distribution</b></td><td><b>Version</b></td></tr><tr><td>ExtUtils-MakeMaker</td><td>6.56</td></tr>
-<tr><td>File-Path</td><td>2.08</td></tr>
-<tr><td>ExtUtils-Manifest</td><td>1.58</td></tr>
-<tr><td>Test-Simple</td><td>0.94</td></tr>
-<tr><td>ExtUtils-CBuilder</td><td>0.27</td></tr>
-<tr><td>ExtUtils-ParseXS</td><td>2.21</td></tr>
-<tr><td>version</td><td>0.79</td></tr>
-<tr><td>Scalar-List-Utils</td><td>1.22</td></tr>
-<tr><td>Compress-Raw-Zlib</td><td>2.024</td></tr>
-<tr><td>Compress-Raw-Bzip2</td><td>2.024</td></tr>
-<tr><td>IO-Compress</td><td>2.024</td></tr>
-<tr><td>Compress-Bzip2</td><td>2.09</td></tr>
-<tr><td>IO-Zlib</td><td>1.10</td></tr>
-<tr><td>PathTools</td><td>3.31</td></tr>
-<tr><td>Win32-WinError</td><td>0.03</td></tr>
-<tr><td>Win32API-Registry</td><td>0.30</td></tr>
-<tr><td>Win32-TieRegistry</td><td>0.26</td></tr>
-<tr><td>File-HomeDir</td><td>0.89</td></tr>
-<tr><td>IPC-Run3</td><td>0.043</td></tr>
-<tr><td>Probe-Perl</td><td>0.01</td></tr>
-<tr><td>Test-Script</td><td>1.07</td></tr>
-<tr><td>File-Which</td><td>1.09</td></tr>
-<tr><td>Archive-Zip</td><td>1.30</td></tr>
-<tr><td>IO-String</td><td>1.08</td></tr>
-<tr><td>Archive-Tar</td><td>1.54</td></tr>
-<tr><td>Compress-unLZMA</td><td>0.03</td></tr>
-<tr><td>Parse-CPAN-Meta</td><td>1.40</td></tr>
-<tr><td>YAML</td><td>0.71</td></tr>
-<tr><td>Digest-SHA1</td><td>2.12</td></tr>
-<tr><td>Digest-SHA</td><td>5.48</td></tr>
-<tr><td>Module-Build</td><td>0.3601</td></tr>
-<tr><td>TermReadKey</td><td>2.30.01</td></tr>
-<tr><td>Term-ReadLine-Perl</td><td>1.0303</td></tr>
-<tr><td>Text-Glob</td><td>0.08</td></tr>
-<tr><td>Data-Dumper</td><td>2.125</td></tr>
-<tr><td>URI</td><td>1.52</td></tr>
-<tr><td>HTML-Tagset</td><td>3.20</td></tr>
-<tr><td>HTML-Parser</td><td>3.64</td></tr>
-<tr><td>libwww-perl</td><td>5.834</td></tr>
-<tr><td>Archive-Extract</td><td>0.38</td></tr>
-<tr><td>Attribute-Handlers</td><td>0.87</td></tr>
-<tr><td>AutoLoader</td><td>5.70</td></tr>
-<tr><td>CPANPLUS</td><td>0.9001</td></tr>
-<tr><td>Class-ISA</td><td>0.36</td></tr>
-<tr><td>Encode</td><td>2.39</td></tr>
-<tr><td>IPC-Cmd</td><td>0.54</td></tr>
-<tr><td>Locale-Maketext-Simple</td><td>0.21</td></tr>
-<tr><td>Log-Message-Simple</td><td>0.06</td></tr>
-<tr><td>Math-BigRat</td><td>0.24</td></tr>
-<tr><td>Module-CoreList</td><td>2.24</td></tr>
-<tr><td>Module-Load-Conditional</td><td>0.34</td></tr>
-<tr><td>Module-Loaded</td><td>0.06</td></tr>
-<tr><td>Object-Accessor</td><td>0.36</td></tr>
-<tr><td>Pod-Perldoc</td><td>3.15</td></tr>
-<tr><td>Pod-Plainer</td><td>1.01</td></tr>
-<tr><td>Pod-Simple</td><td>3.13</td></tr>
-<tr><td>Safe</td><td>2.20</td></tr>
-<tr><td>Storable</td><td>2.21</td></tr>
-<tr><td>Switch</td><td>2.16</td></tr>
-<tr><td>Text-Balanced</td><td>2.02</td></tr>
-<tr><td>constant</td><td>1.19</td></tr>
-<tr><td>parent</td><td>0.223</td></tr>
-<tr><td>threads</td><td>1.75</td></tr>
-<tr><td>threads-shared</td><td>1.32</td></tr>
-<tr><td>FCGI</td><td>0.68</td></tr>
-<tr><td>CGI.pm</td><td>3.48</td></tr>
-<tr><td>podlators</td><td>2.3.0</td></tr>
-<tr><td>ANSIColor</td><td>2.02</td></tr>
-<tr><td>File-Fetch</td><td>0.24</td></tr>
-<tr><td>CPANPLUS-Dist-Build</td><td>0.44</td></tr>
-<tr><td>Win32-Process</td><td>0.14</td></tr>
-<tr><td>IPC-System-Simple</td><td>1.20</td></tr>
-<tr><td>CPAN</td><td>1.94_53</td></tr>
-<tr><td>LWP-Online</td><td>1.07</td></tr>
-<tr><td>Win32-File</td><td>0.06</td></tr>
-<tr><td>File-Remove</td><td>1.42</td></tr>
-<tr><td>Win32-File-Object</td><td>0.02</td></tr>
-<tr><td>Win32-API</td><td>0.59</td></tr>
-<tr><td>Parse-Binary</td><td>0.11</td></tr>
-<tr><td>Win32-Exe</td><td>0.11</td></tr>
-<tr><td>Win32-EventLog</td><td>0.076</td></tr>
-<tr><td>Math-Pari</td><td>2.010801</td></tr>
-<tr><td>Math-BigInt-GMP</td><td>1.24</td></tr>
-<tr><td>XML-Parser</td><td>2.36</td></tr>
-<tr><td>XML-NamespaceSupport</td><td>1.10</td></tr>
-<tr><td>XML-SAX</td><td>0.96</td></tr>
-<tr><td>XML-LibXML</td><td>1.70</td></tr>
-<tr><td>XML-LibXSLT</td><td>1.70</td></tr>
-<tr><td>PAR-Dist</td><td>0.47</td></tr>
-<tr><td>PAR-Dist-FromPPD</td><td>0.03</td></tr>
-<tr><td>PAR-Dist-InstallPPD</td><td>0.02</td></tr>
-<tr><td>Tree-DAG_Node</td><td>1.06</td></tr>
-<tr><td>Sub-Uplevel</td><td>0.22</td></tr>
-<tr><td>Test-Warn</td><td>0.21</td></tr>
-<tr><td>Test-Tester</td><td>0.107</td></tr>
-<tr><td>Test-NoWarnings</td><td>0.084</td></tr>
-<tr><td>Test-Deep</td><td>0.106</td></tr>
-<tr><td>IO-stringy</td><td>2.110</td></tr>
-<tr><td>DBM-Deep</td><td>1.0013</td></tr>
-<tr><td>YAML-Tiny</td><td>1.41</td></tr>
-<tr><td>PAR</td><td>0.994</td></tr>
-<tr><td>PAR-Repository-Query</td><td>0.14</td></tr>
-<tr><td>PAR-Repository-Client</td><td>0.25</td></tr>
-<tr><td>PPM</td><td>0.01_01</td></tr>
-<tr><td>Number-Compare</td><td>0.01</td></tr>
-<tr><td>File-Find-Rule</td><td>0.32</td></tr>
-<tr><td>Data-Compare</td><td>1.2101</td></tr>
-<tr><td>File-chmod</td><td>0.32</td></tr>
-<tr><td>Params-Util</td><td>1.00</td></tr>
-<tr><td>CPAN-Checksums</td><td>2.04</td></tr>
-<tr><td>CPAN-Inject</td><td>0.11</td></tr>
-<tr><td>File-pushd</td><td>1.00</td></tr>
-<tr><td>pler</td><td>1.02</td></tr>
-<tr><td>pip</td><td>1.16</td></tr>
-<tr><td>DBI</td><td>1.609</td></tr>
-<tr><td>DBD-SQLite</td><td>1.29</td></tr>
-<tr><td>CPAN-DistnameInfo</td><td>0.09</td></tr>
-<tr><td>CPAN-SQLite</td><td>0.199</td></tr>
-<tr><td>DBIx-Simple</td><td>1.32</td></tr>
-<tr><td>DB_File</td><td>1.820</td></tr>
-<tr><td>BerkeleyDB</td><td>0.41</td></tr>
-<tr><td>DBD-ODBC</td><td>1.23</td></tr>
-<tr><td>DBD-mysql</td><td>4.012</td></tr>
-<tr><td>DBD-Pg</td><td>2.16.0</td></tr>
-<tr><td>common-sense</td><td>3.0</td></tr>
-<tr><td>JSON-XS</td><td>2.27</td></tr>
-<tr><td>JSON</td><td>2.17</td></tr>
-<tr><td>local-lib</td><td>1.004009</td></tr>
-<tr><td>Imager</td><td>0.72</td></tr>
-<tr><td>GD</td><td>2.44</td></tr>
-<tr><td>Crypt-SSLeay</td><td>0.57</td></tr>
-<tr><td>Net-SSLeay</td><td>1.35</td></tr>
-<tr><td>Digest-HMAC</td><td>1.02</td></tr>
-<tr><td>IO-Socket-SSL</td><td>1.31</td></tr>
-<tr><td>Net-SMTP-TLS</td><td>0.12</td></tr>
-<tr><td>Data-Random</td><td>0.05</td></tr>
-<tr><td>Math-GMP</td><td>2.06</td></tr>
-<tr><td>Data-Buffer</td><td>0.04</td></tr>
-<tr><td>Crypt-DSA</td><td>1.16</td></tr>
-<tr><td>Class-ErrorHandler</td><td>0.01</td></tr>
-<tr><td>Convert-ASN1</td><td>0.22</td></tr>
-<tr><td>Crypt-CBC</td><td>2.30</td></tr>
-<tr><td>Crypt-DES</td><td>2.05</td></tr>
-<tr><td>Crypt-DES_EDE3</td><td>0.01</td></tr>
-<tr><td>Convert-PEM</td><td>0.07</td></tr>
-<tr><td>Crypt-DH</td><td>0.06</td></tr>
-<tr><td>Crypt-Blowfish</td><td>2.10</td></tr>
-<tr><td>Tie-EncryptedHash</td><td>1.24</td></tr>
-<tr><td>Class-Loader</td><td>2.03</td></tr>
-<tr><td>Crypt-Random</td><td>1.25</td></tr>
-<tr><td>Convert-ASCII-Armour</td><td>1.4</td></tr>
-<tr><td>Digest-MD2</td><td>2.03</td></tr>
-<tr><td>Sort-Versions</td><td>1.5</td></tr>
-<tr><td>Crypt-Primes</td><td>0.50</td></tr>
-<tr><td>Crypt-RSA</td><td>1.99</td></tr>
-<tr><td>Digest-BubbleBabble</td><td>0.01</td></tr>
-<tr><td>Crypt-IDEA</td><td>1.08</td></tr>
-<tr><td>String-CRC32</td><td>1.4</td></tr>
-<tr><td>Test-Manifest</td><td>1.23</td></tr>
-<tr><td>Crypt-Rijndael</td><td>1.08</td></tr>
-<tr><td>Crypt-CAST5_PP</td><td>1.04</td></tr>
-<tr><td>Crypt-RIPEMD160</td><td>0.04</td></tr>
-<tr><td>Crypt-Twofish</td><td>2.13</td></tr>
-<tr><td>Test-Exception</td><td>0.27</td></tr>
-<tr><td>Crypt-OpenPGP</td><td>1.04</td></tr>
-<tr><td>Algorithm-Diff</td><td>1.1902</td></tr>
-<tr><td>Text-Diff</td><td>1.37</td></tr>
-<tr><td>Module-Signature</td><td>0.61</td></tr>
-</table><p>The list of packages used in the toolchain is available <a href="http://strawberryperl.com/release-notes/toolchain-july2009.html">here</a>.</p></div><script type="text/javascript">function unhide(divID, switchID) {  // Hide or unhide the available item.  var item = document.getElementById(divID);  if (item) {    item.className = ( item.className == 'hidden' ) ? 'unhidden' : 'hidden';  }  // Swap what the link says.  var switchitem = document.getElementById(switchID);  if (switchitem) {	switchitem.innerHTML = ( switchitem.innerHTML == 'Expand' ) ? 'Collapse' : 'Expand' ;	switchitem.className = 'switchon';  }}</script><script type="text/javascript">  // Leave whatsnew expanded by default  var switchitem = document.getElementById('whatsnew_switch');  if (switchitem) {	switchitem.className = 'switchon';  }  // Shrink others.  unhide('issues', 'issues_switch');  unhide('distlist', 'distlist_switch');</script><!-- Start Quantcast tag --><script type="text/javascript">_qoptions={qacct:"p-44rvHMFUvK7tg"};</script><script type="text/javascript" src="http://edge.quantserve.com/quant.js"></script><noscript><img src="http://pixel.quantserve.com/pixel/p-44rvHMFUvK7tg.gif" style="display: none;" border="0" height="1" width="1" alt="Quantcast"/></noscript><!-- End Quantcast tag --><!-- InstanceEndEditable --></body><!-- InstanceEnd --></html>
