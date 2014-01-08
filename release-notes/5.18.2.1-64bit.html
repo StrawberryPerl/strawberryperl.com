@@ -1,4 +1,4 @@
- <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html><!-- InstanceBegin template="/Templates/main.dwt" codeOutsideHTMLIsLocked="false" -->
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
@@ -37,8 +37,8 @@
 <hr /></h3>
 <div id="whatsnew">
 <ul>
-<li>XXX-TODO Put blurb here.</li>
-<li>XXX-TODO Put blurb here.</li>
+<li>Perl core update to 5.18.2 + all CPAN modules in their latest versions</li>
+<li>The rest are mostly small bugfixes</li>
 </ul>
 </div>
 
@@ -46,8 +46,8 @@
 <hr /></h3>
 <div id="issues">
 <ul>
-<li>XXX-TODO Put issues here.</li>
-<li>XXX-TODO Put issues here.</li>
+<li>The 64-bit version does not contain Math::Pari (#52146) + all dependants (e.g. Module::Signature)</li>
+<li>Alt::Crypt::RSA::BigInt installed as an alternative implementation of Crypt::RSA</li>
 </ul>
 </div>
 
@@ -120,10 +120,10 @@
 <tr><td>62.</td><td>Crypt-DH</td><td>0.07</td><td></td></tr>
 <tr><td>63.</td><td>Crypt-DSA</td><td>1.17</td><td></td></tr>
 <tr><td>64.</td><td>Crypt-IDEA</td><td>1.10</td><td></td></tr>
-<tr><td>65.</td><td>Crypt-OpenSSL-AES</td><td>0.02_patched</td><td></td></tr>
-<tr><td>66.</td><td>Crypt-OpenSSL-Bignum</td><td>0.04_patched</td><td></td></tr>
-<tr><td>67.</td><td>Crypt-OpenSSL-DSA</td><td>0.14_patched</td><td></td></tr>
-<tr><td>68.</td><td>Crypt-OpenSSL-Random</td><td>0.04_patched</td><td></td></tr>
+<tr><td>65.</td><td>Crypt-OpenSSL-AES</td><td>0.02</td><td>+fix for <a href="https://rt.cpan.org/Public/Bug/Display.html?id=77605">#77605</a></td></tr>
+<tr><td>66.</td><td>Crypt-OpenSSL-Bignum</td><td>0.04</td><td>+fix for <a href="https://rt.cpan.org/Public/Bug/Display.html?id=84369">#84369</a></td></tr>
+<tr><td>67.</td><td>Crypt-OpenSSL-DSA</td><td>0.14</td><td>+fix for <a href="https://rt.cpan.org/Public/Bug/Display.html?id=84367">#84367</a></td></tr>
+<tr><td>68.</td><td>Crypt-OpenSSL-Random</td><td>0.04</td><td>+fix for <a href="https://rt.cpan.org/Public/Bug/Display.html?id=56455">#56455</a></td></tr>
 <tr><td>69.</td><td>Crypt-OpenSSL-RSA</td><td>0.28</td><td></td></tr>
 <tr><td>70.</td><td>Crypt-Random-Seed</td><td>0.03</td><td></td></tr>
 <tr><td>71.</td><td>Crypt-Random-TESHA2</td><td>0.01</td><td></td></tr>
@@ -323,7 +323,7 @@
 <tr><td>265.</td><td>Term-ReadLine</td><td>1.14</td><td></td></tr>
 <tr><td>266.</td><td>Term-ReadLine-Perl</td><td>1.0303</td><td></td></tr>
 <tr><td>267.</td><td>Term-UI</td><td>0.42</td><td></td></tr>
-<tr><td>268.</td><td>TermReadKey</td><td>2.31_patched</td><td></td></tr>
+<tr><td>269.</td><td>TermReadKey</td><td>2.31</td><td>+fix</td></tr>
 <tr><td>269.</td><td>Test-CheckDeps</td><td>0.010</td><td></td></tr>
 <tr><td>270.</td><td>Test-Deep</td><td>0.112</td><td></td></tr>
 <tr><td>271.</td><td>Test-Differences</td><td>0.61</td><td></td></tr>
@@ -523,7 +523,6 @@ compiler: gcc -D_WINDLL -DOPENSSL_PIC -DZLIB -DOPENSSL_THREADS -D_MT -DDSO_WIN32
 l -DWIN32_LEAN_AND_MEAN -DUNICODE -D_UNICODE -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_
 ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM
  -DBSAES_ASM -DWHIRLPOOL_ASM -DGHASH_ASM
-WARNING: can&#39;t open config file: z:/strawberry_libs/build/_2013Q3__/ssl/openssl.cnf
 
 </pre>
 </div>
