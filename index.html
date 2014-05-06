@@ -6,17 +6,13 @@
 <link rel="shortcut icon" type="image/vnd.microsoft.icon" href="http://strawberryperl.com/favicon.ico">
 <link rel="stylesheet" type="text/css" href="common.css">
 <link rel="stylesheet" type="text/css" href="splash.css">
-<script type="text/javascript">
-
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-37040168-1']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-37040168-1', 'strawberryperl.com');
+  ga('send', 'pageview');
 </script>
 </head>
 <body>
@@ -44,9 +40,9 @@
       <ul class="downloads">
         <li>
           <p><b>Recommended stable versions:</b></p>
-          <a href="/download/5.18.2.2/strawberry-perl-5.18.2.2-32bit.msi" onclick="_gaq.push(['_trackEvent', 'Home', 'Download', '5.18.2.2-32bit.msi']);"><b>Strawberry Perl 5.18.2.2 (32bit)</b>
+          <a href="/download/5.18.2.2/strawberry-perl-5.18.2.2-32bit.msi" onclick="ga('send', 'event', 'Home', 'Download', '5.18.2.2-32bit.msi');"><b>Strawberry Perl 5.18.2.2 (32bit)</b>
           <br>for Windows XP or higher, Apr 2014</a>
-          <a href="/download/5.18.2.2/strawberry-perl-5.18.2.2-64bit.msi" onclick="_gaq.push(['_trackEvent', 'Home', 'Download', '5.18.2.2-64bit.msi']);"><b>Strawberry Perl 5.18.2.2 (64bit)</b>
+          <a href="/download/5.18.2.2/strawberry-perl-5.18.2.2-64bit.msi" onclick="ga('send', 'event', 'Home', 'Download', '5.18.2.2-64bit.msi');"><b>Strawberry Perl 5.18.2.2 (64bit)</b>
           <br>for Windows XP or higher, Apr 2014</a>
         </li>
       </ul>
@@ -54,16 +50,16 @@
   </tr>
   <tr>
     <td align="left" valign="bottom" id="sponsor">
-      <p>Proudly sponsored by <a href="https://auditsquare.com" target="_blank" onclick="_gaq.push(['_trackEvent', 'Home', 'Ad Click', 'Ad1']);">auditsquare.com</a>
-      <p><a href="https://auditsquare.com" target="_blank" onclick="_gaq.push(['_trackEvent', 'Home', 'Ad Click', 'Ad2']);"><img border="0" src="images/auditsquare.png"></a>
+      <p>Proudly sponsored by <a href="https://auditsquare.com" target="_blank" onclick="ga('send', 'event', 'Home', 'Ad Click', 'Ad1');">auditsquare.com</a>
+      <p><a href="https://auditsquare.com" target="_blank" onclick="ga('send', 'event', 'Home', 'Ad Click', 'Ad2');"><img border="0" src="images/auditsquare.png"></a>
       <p>- <em>"we are experts on Microsoft Windows security"</em>
     </td>
     <td align="right" valign="top">
       <ul class="downloads">
         <li>
           <p><b>More downloads:</b></p>
-          <a href="http://strawberry-perl.googlecode.com/files/strawberry-perl-5.16.3.1-32bit.msi" onclick="_gaq.push(['_trackEvent', 'Home', 'Download', '5.16.3.1-32bit.msi']);"><b>Strawberry Perl 5.16.3.1 (32bit)</b>
-          <a href="http://strawberry-perl.googlecode.com/files/strawberry-perl-5.16.3.1-64bit.msi" onclick="_gaq.push(['_trackEvent', 'Home', 'Download', '5.16.3.1-64bit.msi']);"><b>Strawberry Perl 5.16.3.1 (64bit)</b>
+          <a href="http://strawberry-perl.googlecode.com/files/strawberry-perl-5.16.3.1-32bit.msi" onclick="ga('send', 'event', 'Home', 'Download', '5.16.3.1-32bit.msi');"><b>Strawberry Perl 5.16.3.1 (32bit)</b>
+          <a href="http://strawberry-perl.googlecode.com/files/strawberry-perl-5.16.3.1-64bit.msi" onclick="ga('send', 'event', 'Home', 'Download', '5.16.3.1-64bit.msi');"><b>Strawberry Perl 5.16.3.1 (64bit)</b>
           <a href="releases.html"><b>Other releases: ZIP, Portable, older versions</b>
           <br>you can find here links to all release notes</a>
         </li>
