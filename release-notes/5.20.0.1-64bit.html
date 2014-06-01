@@ -1,8 +1,9 @@
- <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html><!-- InstanceBegin template="/Templates/main.dwt" codeOutsideHTMLIsLocked="false" -->
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
-<!-- InstanceBeginEditable name="title" --><title>Strawberry Perl for Windows - 5.20.0.1-64bit Release Notes</title>
+<!-- InstanceBeginEditable name="title" -->
+<title>Strawberry Perl for Windows - 5.20.0.1-64bit Release Notes</title>
 <!-- InstanceEndEditable -->
 <link rel="shortcut icon" type="image/vnd.microsoft.icon" href="http://strawberryperl.com/favicon.ico">
 <link rel="stylesheet" type="text/css" href="http://strawberryperl.com/common.css">
@@ -15,15 +16,16 @@
 .releasenotes .switchon { text-decoration: none; display: inline; }
 .releasenotes .switch { font-size: 80% }
 </style>
-<script type="text/javascript">
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-37040168-1']);
-  _gaq.push(['_trackPageview']);
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-37040168-1', 'strawberryperl.com');
+  ga('require', 'displayfeatures');
+  ga('require', 'linkid', 'linkid.js');
+  ga('set', 'anonymizeIp', true);
+  ga('send', 'pageview');
 </script>
 </head>
 <body class="releasenotes">
@@ -37,8 +39,16 @@
 <hr /></h3>
 <div id="whatsnew">
 <ul>
-<li>XXX-TODO Put blurb here.</li>
-<li>XXX-TODO Put blurb here.</li>
+<li>New perl core 5.20.0 - see <a href="https://metacpan.org/pod/release/RJBS/perl-5.20.0/pod/perldelta.pod">what's new</a></li>
+<li>New gcc 4.8.2 toolchain + new mingw-w64 v3 runtime</li>
+<li>Updated versions of most of the external libraries</li>
+<li>Newly added libffi external library - see <a href="https://metacpan.org/pod/FFI::Raw">FFI::Raw</a></li>
+<li>Newly added couple of extra perl modules including <a href="https://metacpan.org/favorite/leaderboard">metacpan.org</a> most popular <a href="https://metacpan.org/pod/Mojolicious">Mojolicious</a>, <a href="https://metacpan.org/pod/DBIx::Class">DBIx::Class</a></li>
+<li>Newly added <a href="https://metacpan.org/pod/DBD::Oracle">DBD::Oracle</a> - you have to install 64bit Oracle Instant Client 11.x and make sure you have OCI.DLL in your PATH</li>
+<li>Newly added "fake" <i>pkg-config</i> (via <a href="https://metacpan.org/pod/PkgConfig">PkgConfig</a>) so that <a href="https://metacpan.org/pod/ExtUtils::PkgConfig">ExtUtils::PkgConfig</a> works</li>
+<li>Strawberry Perl uses: <i>$Config{dlext} == 'xs.dll'</i> therefore DLLs produced when building any XS module have name like <i>ModuleName.xs.dll</i></li>
+<li>MSI installer was redesigned and should better handle some unusual situations</li>
+<li>There exists a special portable version with extra math related libraries and pre-installed <a href="http://pdl.perl.org">PDL</a> - <a href="http://strawberryperl.com/download/5.20.0.1/strawberry-perl-5.20.0.1-32bit-PDL.zip">strawberry-perl-5.20.0.1-32bit-PDL.zip</a></li>
 </ul>
 </div>
 
@@ -46,8 +56,8 @@
 <hr /></h3>
 <div id="issues">
 <ul>
-<li>XXX-TODO Put issues here.</li>
-<li>XXX-TODO Put issues here.</li>
+<li>The 64-bit version does not contain Math::Pari (#52146) + all dependants (e.g. Crypt::Random)</li>
+<li>Alt::Crypt::RSA::BigInt installed as an alternative implementation of Crypt::RSA</li>
 </ul>
 </div>
 
@@ -129,12 +139,12 @@
 <tr><td>71.</td><td>Crypt-DSA</td><td>1.17</td><td></td></tr>
 <tr><td>72.</td><td>Crypt-DSA-GMP</td><td>0.02</td><td></td></tr>
 <tr><td>73.</td><td>Crypt-IDEA</td><td>1.10</td><td></td></tr>
-<tr><td>74.</td><td>Crypt-OpenSSL-AES</td><td>0.02</td><td></td></tr>
-<tr><td>75.</td><td>Crypt-OpenSSL-Bignum</td><td>0.04</td><td></td></tr>
-<tr><td>76.</td><td>Crypt-OpenSSL-DSA</td><td>0.14</td><td></td></tr>
-<tr><td>77.</td><td>Crypt-OpenSSL-Random</td><td>0.04</td><td></td></tr>
+<tr><td>74.</td><td>Crypt-OpenSSL-AES</td><td>0.02</td><td>+fix for <a href="https://rt.cpan.org/Public/Bug/Display.html?id=77605">#77605</a></td></tr>
+<tr><td>75.</td><td>Crypt-OpenSSL-Bignum</td><td>0.04</td><td>+fix for <a href="https://rt.cpan.org/Public/Bug/Display.html?id=84369">#84369</a></td></tr>
+<tr><td>76.</td><td>Crypt-OpenSSL-DSA</td><td>0.14</td><td>+fix for <a href="https://rt.cpan.org/Public/Bug/Display.html?id=84367">#84367</a></td></tr>
+<tr><td>77.</td><td>Crypt-OpenSSL-Random</td><td>0.04</td><td>+fix for <a href="https://rt.cpan.org/Public/Bug/Display.html?id=56455">#56455</a></td></tr>
 <tr><td>78.</td><td>Crypt-OpenSSL-RSA</td><td>0.28</td><td></td></tr>
-<tr><td>79.</td><td>Crypt-OpenSSL-X509</td><td>1.804</td><td></td></tr>
+<tr><td>79.</td><td>Crypt-OpenSSL-X509</td><td>1.804</td><td>+fix for <a href="https://github.com/dsully/perl-crypt-openssl-x509/pull/35">#35</a></td></tr>
 <tr><td>80.</td><td>Crypt-Random-Seed</td><td>0.03</td><td></td></tr>
 <tr><td>81.</td><td>Crypt-Random-TESHA2</td><td>0.01</td><td></td></tr>
 <tr><td>82.</td><td>Crypt-RC4</td><td>2.02</td><td></td></tr>
@@ -200,11 +210,11 @@
 <tr><td>142.</td><td>Excel-Writer-XLSX</td><td>0.77</td><td></td></tr>
 <tr><td>143.</td><td>Exception-Class</td><td>1.38</td><td></td></tr>
 <tr><td>144.</td><td>ExtUtils-Config</td><td>0.007</td><td></td></tr>
-<tr><td>145.</td><td>ExtUtils-Depends</td><td>0.306</td><td></td></tr>
+<tr><td>145.</td><td>ExtUtils-Depends</td><td>0.306</td><td>+fix for <a href="https://rt.cpan.org/Public/Bug/Display.html?id=94515">#94515</a></td></tr>
 <tr><td>146.</td><td>ExtUtils-F77</td><td>1.17</td><td></td></tr>
 <tr><td>147.</td><td>ExtUtils-Helpers</td><td>0.022</td><td></td></tr>
 <tr><td>148.</td><td>ExtUtils-InstallPaths</td><td>0.010</td><td></td></tr>
-<tr><td>149.</td><td>ExtUtils-PkgConfig</td><td>1.15</td><td></td></tr>
+<tr><td>149.</td><td>ExtUtils-PkgConfig</td><td>1.15</td><td>+fix for better Strawberry Perl compatibility</td></tr>
 <tr><td>150.</td><td>FCGI</td><td>0.74</td><td></td></tr>
 <tr><td>151.</td><td>File-CheckTree</td><td>4.42</td><td></td></tr>
 <tr><td>152.</td><td>File-chmod</td><td>0.40</td><td></td></tr>
@@ -347,7 +357,7 @@
 <tr><td>289.</td><td>Pod-LaTeX</td><td>0.61</td><td></td></tr>
 <tr><td>290.</td><td>Portable</td><td>1.22</td><td></td></tr>
 <tr><td>291.</td><td>PPI</td><td>1.215</td><td></td></tr>
-<tr><td>292.</td><td>PPM</td><td>11.11_03</td><td></td></tr>
+<tr><td>292.</td><td>PPM</td><td>11.11_03</td><td>special non-CPAN version</td></tr>
 <tr><td>293.</td><td>Probe-Perl</td><td>0.03</td><td></td></tr>
 <tr><td>294.</td><td>Role-Tiny</td><td>1.003003</td><td></td></tr>
 <tr><td>295.</td><td>Scope-Guard</td><td>0.20</td><td></td></tr>
@@ -379,7 +389,7 @@
 <tr><td>321.</td><td>Term-Cap</td><td>1.16</td><td></td></tr>
 <tr><td>322.</td><td>Term-ReadLine-Perl</td><td>1.0303</td><td></td></tr>
 <tr><td>323.</td><td>Term-UI</td><td>0.42</td><td></td></tr>
-<tr><td>324.</td><td>TermReadKey</td><td>2.31</td><td></td></tr>
+<tr><td>324.</td><td>TermReadKey</td><td>2.31</td><td>+fix for better Strawberry Perl compatibility</td></tr>
 <tr><td>325.</td><td>Test-Base</td><td>0.62</td><td></td></tr>
 <tr><td>326.</td><td>Test-CheckDeps</td><td>0.010</td><td></td></tr>
 <tr><td>327.</td><td>Test-Deep</td><td>0.112</td><td></td></tr>
@@ -598,8 +608,6 @@ compiler: gcc -D_WINDLL -DOPENSSL_PIC -DZLIB -DOPENSSL_THREADS -D_MT -DDSO_WIN32
 l -DWIN32_LEAN_AND_MEAN -DUNICODE -D_UNICODE -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_
 ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM
  -DBSAES_ASM -DWHIRLPOOL_ASM -DGHASH_ASM
-WARNING: can&#39;t open config file: /z/extlib/build/_2014Q2__/ssl/openssl.cnf
-
 </pre>
 </div>
 <br />
