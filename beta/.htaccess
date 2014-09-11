@@ -1,3 +1,0 @@
-Options -Indexes
-RewriteEngine On
-RewriteRule ^.* /beta1.html [L,R=301]
