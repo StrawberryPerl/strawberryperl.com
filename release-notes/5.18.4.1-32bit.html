@@ -1,0 +1,612 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>Strawberry Perl for Windows - 5.18.4.1-32bit Release Notes</title>
+
+<link rel="shortcut icon" type="image/vnd.microsoft.icon" href="http://strawberryperl.com/favicon.ico">
+<link rel="stylesheet" type="text/css" href="http://strawberryperl.com/common.css">
+<link rel="stylesheet" type="text/css" href="http://strawberryperl.com/main.css">
+
+<style>
+.releasenotes .hidden { display: none; }
+.releasenotes .unhidden { display: block; }
+.releasenotes .switchoff { display: none; }
+.releasenotes .switchon { text-decoration: none; display: inline; }
+.releasenotes .switch { font-size: 80% }
+</style>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-37040168-1', 'strawberryperl.com');
+  ga('require', 'displayfeatures');
+  ga('require', 'linkid', 'linkid.js');
+  ga('set', 'anonymizeIp', true);
+  ga('send', 'pageview');
+</script>
+</head>
+<body class="releasenotes">
+
+<img src="http://strawberryperl.com/images/320554_9491.jpg" alt="strawberries" width="357" height="728" border="0" align="right">
+<br /><h2>Strawberry Perl (5.18.4.1-32bit) Release Notes</h2>
+<p><i>Released: Oct 2 2014 / with support of our sponsor <a href="http://www.enlightenedperl.org">Enlightened Perl Organisation</a></i></p>
+<p>Check out what is new, what known issues there are, and frequently asked questions about this version of Strawberry Perl. As always, you're encouraged to tell us what you think.</p>
+
+<h3>What's new in this Strawberry Perl release: <span class="switch"><a href="javascript:unhide('whatsnew', 'whatsnew_switch')" id="whatsnew_switch">Collapse</a><br /></span>
+<hr /></h3>
+<div id="whatsnew">
+<ul>
+<li>New perl core 5.18.4 - see <a href="https://metacpan.org/pod/release/RJBS/perl-5.18.4/pod/perldelta.pod">what's new</a></li>
+<li>All bundled perl modules updated to their latest versions</li>
+<li>gcc + all external libraries were NOT upgraded (consider switching to 5.20.x series if you need newer versions)</li>
+<li>32bit Strawberry Perl is compiled <strong>with USE_64_BIT_INT enabled</strong> but there exists a version <strong>without USE_64_BIT_INT</strong> -
+<a href="http://strawberryperl.com/download/5.18.4.1/strawberry-perl-no64-5.18.4.1-32bit.zip">ZIP</a> and
+<a href="http://strawberryperl.com/download/5.18.4.1/strawberry-perl-no64-5.18.4.1-32bit-portable.zip">Portable ZIP</a>
+</ul>
+
+</div>
+
+<h3>Known issues: <span class="switch"><a href="javascript:unhide('issues', 'issues_switch')" id="issues_switch">Collapse</a></span>
+<hr /></h3>
+<div id="issues">
+<ul>
+<li>MSI related fixed were not backported from 5.20.x series, if you have experienced any trouble please consider switching to 5.20.x series</li>
+<li>Math::Pari excluded (but can be easily installed from CPAN)</li>
+</ul>
+</div>
+
+<h3>List of distributions installed on top of Perl 5.18.4: <span class="switch"><a href="javascript:unhide('distlist', 'distlist_switch')" id="distlist_switch">Collapse</a></span>
+<hr /></h3>
+<div id="distlist" class="unhidden">
+<table>
+<tr><td><b>ID</b></td><td><b>Distribution</b></td><td><b>Version</b></td><td><b>Note</b></td></tr>
+<tr><td>1.</td><td>Algorithm-Diff</td><td>1.1902</td><td></td></tr>
+<tr><td>2.</td><td>aliased</td><td>0.31</td><td></td></tr>
+<tr><td>3.</td><td>Alien-Tidyp</td><td>v1.4.7</td><td></td></tr>
+<tr><td>4.</td><td>Alt-Crypt-RSA-BigInt</td><td>0.05</td><td></td></tr>
+<tr><td>5.</td><td>App-cpanminus</td><td>1.7012</td><td></td></tr>
+<tr><td>6.</td><td>App-local-lib-Win32Helper</td><td>0.990</td><td></td></tr>
+<tr><td>7.</td><td>App-module-version</td><td>1.004</td><td></td></tr>
+<tr><td>8.</td><td>AppConfig</td><td>1.66</td><td></td></tr>
+<tr><td>9.</td><td>Archive-Extract</td><td>0.72</td><td></td></tr>
+<tr><td>10.</td><td>Archive-Tar</td><td>2.02</td><td></td></tr>
+<tr><td>11.</td><td>Archive-Zip</td><td>1.38</td><td></td></tr>
+<tr><td>12.</td><td>Attribute-Handlers</td><td>0.96</td><td></td></tr>
+<tr><td>13.</td><td>autodie</td><td>2.25</td><td></td></tr>
+<tr><td>14.</td><td>AutoLoader</td><td>5.74</td><td></td></tr>
+<tr><td>15.</td><td>autouse</td><td>1.08</td><td></td></tr>
+<tr><td>16.</td><td>B-Debug</td><td>1.21</td><td></td></tr>
+<tr><td>17.</td><td>B-Hooks-EndOfScope</td><td>0.13</td><td></td></tr>
+<tr><td>18.</td><td>B-Hooks-OP-Check</td><td>0.19</td><td></td></tr>
+<tr><td>19.</td><td>B-Lint</td><td>1.18</td><td></td></tr>
+<tr><td>20.</td><td>bareword-filehandles</td><td>0.003</td><td></td></tr>
+<tr><td>21.</td><td>BerkeleyDB</td><td>0.54</td><td></td></tr>
+<tr><td>22.</td><td>bignum</td><td>0.37</td><td></td></tr>
+<tr><td>23.</td><td>Bytes-Random-Secure</td><td>0.28</td><td></td></tr>
+<tr><td>24.</td><td>Capture-Tiny</td><td>0.25</td><td></td></tr>
+<tr><td>25.</td><td>Carp</td><td>1.3301</td><td></td></tr>
+<tr><td>26.</td><td>Carp-Clan</td><td>6.04</td><td></td></tr>
+<tr><td>27.</td><td>CGI</td><td>4.04</td><td></td></tr>
+<tr><td>28.</td><td>CGI-Fast</td><td>2.03</td><td></td></tr>
+<tr><td>29.</td><td>CGI.pm</td><td>4.03</td><td></td></tr>
+<tr><td>30.</td><td>Class-Accessor</td><td>0.34</td><td></td></tr>
+<tr><td>31.</td><td>Class-ErrorHandler</td><td>0.03</td><td></td></tr>
+<tr><td>32.</td><td>Class-Inspector</td><td>1.28</td><td></td></tr>
+<tr><td>33.</td><td>Class-Load</td><td>0.22</td><td></td></tr>
+<tr><td>34.</td><td>Class-Load-XS</td><td>0.08</td><td></td></tr>
+<tr><td>35.</td><td>Class-Loader</td><td>2.03</td><td></td></tr>
+<tr><td>36.</td><td>Class-Method-Modifiers</td><td>2.11</td><td></td></tr>
+<tr><td>37.</td><td>Class-PObject</td><td>2.17</td><td></td></tr>
+<tr><td>38.</td><td>Class-Singleton</td><td>1.4</td><td></td></tr>
+<tr><td>39.</td><td>Class-Tiny</td><td>1.000</td><td></td></tr>
+<tr><td>40.</td><td>Clone</td><td>0.37</td><td></td></tr>
+<tr><td>41.</td><td>Clone-PP</td><td>1.06</td><td></td></tr>
+<tr><td>42.</td><td>common-sense</td><td>3.73</td><td></td></tr>
+<tr><td>43.</td><td>Compress-Bzip2</td><td>2.18</td><td></td></tr>
+<tr><td>44.</td><td>Compress-Raw-Bzip2</td><td>2.066</td><td></td></tr>
+<tr><td>45.</td><td>Compress-Raw-Lzma</td><td>2.066</td><td></td></tr>
+<tr><td>46.</td><td>Compress-Raw-Zlib</td><td>2.066</td><td></td></tr>
+<tr><td>47.</td><td>Compress-unLZMA</td><td>0.04</td><td></td></tr>
+<tr><td>48.</td><td>Config-Perl-V</td><td>0.22</td><td></td></tr>
+<tr><td>49.</td><td>Context-Preserve</td><td>0.01</td><td></td></tr>
+<tr><td>50.</td><td>Convert-ASCII-Armour</td><td>1.4</td><td></td></tr>
+<tr><td>51.</td><td>Convert-ASN1</td><td>0.27</td><td></td></tr>
+<tr><td>52.</td><td>Convert-PEM</td><td>0.08</td><td></td></tr>
+<tr><td>53.</td><td>CPAN</td><td>2.05</td><td></td></tr>
+<tr><td>54.</td><td>CPAN-Checksums</td><td>2.09</td><td></td></tr>
+<tr><td>55.</td><td>CPAN-DistnameInfo</td><td>0.12</td><td></td></tr>
+<tr><td>56.</td><td>CPAN-Inject</td><td>1.14</td><td></td></tr>
+<tr><td>57.</td><td>CPAN-Meta</td><td>2.142690</td><td></td></tr>
+<tr><td>58.</td><td>CPAN-Meta-Check</td><td>0.009</td><td></td></tr>
+<tr><td>59.</td><td>CPAN-Meta-Requirements</td><td>2.128</td><td></td></tr>
+<tr><td>60.</td><td>CPAN-Meta-YAML</td><td>0.012</td><td></td></tr>
+<tr><td>61.</td><td>CPAN-Mini</td><td>1.111016</td><td></td></tr>
+<tr><td>62.</td><td>CPAN-SQLite</td><td>0.204</td><td></td></tr>
+<tr><td>63.</td><td>CPANPLUS</td><td>0.9152</td><td></td></tr>
+<tr><td>64.</td><td>CPANPLUS-Dist-Build</td><td>0.78</td><td></td></tr>
+<tr><td>65.</td><td>Crypt-Blowfish</td><td>2.14</td><td></td></tr>
+<tr><td>66.</td><td>Crypt-CAST5_PP</td><td>1.04</td><td></td></tr>
+<tr><td>67.</td><td>Crypt-CBC</td><td>2.33</td><td></td></tr>
+<tr><td>68.</td><td>Crypt-DES</td><td>2.07</td><td></td></tr>
+<tr><td>69.</td><td>Crypt-DES_EDE3</td><td>0.01</td><td></td></tr>
+<tr><td>70.</td><td>Crypt-DH</td><td>0.07</td><td></td></tr>
+<tr><td>71.</td><td>Crypt-DSA</td><td>1.17</td><td></td></tr>
+<tr><td>72.</td><td>Crypt-IDEA</td><td>1.10</td><td></td></tr>
+<tr><td>73.</td><td>Crypt-OpenSSL-AES</td><td>0.02</td><td>+fix for <a href="https://rt.cpan.org/Public/Bug/Display.html?id=77605">#77605</a></td></tr>
+<tr><td>74.</td><td>Crypt-OpenSSL-Bignum</td><td>0.04</td><td>+fix for <a href="https://rt.cpan.org/Public/Bug/Display.html?id=84369">#84369</a></td></tr>
+<tr><td>75.</td><td>Crypt-OpenSSL-DSA</td><td>0.14</td><td>+fix for <a href="https://rt.cpan.org/Public/Bug/Display.html?id=84367">#84367</a></td></tr>
+<tr><td>76.</td><td>Crypt-OpenSSL-Random</td><td>0.04</td><td>+fix for <a href="https://rt.cpan.org/Public/Bug/Display.html?id=56455">#56455</a></td></tr>
+<tr><td>77.</td><td>Crypt-OpenSSL-RSA</td><td>0.28</td><td></td></tr>
+<tr><td>78.</td><td>Crypt-Random-Seed</td><td>0.03</td><td></td></tr>
+<tr><td>79.</td><td>Crypt-Random-TESHA2</td><td>0.01</td><td></td></tr>
+<tr><td>80.</td><td>Crypt-Rijndael</td><td>1.12</td><td></td></tr>
+<tr><td>81.</td><td>Crypt-RIPEMD160</td><td>0.05</td><td></td></tr>
+<tr><td>82.</td><td>Crypt-SSLeay</td><td>0.72</td><td></td></tr>
+<tr><td>83.</td><td>Crypt-Twofish</td><td>2.17</td><td></td></tr>
+<tr><td>84.</td><td>Data-Buffer</td><td>0.04</td><td></td></tr>
+<tr><td>85.</td><td>Data-Compare</td><td>1.24</td><td></td></tr>
+<tr><td>86.</td><td>Data-Dump</td><td>1.22</td><td></td></tr>
+<tr><td>87.</td><td>Data-Dumper</td><td>2.154</td><td></td></tr>
+<tr><td>88.</td><td>Data-OptList</td><td>0.109</td><td></td></tr>
+<tr><td>89.</td><td>Data-Printer</td><td>0.35</td><td></td></tr>
+<tr><td>90.</td><td>Data-Random</td><td>0.11</td><td></td></tr>
+<tr><td>91.</td><td>DateTime</td><td>1.12</td><td></td></tr>
+<tr><td>92.</td><td>DateTime-Locale</td><td>0.45</td><td></td></tr>
+<tr><td>93.</td><td>DateTime-TimeZone</td><td>1.75</td><td></td></tr>
+<tr><td>94.</td><td>DB_File</td><td>1.831</td><td></td></tr>
+<tr><td>95.</td><td>DBD-ADO</td><td>2.99</td><td></td></tr>
+<tr><td>96.</td><td>DBD-mysql</td><td>4.028</td><td></td></tr>
+<tr><td>97.</td><td>DBD-ODBC</td><td>1.50</td><td></td></tr>
+<tr><td>98.</td><td>DBD-Pg</td><td>3.4.2</td><td></td></tr>
+<tr><td>99.</td><td>DBD-SQLite</td><td>1.42</td><td></td></tr>
+<tr><td>100.</td><td>DBI</td><td>1.631</td><td></td></tr>
+<tr><td>101.</td><td>DBIx-Simple</td><td>1.35</td><td></td></tr>
+<tr><td>102.</td><td>DBM-Deep</td><td>2.0011</td><td></td></tr>
+<tr><td>103.</td><td>Devel-CheckBin</td><td>0.02</td><td></td></tr>
+<tr><td>104.</td><td>Devel-Declare</td><td>0.006017</td><td></td></tr>
+<tr><td>105.</td><td>Devel-GlobalDestruction</td><td>0.13</td><td></td></tr>
+<tr><td>106.</td><td>Devel-PartialDump</td><td>0.17</td><td></td></tr>
+<tr><td>107.</td><td>Devel-PPPort</td><td>3.24</td><td></td></tr>
+<tr><td>108.</td><td>Devel-StackTrace</td><td>1.34</td><td></td></tr>
+<tr><td>109.</td><td>Digest-BubbleBabble</td><td>0.02</td><td></td></tr>
+<tr><td>110.</td><td>Digest-HMAC</td><td>1.03</td><td></td></tr>
+<tr><td>111.</td><td>Digest-MD2</td><td>2.04</td><td></td></tr>
+<tr><td>112.</td><td>Digest-MD5</td><td>2.53</td><td></td></tr>
+<tr><td>113.</td><td>Digest-SHA</td><td>5.92</td><td></td></tr>
+<tr><td>114.</td><td>Digest-SHA1</td><td>2.13</td><td></td></tr>
+<tr><td>115.</td><td>Dist-CheckConflicts</td><td>0.11</td><td></td></tr>
+<tr><td>116.</td><td>Encode</td><td>2.62</td><td></td></tr>
+<tr><td>117.</td><td>Encode-compat</td><td>0.07</td><td></td></tr>
+<tr><td>118.</td><td>Encode-Locale</td><td>1.03</td><td></td></tr>
+<tr><td>119.</td><td>Eval-Closure</td><td>0.11</td><td></td></tr>
+<tr><td>120.</td><td>Exporter</td><td>5.70</td><td></td></tr>
+<tr><td>121.</td><td>ExtUtils-CBuilder</td><td>0.280220</td><td></td></tr>
+<tr><td>122.</td><td>ExtUtils-Command</td><td>1.18</td><td></td></tr>
+<tr><td>123.</td><td>ExtUtils-Config</td><td>0.008</td><td></td></tr>
+<tr><td>124.</td><td>ExtUtils-Depends</td><td>0.401</td><td></td></tr>
+<tr><td>125.</td><td>ExtUtils-F77</td><td>1.17</td><td></td></tr>
+<tr><td>126.</td><td>ExtUtils-Helpers</td><td>0.022</td><td></td></tr>
+<tr><td>127.</td><td>ExtUtils-Install</td><td>2.04</td><td></td></tr>
+<tr><td>128.</td><td>ExtUtils-InstallPaths</td><td>0.010</td><td></td></tr>
+<tr><td>129.</td><td>ExtUtils-MakeMaker</td><td>6.98</td><td></td></tr>
+<tr><td>130.</td><td>ExtUtils-Manifest</td><td>1.68</td><td></td></tr>
+<tr><td>131.</td><td>ExtUtils-ParseXS</td><td>3.24</td><td></td></tr>
+<tr><td>132.</td><td>FCGI</td><td>0.77</td><td></td></tr>
+<tr><td>133.</td><td>File-chmod</td><td>0.40</td><td></td></tr>
+<tr><td>134.</td><td>File-Fetch</td><td>0.48</td><td></td></tr>
+<tr><td>135.</td><td>File-Find-Rule</td><td>0.33</td><td></td></tr>
+<tr><td>136.</td><td>File-Find-Rule-Perl</td><td>1.13</td><td></td></tr>
+<tr><td>137.</td><td>File-HomeDir</td><td>1.00</td><td></td></tr>
+<tr><td>138.</td><td>File-Listing</td><td>6.04</td><td></td></tr>
+<tr><td>139.</td><td>File-pushd</td><td>1.009</td><td></td></tr>
+<tr><td>140.</td><td>File-Remove</td><td>1.52</td><td></td></tr>
+<tr><td>141.</td><td>File-ShareDir</td><td>1.102</td><td></td></tr>
+<tr><td>142.</td><td>File-ShareDir-Install</td><td>0.09</td><td></td></tr>
+<tr><td>143.</td><td>File-Slurp</td><td>9999.19</td><td></td></tr>
+<tr><td>144.</td><td>File-Temp</td><td>0.2304</td><td></td></tr>
+<tr><td>145.</td><td>File-Which</td><td>1.09</td><td></td></tr>
+<tr><td>146.</td><td>Filter</td><td>1.49</td><td></td></tr>
+<tr><td>147.</td><td>Filter-Simple</td><td>0.91</td><td></td></tr>
+<tr><td>148.</td><td>GD</td><td>2.53</td><td></td></tr>
+<tr><td>149.</td><td>Getopt-Long</td><td>2.42</td><td></td></tr>
+<tr><td>150.</td><td>Hook-LexWrap</td><td>0.24</td><td></td></tr>
+<tr><td>151.</td><td>HTML-Form</td><td>6.03</td><td></td></tr>
+<tr><td>152.</td><td>HTML-Parser</td><td>3.71</td><td></td></tr>
+<tr><td>153.</td><td>HTML-Tagset</td><td>3.20</td><td></td></tr>
+<tr><td>154.</td><td>HTML-Tree</td><td>5.03</td><td></td></tr>
+<tr><td>155.</td><td>HTTP-Cookies</td><td>6.01</td><td></td></tr>
+<tr><td>156.</td><td>HTTP-Daemon</td><td>6.01</td><td></td></tr>
+<tr><td>157.</td><td>HTTP-Date</td><td>6.02</td><td></td></tr>
+<tr><td>158.</td><td>HTTP-Message</td><td>6.06</td><td></td></tr>
+<tr><td>159.</td><td>HTTP-Negotiate</td><td>6.01</td><td></td></tr>
+<tr><td>160.</td><td>HTTP-Server-Simple</td><td>0.44</td><td></td></tr>
+<tr><td>161.</td><td>HTTP-Tiny</td><td>0.050</td><td></td></tr>
+<tr><td>162.</td><td>Imager</td><td>1.000</td><td></td></tr>
+<tr><td>163.</td><td>Import-Into</td><td>1.002004</td><td></td></tr>
+<tr><td>164.</td><td>indirect</td><td>0.33</td><td></td></tr>
+<tr><td>165.</td><td>IO-Compress</td><td>2.066</td><td></td></tr>
+<tr><td>166.</td><td>IO-Compress-Lzma</td><td>2.066</td><td></td></tr>
+<tr><td>167.</td><td>IO-HTML</td><td>1.001</td><td></td></tr>
+<tr><td>168.</td><td>IO-Interactive</td><td>0.0.6</td><td></td></tr>
+<tr><td>169.</td><td>IO-SessionData</td><td>1.03</td><td></td></tr>
+<tr><td>170.</td><td>IO-Socket-INET6</td><td>2.72</td><td></td></tr>
+<tr><td>171.</td><td>IO-Socket-IP</td><td>0.32</td><td></td></tr>
+<tr><td>172.</td><td>IO-Socket-SSL</td><td>1.998</td><td></td></tr>
+<tr><td>173.</td><td>IO-String</td><td>1.08</td><td></td></tr>
+<tr><td>174.</td><td>IO-stringy</td><td>2.110</td><td></td></tr>
+<tr><td>175.</td><td>IPC-Cmd</td><td>0.92</td><td></td></tr>
+<tr><td>176.</td><td>IPC-Run</td><td>0.92</td><td></td></tr>
+<tr><td>177.</td><td>IPC-Run3</td><td>0.048</td><td></td></tr>
+<tr><td>178.</td><td>IPC-System-Simple</td><td>1.25</td><td></td></tr>
+<tr><td>179.</td><td>JSON</td><td>2.90</td><td></td></tr>
+<tr><td>180.</td><td>JSON-PP</td><td>2.27203</td><td></td></tr>
+<tr><td>181.</td><td>JSON-XS</td><td>3.01</td><td></td></tr>
+<tr><td>182.</td><td>Lexical-SealRequireHints</td><td>0.007</td><td></td></tr>
+<tr><td>183.</td><td>libnet</td><td>1.27</td><td></td></tr>
+<tr><td>184.</td><td>libwww-perl</td><td>6.08</td><td></td></tr>
+<tr><td>185.</td><td>List-AllUtils</td><td>0.08</td><td></td></tr>
+<tr><td>186.</td><td>List-MoreUtils</td><td>0.33</td><td></td></tr>
+<tr><td>187.</td><td>local-lib</td><td>2.000014</td><td></td></tr>
+<tr><td>188.</td><td>Locale-Codes</td><td>3.32</td><td></td></tr>
+<tr><td>189.</td><td>Locale-Maketext</td><td>1.25</td><td></td></tr>
+<tr><td>190.</td><td>Log-Agent</td><td>1.000</td><td></td></tr>
+<tr><td>191.</td><td>Log-Message</td><td>0.08</td><td></td></tr>
+<tr><td>192.</td><td>Log-Message-Simple</td><td>0.10</td><td></td></tr>
+<tr><td>193.</td><td>LWP-MediaTypes</td><td>6.02</td><td></td></tr>
+<tr><td>194.</td><td>LWP-Online</td><td>1.08</td><td></td></tr>
+<tr><td>195.</td><td>LWP-Protocol-https</td><td>6.06</td><td></td></tr>
+<tr><td>196.</td><td>Math-BigInt</td><td>1.9993</td><td></td></tr>
+<tr><td>197.</td><td>Math-BigInt-FastCalc</td><td>0.31</td><td></td></tr>
+<tr><td>198.</td><td>Math-BigInt-GMP</td><td>1.38</td><td></td></tr>
+<tr><td>199.</td><td>Math-BigRat</td><td>0.2606</td><td></td></tr>
+<tr><td>200.</td><td>Math-GMP</td><td>2.07</td><td></td></tr>
+<tr><td>201.</td><td>Math-Int64</td><td>0.32</td><td></td></tr>
+<tr><td>202.</td><td>Math-MPC</td><td>1.02</td><td></td></tr>
+<tr><td>203.</td><td>Math-MPFR</td><td>3.23</td><td></td></tr>
+<tr><td>204.</td><td>Math-Prime-Util</td><td>0.45</td><td></td></tr>
+<tr><td>205.</td><td>Math-Prime-Util-GMP</td><td>0.26</td><td></td></tr>
+<tr><td>206.</td><td>Math-Random-ISAAC</td><td>1.004</td><td></td></tr>
+<tr><td>207.</td><td>Math-Round</td><td>0.06</td><td></td></tr>
+<tr><td>208.</td><td>MIME-Base64</td><td>3.14</td><td></td></tr>
+<tr><td>209.</td><td>Module-Build</td><td>0.4210</td><td></td></tr>
+<tr><td>210.</td><td>Module-Build</td><td>0.4005</td><td></td></tr>
+<tr><td>211.</td><td>Module-Build-Deprecated</td><td>0.4210</td><td></td></tr>
+<tr><td>212.</td><td>Module-Build-Tiny</td><td>0.038</td><td></td></tr>
+<tr><td>213.</td><td>Module-CoreList</td><td>5.20140920</td><td></td></tr>
+<tr><td>214.</td><td>Module-Implementation</td><td>0.09</td><td></td></tr>
+<tr><td>215.</td><td>Module-Load</td><td>0.32</td><td></td></tr>
+<tr><td>216.</td><td>Module-Load-Conditional</td><td>0.62</td><td></td></tr>
+<tr><td>217.</td><td>Module-Metadata</td><td>1.000024</td><td></td></tr>
+<tr><td>218.</td><td>Module-Pluggable</td><td>5.1</td><td></td></tr>
+<tr><td>219.</td><td>Module-Runtime</td><td>0.014</td><td></td></tr>
+<tr><td>220.</td><td>Module-Runtime-Conflicts</td><td>0.001</td><td></td></tr>
+<tr><td>221.</td><td>Moo</td><td>1.006000</td><td></td></tr>
+<tr><td>222.</td><td>Moose</td><td>2.1213</td><td></td></tr>
+<tr><td>223.</td><td>MooseX-ClassAttribute</td><td>0.27</td><td></td></tr>
+<tr><td>224.</td><td>MooseX-Declare</td><td>0.39</td><td></td></tr>
+<tr><td>225.</td><td>MooseX-LazyRequire</td><td>0.11</td><td></td></tr>
+<tr><td>226.</td><td>MooseX-Meta-TypeConstraint-ForceCoercion</td><td>0.01</td><td></td></tr>
+<tr><td>227.</td><td>MooseX-Method-Signatures</td><td>0.48</td><td></td></tr>
+<tr><td>228.</td><td>MooseX-NonMoose</td><td>0.26</td><td></td></tr>
+<tr><td>229.</td><td>MooseX-Role-Parameterized</td><td>1.08</td><td></td></tr>
+<tr><td>230.</td><td>MooseX-Role-WithOverloading</td><td>0.15</td><td></td></tr>
+<tr><td>231.</td><td>MooseX-Traits</td><td>0.12</td><td></td></tr>
+<tr><td>232.</td><td>MooseX-Types</td><td>0.45</td><td></td></tr>
+<tr><td>233.</td><td>MooseX-Types-DateTime</td><td>0.10</td><td></td></tr>
+<tr><td>234.</td><td>MooseX-Types-Structured</td><td>0.30</td><td></td></tr>
+<tr><td>235.</td><td>Mozilla-CA</td><td>20130114</td><td></td></tr>
+<tr><td>236.</td><td>MRO-Compat</td><td>0.12</td><td></td></tr>
+<tr><td>237.</td><td>multidimensional</td><td>0.011</td><td></td></tr>
+<tr><td>238.</td><td>namespace-autoclean</td><td>0.20</td><td></td></tr>
+<tr><td>239.</td><td>namespace-clean</td><td>0.25</td><td></td></tr>
+<tr><td>240.</td><td>Net-HTTP</td><td>6.07</td><td></td></tr>
+<tr><td>241.</td><td>Net-SMTP-TLS</td><td>0.12</td><td></td></tr>
+<tr><td>242.</td><td>Net-SSH2</td><td>0.53</td><td></td></tr>
+<tr><td>243.</td><td>Net-SSLeay</td><td>1.66</td><td></td></tr>
+<tr><td>244.</td><td>Net-Telnet</td><td>3.04</td><td></td></tr>
+<tr><td>245.</td><td>Number-Compare</td><td>0.03</td><td></td></tr>
+<tr><td>246.</td><td>Object-Accessor</td><td>0.48</td><td></td></tr>
+<tr><td>247.</td><td>Package-Constants</td><td>0.04</td><td></td></tr>
+<tr><td>248.</td><td>Package-DeprecationManager</td><td>0.13</td><td></td></tr>
+<tr><td>249.</td><td>Package-Stash</td><td>0.37</td><td></td></tr>
+<tr><td>250.</td><td>Package-Stash-XS</td><td>0.28</td><td></td></tr>
+<tr><td>251.</td><td>PAR</td><td>1.007</td><td></td></tr>
+<tr><td>252.</td><td>PAR-Dist</td><td>0.49</td><td></td></tr>
+<tr><td>253.</td><td>PAR-Dist-FromPPD</td><td>0.03</td><td></td></tr>
+<tr><td>254.</td><td>PAR-Dist-InstallPPD</td><td>0.02</td><td></td></tr>
+<tr><td>255.</td><td>PAR-Repository-Client</td><td>0.25</td><td></td></tr>
+<tr><td>256.</td><td>PAR-Repository-Query</td><td>0.14</td><td></td></tr>
+<tr><td>257.</td><td>Params-Check</td><td>0.38</td><td></td></tr>
+<tr><td>258.</td><td>Params-Util</td><td>1.07</td><td></td></tr>
+<tr><td>259.</td><td>Params-Validate</td><td>1.13</td><td></td></tr>
+<tr><td>260.</td><td>parent</td><td>0.228</td><td></td></tr>
+<tr><td>261.</td><td>Parse-Binary</td><td>0.10</td><td></td></tr>
+<tr><td>262.</td><td>Parse-CPAN-Meta</td><td>1.4414</td><td></td></tr>
+<tr><td>263.</td><td>Parse-Method-Signatures</td><td>1.003016</td><td></td></tr>
+<tr><td>264.</td><td>Path-Class</td><td>0.35</td><td></td></tr>
+<tr><td>265.</td><td>PathTools</td><td>3.47</td><td></td></tr>
+<tr><td>266.</td><td>Perl-OSType</td><td>1.007</td><td></td></tr>
+<tr><td>267.</td><td>perlfaq</td><td>5.0150045</td><td></td></tr>
+<tr><td>268.</td><td>pip</td><td>1.19</td><td></td></tr>
+<tr><td>269.</td><td>pler</td><td>1.06</td><td></td></tr>
+<tr><td>270.</td><td>Pod-Checker</td><td>1.70</td><td></td></tr>
+<tr><td>271.</td><td>Pod-Escapes</td><td>1.06</td><td></td></tr>
+<tr><td>272.</td><td>Pod-Parser</td><td>1.62</td><td></td></tr>
+<tr><td>273.</td><td>Pod-Perldoc</td><td>3.24</td><td></td></tr>
+<tr><td>274.</td><td>Pod-Usage</td><td>1.64</td><td></td></tr>
+<tr><td>275.</td><td>podlators</td><td>v2.5.3</td><td></td></tr>
+<tr><td>276.</td><td>Portable</td><td>1.22</td><td></td></tr>
+<tr><td>277.</td><td>PPI</td><td>1.218</td><td></td></tr>
+<tr><td>278.</td><td>PPM</td><td>11.11_03</td><td></td></tr>
+<tr><td>279.</td><td>Probe-Perl</td><td>0.03</td><td></td></tr>
+<tr><td>280.</td><td>Role-Tiny</td><td>1.003003</td><td></td></tr>
+<tr><td>281.</td><td>Scalar-List-Utils</td><td>1.41</td><td></td></tr>
+<tr><td>282.</td><td>SOAP-Lite</td><td>1.11</td><td></td></tr>
+<tr><td>283.</td><td>Socket</td><td>2.015</td><td></td></tr>
+<tr><td>284.</td><td>Socket6</td><td>0.25</td><td></td></tr>
+<tr><td>285.</td><td>Sort-Naturally</td><td>1.03</td><td></td></tr>
+<tr><td>286.</td><td>Sort-Versions</td><td>1.60</td><td></td></tr>
+<tr><td>287.</td><td>Spiffy</td><td>0.46</td><td></td></tr>
+<tr><td>288.</td><td>Storable</td><td>2.51</td><td></td></tr>
+<tr><td>289.</td><td>strictures</td><td>1.005005</td><td></td></tr>
+<tr><td>290.</td><td>String-CRC32</td><td>1.5</td><td></td></tr>
+<tr><td>291.</td><td>Sub-Exporter</td><td>0.987</td><td></td></tr>
+<tr><td>292.</td><td>Sub-Exporter-Progressive</td><td>0.001011</td><td></td></tr>
+<tr><td>293.</td><td>Sub-Identify</td><td>0.08</td><td></td></tr>
+<tr><td>294.</td><td>Sub-Install</td><td>0.928</td><td></td></tr>
+<tr><td>295.</td><td>Sub-Name</td><td>0.12</td><td></td></tr>
+<tr><td>296.</td><td>Sub-Uplevel</td><td>0.24</td><td></td></tr>
+<tr><td>297.</td><td>Task-Weaken</td><td>1.04</td><td></td></tr>
+<tr><td>298.</td><td>Template-Tiny</td><td>1.12</td><td></td></tr>
+<tr><td>299.</td><td>Template-Toolkit</td><td>2.26</td><td></td></tr>
+<tr><td>300.</td><td>Term-ANSIColor</td><td>4.03</td><td></td></tr>
+<tr><td>301.</td><td>Term-Cap</td><td>1.16</td><td></td></tr>
+<tr><td>302.</td><td>Term-ReadLine</td><td>1.14</td><td></td></tr>
+<tr><td>303.</td><td>Term-ReadLine-Perl</td><td>1.0303</td><td></td></tr>
+<tr><td>304.</td><td>Term-UI</td><td>0.42</td><td></td></tr>
+<tr><td>305.</td><td>TermReadKey</td><td>2.31</td><td>+fix for better Strawberry Perl compatibility</td></tr>
+<tr><td>306.</td><td>Test-Base</td><td>0.88</td><td></td></tr>
+<tr><td>307.</td><td>Test-CleanNamespaces</td><td>0.16</td><td></td></tr>
+<tr><td>308.</td><td>Test-Deep</td><td>0.113</td><td></td></tr>
+<tr><td>309.</td><td>Test-Differences</td><td>0.62</td><td></td></tr>
+<tr><td>310.</td><td>Test-Exception</td><td>0.35</td><td></td></tr>
+<tr><td>311.</td><td>Test-Fatal</td><td>0.013</td><td></td></tr>
+<tr><td>312.</td><td>Test-Harness</td><td>3.28</td><td></td></tr>
+<tr><td>313.</td><td>Test-Harness</td><td>3.33</td><td></td></tr>
+<tr><td>314.</td><td>Test-LeakTrace</td><td>0.14</td><td></td></tr>
+<tr><td>315.</td><td>Test-Manifest</td><td>2.02</td><td></td></tr>
+<tr><td>316.</td><td>Test-NoWarnings</td><td>1.04</td><td></td></tr>
+<tr><td>317.</td><td>Test-Object</td><td>0.07</td><td></td></tr>
+<tr><td>318.</td><td>Test-Output</td><td>1.03</td><td></td></tr>
+<tr><td>319.</td><td>Test-Requires</td><td>0.08</td><td></td></tr>
+<tr><td>320.</td><td>Test-Script</td><td>1.07</td><td></td></tr>
+<tr><td>321.</td><td>Test-Simple</td><td>1.001006</td><td></td></tr>
+<tr><td>322.</td><td>Test-SubCalls</td><td>1.09</td><td></td></tr>
+<tr><td>323.</td><td>Test-Tester</td><td>0.109</td><td></td></tr>
+<tr><td>324.</td><td>Test-use-ok</td><td>0.10</td><td></td></tr>
+<tr><td>325.</td><td>Test-Warn</td><td>0.30</td><td></td></tr>
+<tr><td>326.</td><td>Test-Warnings</td><td>0.016</td><td></td></tr>
+<tr><td>327.</td><td>Test-YAML</td><td>1.05</td><td></td></tr>
+<tr><td>328.</td><td>Text-Diff</td><td>1.41</td><td></td></tr>
+<tr><td>329.</td><td>Text-Glob</td><td>0.09</td><td></td></tr>
+<tr><td>330.</td><td>Text-ParseWords</td><td>3.29</td><td></td></tr>
+<tr><td>331.</td><td>Text-Patch</td><td>1.8</td><td></td></tr>
+<tr><td>332.</td><td>Text-Tabs+Wrap</td><td>2013.0523</td><td></td></tr>
+<tr><td>333.</td><td>Thread-Queue</td><td>3.05</td><td></td></tr>
+<tr><td>334.</td><td>threads</td><td>1.96</td><td></td></tr>
+<tr><td>335.</td><td>threads-shared</td><td>1.46</td><td></td></tr>
+<tr><td>336.</td><td>Tie-EncryptedHash</td><td>1.24</td><td></td></tr>
+<tr><td>337.</td><td>Tie-File</td><td>1.00</td><td></td></tr>
+<tr><td>338.</td><td>Time-HiRes</td><td>1.9726</td><td></td></tr>
+<tr><td>339.</td><td>Time-Piece</td><td>1.29</td><td></td></tr>
+<tr><td>340.</td><td>TimeDate</td><td>2.30</td><td></td></tr>
+<tr><td>341.</td><td>Try-Tiny</td><td>0.22</td><td></td></tr>
+<tr><td>342.</td><td>Types-Serialiser</td><td>1.0</td><td></td></tr>
+<tr><td>343.</td><td>Unicode-Collate</td><td>1.07</td><td></td></tr>
+<tr><td>344.</td><td>Unicode-Normalize</td><td>1.18</td><td></td></tr>
+<tr><td>345.</td><td>URI</td><td>1.64</td><td></td></tr>
+<tr><td>346.</td><td>Variable-Magic</td><td>0.54</td><td></td></tr>
+<tr><td>347.</td><td>version</td><td>0.9909</td><td></td></tr>
+<tr><td>348.</td><td>Win32</td><td>0.49</td><td></td></tr>
+<tr><td>349.</td><td>Win32-API</td><td>0.79</td><td></td></tr>
+<tr><td>350.</td><td>Win32-Console-ANSI</td><td>1.08</td><td></td></tr>
+<tr><td>351.</td><td>Win32-EventLog</td><td>0.077</td><td></td></tr>
+<tr><td>352.</td><td>Win32-Exe</td><td>0.17</td><td></td></tr>
+<tr><td>353.</td><td>Win32-File</td><td>0.07</td><td></td></tr>
+<tr><td>354.</td><td>Win32-File-Object</td><td>0.02</td><td></td></tr>
+<tr><td>355.</td><td>Win32-OLE</td><td>0.1712</td><td></td></tr>
+<tr><td>356.</td><td>Win32-Pipe</td><td>0.025</td><td></td></tr>
+<tr><td>357.</td><td>Win32-Process</td><td>0.16</td><td></td></tr>
+<tr><td>358.</td><td>Win32-ShellQuote</td><td>0.002002</td><td></td></tr>
+<tr><td>359.</td><td>Win32-TieRegistry</td><td>0.26</td><td></td></tr>
+<tr><td>360.</td><td>Win32-UTCFileTime</td><td>1.58</td><td></td></tr>
+<tr><td>361.</td><td>Win32-WinError</td><td>0.04</td><td></td></tr>
+<tr><td>362.</td><td>Win32API-Registry</td><td>0.32</td><td></td></tr>
+<tr><td>363.</td><td>WWW-Mechanize</td><td>1.73</td><td></td></tr>
+<tr><td>364.</td><td>WWW-RobotRules</td><td>6.02</td><td></td></tr>
+<tr><td>365.</td><td>XML-LibXML</td><td>2.0116</td><td></td></tr>
+<tr><td>366.</td><td>XML-LibXSLT</td><td>1.92</td><td></td></tr>
+<tr><td>367.</td><td>XML-NamespaceSupport</td><td>1.11</td><td></td></tr>
+<tr><td>368.</td><td>XML-Parser</td><td>2.41</td><td></td></tr>
+<tr><td>369.</td><td>XML-SAX</td><td>0.99</td><td></td></tr>
+<tr><td>370.</td><td>XML-SAX-Base</td><td>1.08</td><td></td></tr>
+<tr><td>371.</td><td>XML-SAX-Expat</td><td>0.51</td><td></td></tr>
+<tr><td>372.</td><td>XML-Simple</td><td>2.20</td><td></td></tr>
+<tr><td>373.</td><td>YAML</td><td>1.12</td><td></td></tr>
+<tr><td>374.</td><td>YAML-LibYAML</td><td>0.52</td><td></td></tr>
+<tr><td>375.</td><td>YAML-Tiny</td><td>1.63</td><td></td></tr>
+</table>
+</div>
+
+<h3>List of external tools and libraries included in Strawberry Perl: <span class="switch"><a href="javascript:unhide('pkglist', 'pkglist_switch')" id="pkglist_switch">Collapse</a></span>
+<hr /></h3>
+<div id="pkglist" class="unhidden">
+<table>
+<tr><td><b>ID</b></td><td><b>Package</b></td><td><b>Homepage</b></td><td><b>Note</b></td></tr>
+<tr><td>1.</td><td>binutils-2.23.2</td><td><a href="http://www.gnu.org/software/binutils/">http://www.gnu.org/software/binutils/</a></td><td></td></tr>
+<tr><td>2.</td><td>db-6.0.30</td><td><a href="http://www.oracle.com/technetwork/database/berkeleydb/downloads/index.html">http://www.oracle.com/technetwork/database/berkeleydb/downloads/index.html</a></td><td></td></tr>
+<tr><td>3.</td><td>dmake-SVN20091127</td><td><a href="http://tools.openoffice.org/dmake/index.html">http://tools.openoffice.org/dmake/index.html</a></td><td></td></tr>
+<tr><td>4.</td><td>expat-2.1.0</td><td><a href="http://expat.sourceforge.net/">http://expat.sourceforge.net/</a></td><td></td></tr>
+<tr><td>5.</td><td>freeglut-2.8.1</td><td><a href="http://freeglut.sourceforge.net/">http://freeglut.sourceforge.net/</a></td><td></td></tr>
+<tr><td>6.</td><td>freetype-2.5.3</td><td><a href="http://www.freetype.org/">http://www.freetype.org/</a></td><td></td></tr>
+<tr><td>7.</td><td>gcc-4.7.3</td><td><a href="http://gcc.gnu.org/">http://gcc.gnu.org/</a></td><td></td></tr>
+<tr><td>8.</td><td>gdbm-1.10</td><td><a href="http://www.gnu.org/software/gdbm/">http://www.gnu.org/software/gdbm/</a></td><td></td></tr>
+<tr><td>9.</td><td>gendef-rev4724</td><td><a href="http://mingw-w64.sourceforge.net/">http://mingw-w64.sourceforge.net/</a></td><td></td></tr>
+<tr><td>10.</td><td>gfortran-4.7.3</td><td><a href="http://gcc.gnu.org/">http://gcc.gnu.org/</a></td><td></td></tr>
+<tr><td>11.</td><td>giflib-5.0.5</td><td><a href="http://giflib.sourceforge.net/">http://giflib.sourceforge.net/</a></td><td></td></tr>
+<tr><td>12.</td><td>gmp-5.1.3</td><td><a href="http://gmplib.org/">http://gmplib.org/</a></td><td></td></tr>
+<tr><td>13.</td><td>jpeg-9a</td><td><a href="http://www.ijg.org/">http://www.ijg.org/</a></td><td></td></tr>
+<tr><td>14.</td><td>libXpm-3.5.11</td><td><a href="http://www.freedesktop.org/wiki/Software/xlibs">http://www.freedesktop.org/wiki/Software/xlibs</a></td><td></td></tr>
+<tr><td>15.</td><td>libgd-2.1.0</td><td><a href="http://www.libgd.org/">http://www.libgd.org/</a></td><td></td></tr>
+<tr><td>16.</td><td>libiconv-1.14</td><td><a href="http://www.gnu.org/software/libiconv/">http://www.gnu.org/software/libiconv/</a></td><td></td></tr>
+<tr><td>17.</td><td>libpng-1.6.10</td><td><a href="http://www.libpng.org/pub/png/libpng.html">http://www.libpng.org/pub/png/libpng.html</a></td><td></td></tr>
+<tr><td>18.</td><td>libssh2-1.4.3</td><td><a href="http://www.libssh2.org">http://www.libssh2.org</a></td><td></td></tr>
+<tr><td>19.</td><td>libxml2-2.9.1</td><td><a href="http://xmlsoft.org/">http://xmlsoft.org/</a></td><td></td></tr>
+<tr><td>20.</td><td>libxslt-1.1.28</td><td><a href="http://xmlsoft.org/XSLT/">http://xmlsoft.org/XSLT/</a></td><td></td></tr>
+<tr><td>21.</td><td>make-3.82</td><td><a href="http://www.gnu.org/software/make/">http://www.gnu.org/software/make/</a></td><td></td></tr>
+<tr><td>22.</td><td>mingw-w64-stable-2.0.8-r5746</td><td><a href="http://mingw-w64.sourceforge.net/">http://mingw-w64.sourceforge.net/</a></td><td></td></tr>
+<tr><td>23.</td><td>mpc-1.0.2</td><td><a href="http://www.multiprecision.org/">http://www.multiprecision.org/</a></td><td></td></tr>
+<tr><td>24.</td><td>mpfr-3.1.2</td><td><a href="http://www.mpfr.org/">http://www.mpfr.org/</a></td><td></td></tr>
+<tr><td>25.</td><td>mysql-5.1.44</td><td><a href="http://www.mysql.com/">http://www.mysql.com/</a></td><td></td></tr>
+<tr><td>26.</td><td>openssl-1.0.1g</td><td><a href="http://www.openssl.org/">http://www.openssl.org/</a></td><td></td></tr>
+<tr><td>27.</td><td>patch-2.5.9-7</td><td><a href="http://gnuwin32.sourceforge.net/packages/patch.htm">http://gnuwin32.sourceforge.net/packages/patch.htm</a></td><td></td></tr>
+<tr><td>28.</td><td>pexports-0.44</td><td><a href="http://www.emmestech.com/software/pexports-0.43/download_pexports.html">http://www.emmestech.com/software/pexports-0.43/download_pexports.html</a></td><td></td></tr>
+<tr><td>29.</td><td>postgresql-9.3.4</td><td><a href="http://www.postgresql.org/">http://www.postgresql.org/</a></td><td></td></tr>
+<tr><td>30.</td><td>pthreads-win32-2.10.0</td><td><a href="http://sourceware.org/pthreads-win32/">http://sourceware.org/pthreads-win32/</a></td><td></td></tr>
+<tr><td>31.</td><td>t1lib-5.1.2</td><td><a href="http://www.t1lib.org/">http://www.t1lib.org/</a></td><td></td></tr>
+<tr><td>32.</td><td>tiff-4.0.3</td><td><a href="http://remotesensing.org/libtiff/">http://remotesensing.org/libtiff/</a></td><td></td></tr>
+<tr><td>33.</td><td>xz-5.0.5</td><td><a href="http://tukaani.org/xz/">http://tukaani.org/xz/</a></td><td></td></tr>
+<tr><td>34.</td><td>zlib-1.2.8</td><td><a href="http://www.zlib.net/">http://www.zlib.net/</a></td><td></td></tr>
+</table>
+</div>
+
+<h3>Version details: <span class="switch"><a href="javascript:unhide('verlist', 'verlist_switch')" id="verlist_switch">Collapse</a></span>
+<hr /></h3>
+<div id="verlist" class="unhidden">
+
+<h4>Perl version details:</h4>
+<pre>
+Summary of my perl5 (revision 5 version 18 subversion 4) configuration:
+   
+  Platform:
+    osname=MSWin32, osvers=6.3, archname=MSWin32-x86-multi-thread-64int
+    uname=&#39;Win32 strawberry-perl 5.18.4.1 #1 Thu Oct  2 12:10:29 2014 i386&#39;
+    config_args=&#39;undef&#39;
+    hint=recommended, useposix=true, d_sigaction=undef
+    useithreads=define, usemultiplicity=define
+    useperlio=define, d_sfio=undef, uselargefiles=define, usesocks=undef
+    use64bitint=define, use64bitall=undef, uselongdouble=undef
+    usemymalloc=n, bincompat5005=undef
+  Compiler:
+    cc=&#39;gcc&#39;, ccflags =&#39; -s -O2 -DWIN32  -DPERL_TEXTMODE_SCRIPTS -DPERL_IMPLICIT_CONTEXT -DPERL_IMPL
+ICIT_SYS -DUSE_PERLIO -fno-strict-aliasing -mms-bitfields&#39;,
+    optimize=&#39;-s -O2&#39;,
+    cppflags=&#39;-DWIN32&#39;
+    ccversion=&#39;&#39;, gccversion=&#39;4.7.3&#39;, gccosandvers=&#39;&#39;
+    intsize=4, longsize=4, ptrsize=4, doublesize=8, byteorder=12345678
+    d_longlong=define, longlongsize=8, d_longdbl=define, longdblsize=12
+    ivtype=&#39;long long&#39;, ivsize=8, nvtype=&#39;double&#39;, nvsize=8, Off_t=&#39;long long&#39;, lseeksize=8
+    alignbytes=8, prototype=define
+  Linker and Libraries:
+    ld=&#39;g++.exe&#39;, ldflags =&#39;-s -L&quot;C:\strawberry\perl\lib\CORE&quot; -L&quot;C:\strawberry\c\lib&quot;&#39;
+    libpth=C:\strawberry\c\lib C:\strawberry\c\i686-w64-mingw32\lib C:\strawberry\c\lib\gcc\i686-w64
+-mingw32\4.7.3
+    libs=-lmoldname -lkernel32 -luser32 -lgdi32 -lwinspool -lcomdlg32 -ladvapi32 -lshell32 -lole32 -
+loleaut32 -lnetapi32 -luuid -lws2_32 -lmpr -lwinmm -lversion -lodbc32 -lodbccp32 -lcomctl32
+    perllibs=-lmoldname -lkernel32 -luser32 -lgdi32 -lwinspool -lcomdlg32 -ladvapi32 -lshell32 -lole
+32 -loleaut32 -lnetapi32 -luuid -lws2_32 -lmpr -lwinmm -lversion -lodbc32 -lodbccp32 -lcomctl32
+    libc=, so=dll, useshrplib=true, libperl=libperl518.a
+    gnulibc_version=&#39;&#39;
+  Dynamic Linking:
+    dlsrc=dl_win32.xs, dlext=dll, d_dlsymun=undef, ccdlflags=&#39; &#39;
+    cccdlflags=&#39; &#39;, lddlflags=&#39;-mdll -s -L&quot;C:\strawberry\perl\lib\CORE&quot; -L&quot;C:\strawberry\c\lib&quot;&#39;
+
+
+Characteristics of this binary (from libperl): 
+  Compile-time options: HAS_TIMES HAVE_INTERP_INTERN MULTIPLICITY
+                        PERLIO_LAYERS PERL_DONT_CREATE_GVSV
+                        PERL_HASH_FUNC_ONE_AT_A_TIME_HARD
+                        PERL_IMPLICIT_CONTEXT PERL_IMPLICIT_SYS
+                        PERL_MALLOC_WRAP PERL_PRESERVE_IVUV PERL_SAWAMPERSAND
+                        USE_64_BIT_INT USE_ITHREADS USE_LARGE_FILES
+                        USE_LOCALE USE_LOCALE_COLLATE USE_LOCALE_CTYPE
+                        USE_LOCALE_NUMERIC USE_PERLIO USE_PERL_ATOF
+  Built under MSWin32
+  Compiled at Oct  2 2014 12:19:54
+  %ENV:
+    PERL_MM_USE_DEFAULT=&quot;0&quot;
+  @INC:
+    C:/strawberry/perl/site/lib
+    C:/strawberry/perl/vendor/lib
+    C:/strawberry/perl/lib
+    .
+
+</pre>
+<h4>Gcc version details:</h4>
+<pre>
+Using built-in specs.
+COLLECT_GCC=C:\strawberry\c\bin\gcc.exe
+COLLECT_LTO_WRAPPER=c:/strawberry/c/bin/../libexec/gcc/i686-w64-mingw32/4.7.3/lto-wrapper.exe
+Target: i686-w64-mingw32
+Configured with: ../../../src/gcc-4.7.3/configure --build=i686-w64-mingw32 --target=i686-w64-mingw32
+ --enable-languages=c,c++,fortran --enable-libgomp --enable-lto --enable-bootstrap --enable-checking
+=release --enable-version-specific-runtime-libs --disable-multilib --disable-nls --disable-win32-reg
+istry --disable-werror --with-pkgversion=&#39;release with patches / build 20130526 by strawberryperl.co
+m&#39; --with-sysroot=/gccbuild/prefix/mingw32 --with-gmp=/gccbuild/prefix/mingw32 --with-mpfr=/gccbuild
+/prefix/mingw32 --with-mpc=/gccbuild/prefix/mingw32 --with-ppl=/gccbuild/prefix/mingw32 --with-cloog
+=/gccbuild/prefix/mingw32 --enable-cloog-backend=isl --with-bugurl=http://mingwfp.znix.com --with-gn
+u-ld --disable-cloog-version-check --disable-ppl-version-check --prefix=/gccbuild/prefix/mingw32 --w
+ith-local-prefix=/gccbuild/prefix/mingw32 --with-libiconv-prefix=/gccbuild/prefix/mingw32
+Thread model: win32
+gcc version 4.7.3 (release with patches / build 20130526 by strawberryperl.com) 
+
+</pre>
+<h4>OpenSSL version details:</h4>
+<pre>
+OpenSSL 1.0.1g 7 Apr 2014
+built on: Tue Apr 15 12:40:16 CEST 2014
+platform: mingw
+options:  bn(64,32) rc4(8x,mmx) des(ptr,risc1,16,long) idea(int) blowfish(idx) 
+compiler: gcc -D_WINDLL -DOPENSSL_USE_APPLINK -DOPENSSL_PIC -DZLIB -DOPENSSL_THREADS -D_MT -DDSO_WIN
+32 -DL_ENDIAN -DWIN32_LEAN_AND_MEAN -fomit-frame-pointer -O3 -march=i486 -Wall -DOPENSSL_BN_ASM_PART
+_WORDS -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA
+512_ASM -DMD5_ASM -DRMD160_ASM -DAES_ASM -DVPAES_ASM -DWHIRLPOOL_ASM -DGHASH_ASM
+
+</pre>
+</div>
+<br />
+
+<script type="text/javascript">
+function unhide(divID, switchID) {
+  // Hide or unhide the available item.
+  var item = document.getElementById(divID);
+  if (item) {
+    item.className = ( item.className == 'hidden' ) ? 'unhidden' : 'hidden';
+  }
+  // Swap what the link says.
+  var switchitem = document.getElementById(switchID);
+  if (switchitem) {
+	switchitem.innerHTML = ( switchitem.innerHTML == 'Expand' ) ? 'Collapse' : 'Expand' ;
+	switchitem.className = 'switchon';
+  }
+}
+</script>
+<script type="text/javascript">
+  // Leave whatsnew expanded by default
+  var switchitem = document.getElementById('whatsnew_switch');
+  if (switchitem) {
+	switchitem.className = 'switchon';
+  }
+  // Shrink others.
+  unhide('issues', 'issues_switch');
+  unhide('distlist', 'distlist_switch');
+  unhide('pkglist', 'pkglist_switch');
+  unhide('verlist', 'verlist_switch');
+</script>
+
+
+</body>
+
+</html>
