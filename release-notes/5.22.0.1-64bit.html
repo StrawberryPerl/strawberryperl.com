@@ -2,10 +2,10 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
 <title>Strawberry Perl for Windows - 5.22.0.1-64bit Release Notes</title>
 
 <link rel="shortcut icon" type="image/vnd.microsoft.icon" href="http://strawberryperl.com/favicon.ico">
-<link rel="stylesheet" type="text/css" href="http://strawberryperl.com/common.css">
 <link rel="stylesheet" type="text/css" href="http://strawberryperl.com/main.css">
 
 <style>
@@ -31,15 +31,24 @@
 
 <img src="http://strawberryperl.com/images/320554_9491.jpg" alt="strawberries" width="357" height="728" border="0" align="right">
 <br /><h2>Strawberry Perl (5.22.0.1-64bit) Release Notes</h2>
-<p><i>Released: Jun 2 2015/ with support of our sponsor <a href="http://XXXX">XXXX</a></i></p>
+<p><i>Released: Jun 2 2015 / with support of our sponsor <a href="http://www.enlightenedperl.org">Enlightened Perl Organisation</a></i></p>
 <p>Check out what is new, what known issues there are, and frequently asked questions about this version of Strawberry Perl. As always, you're encouraged to tell us what you think.</p>
 
 <h3>What's new in this Strawberry Perl release: <span class="switch"><a href="javascript:unhide('whatsnew', 'whatsnew_switch')" id="whatsnew_switch">Collapse</a><br /></span>
 <hr /></h3>
 <div id="whatsnew">
 <ul>
-<li>XXX-TODO Put blurb here.</li>
-<li>XXX-TODO Put blurb here.</li>
+<li>New perl core 5.22.0 - see <a href="https://metacpan.org/pod/release/RJBS/perl-5.22.0/pod/perldelta.pod">what's new</a></li>
+<li>New gcc-4.9.2 toolchain + mingw-w64 v4.0.2 runtime
+<li>Updated external libraries</li>
+<li>There is a special portable version with extra math related libraries and pre-installed <a href="http://pdl.perl.org">PDL</a> - <a href="http://strawberryperl.com/download/5.22.0.1/strawberry-perl-5.22.0.1-64bit-PDL.zip">strawberry-perl-5.22.0.1-64bit-PDL.zip</a></li>
+</ul>
+Bundled database clients:
+<ul>
+<li>MySQL: <a href="https://metacpan.org/pod/DBD::mysql">DBD::mysql</a> - works out of box</li>
+<li>PostgreSQL: <a href="https://metacpan.org/pod/DBD::Pg">DBD::Pg</a> - works out of box</li>
+<li>Oracle: <a href="https://metacpan.org/pod/DBD::Oracle">DBD::Oracle</a> - install 64bit Oracle Instant Client 12.x and make sure you have OCI.DLL in your PATH</li>
+<li>MS SQL: <a href="https://metacpan.org/pod/DBD::ODBC">DBD::ODBC</a> - install SQL Server ODBC client</li>
 </ul>
 </div>
 
@@ -47,8 +56,10 @@
 <hr /></h3>
 <div id="issues">
 <ul>
-<li>XXX-TODO Put issues here.</li>
-<li>XXX-TODO Put issues here.</li>
+<li>MSI package is not signed</li>
+<li>The 64-bit version does not contain Math::Pari (#52146) + all dependants (e.g. Crypt::RSA, Crypt::Random)</li>
+<li>The following modules were excluded: pip, Win32::Exe, Crypt::CFB (mostly due to build failures)</li>
+<li>IPC::Run is broken <a href="https://rt.perl.org/Public/Bug/Display.html?id=125303">#125303</a></li>
 </ul>
 </div>
 
@@ -123,7 +134,7 @@
 <tr><td>64.</td><td>Crypt-DSA</td><td>1.17</td><td></td></tr>
 <tr><td>65.</td><td>Crypt-DSA-GMP</td><td>0.02</td><td></td></tr>
 <tr><td>66.</td><td>Crypt-IDEA</td><td>1.10</td><td></td></tr>
-<tr><td>67.</td><td>Crypt-OpenSSL-AES</td><td>0.03</td><td></td></tr>
+<tr><td>67.</td><td>Crypt-OpenSSL-AES</td><td>0.03</td><td>patched version</td></tr>
 <tr><td>68.</td><td>Crypt-OpenSSL-Bignum</td><td>0.06</td><td></td></tr>
 <tr><td>69.</td><td>Crypt-OpenSSL-DSA</td><td>0.15</td><td></td></tr>
 <tr><td>70.</td><td>Crypt-OpenSSL-Random</td><td>0.10</td><td></td></tr>
@@ -198,7 +209,7 @@
 <tr><td>139.</td><td>Exporter-Tiny</td><td>0.042</td><td></td></tr>
 <tr><td>140.</td><td>ExtUtils-Config</td><td>0.008</td><td></td></tr>
 <tr><td>141.</td><td>ExtUtils-Depends</td><td>0.404</td><td></td></tr>
-<tr><td>142.</td><td>ExtUtils-F77</td><td>1.17_01</td><td></td></tr>
+<tr><td>142.</td><td>ExtUtils-F77</td><td>1.17_01</td><td>patched version</td></tr>
 <tr><td>143.</td><td>ExtUtils-Helpers</td><td>0.022</td><td></td></tr>
 <tr><td>144.</td><td>ExtUtils-InstallPaths</td><td>0.011</td><td></td></tr>
 <tr><td>145.</td><td>ExtUtils-PkgConfig</td><td>1.15</td><td></td></tr>
@@ -368,14 +379,14 @@
 <tr><td>309.</td><td>Sub-Uplevel</td><td>0.25</td><td></td></tr>
 <tr><td>310.</td><td>syntax</td><td>0.004</td><td></td></tr>
 <tr><td>311.</td><td>Syntax-Keyword-Junction</td><td>0.003008</td><td></td></tr>
-<tr><td>312.</td><td>Sys-Syslog</td><td>0.33</td><td></td></tr>
+<tr><td>312.</td><td>Sys-Syslog</td><td>0.33</td><td>patched version</td></tr>
 <tr><td>313.</td><td>Task-Weaken</td><td>1.04</td><td></td></tr>
 <tr><td>314.</td><td>Template-Tiny</td><td>1.12</td><td></td></tr>
 <tr><td>315.</td><td>Template-Toolkit</td><td>2.26</td><td></td></tr>
 <tr><td>316.</td><td>Term-Cap</td><td>1.16</td><td></td></tr>
 <tr><td>317.</td><td>Term-ReadLine-Perl</td><td>1.0303</td><td></td></tr>
 <tr><td>318.</td><td>Term-UI</td><td>0.46</td><td></td></tr>
-<tr><td>319.</td><td>TermReadKey</td><td>2.31</td><td></td></tr>
+<tr><td>319.</td><td>TermReadKey</td><td>2.31</td><td>patched version</td></tr>
 <tr><td>320.</td><td>Test-Base</td><td>0.88</td><td></td></tr>
 <tr><td>321.</td><td>Test-CleanNamespaces</td><td>0.18</td><td></td></tr>
 <tr><td>322.</td><td>Test-Deep</td><td>0.115</td><td></td></tr>
@@ -413,7 +424,7 @@
 <tr><td>354.</td><td>V</td><td>0.13</td><td></td></tr>
 <tr><td>355.</td><td>Variable-Magic</td><td>0.57</td><td></td></tr>
 <tr><td>356.</td><td>version</td><td>0.9912</td><td></td></tr>
-<tr><td>357.</td><td>Win32-API</td><td>0.80</td><td></td></tr>
+<tr><td>357.</td><td>Win32-API</td><td>0.80</td><td>patched version</td></tr>
 <tr><td>358.</td><td>Win32-Console</td><td>0.10</td><td></td></tr>
 <tr><td>359.</td><td>Win32-Console-ANSI</td><td>1.08</td><td></td></tr>
 <tr><td>360.</td><td>Win32-Daemon</td><td>20131206</td><td></td></tr>
@@ -553,7 +564,6 @@ Characteristics of this binary (from libperl):
     C:/strawberry/perl/vendor/lib
     C:/strawberry/perl/lib
     .
-
 </pre>
 <h4>Gcc version details:</h4>
 <pre>
@@ -582,7 +592,6 @@ uild/x86_64-492-posix-sjlj-rt_v402/mingw64/opt/lib -L/opt/build/prerequisites/x8
  -L/opt/build/prerequisites/x86_64-w64-mingw32-static/lib &#39;
 Thread model: posix
 gcc version 4.9.2 (x86_64-posix-sjlj, built by strawberryperl.com project) 
-
 </pre>
 <h4>OpenSSL version details:</h4>
 <pre>
@@ -595,8 +604,6 @@ PENSSL_THREADS -D_MT -DDSO_WIN32 -DL_ENDIAN -O3 -Wall -DWIN32_LEAN_AND_MEAN -DUN
 PENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA
 256_ASM -DSHA512_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DWHIRLPOOL_ASM -DGHASH_ASM -DECP_N
 ISTZ256_ASM
-WARNING: can&#39;t open config file: /z/extlib/_2015Q2__/ssl/openssl.cnf
-
 </pre>
 </div>
 <br />
