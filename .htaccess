@@ -3,4 +3,4 @@ RewriteEngine On
 RewriteRule ^strawberry-perl-.* / [L,R=301]
 RewriteRule ^beta(/.*)?$ /beta.html [L,R=301]
 RedirectMatch 403 /\..*$
-
+AddType application/json .json
