@@ -2512,7 +2512,6 @@
       },
       "name" : "Apr 2009 / 5.10.0.5 / 32bit / without USE_64_BIT_INT",
       "numver" : 5.010000005,
-      "relnotes" : "http://strawberryperl.com/release-notes/5.10.0.5.html",
       "version" : "5.10.0.5"
    },
    {
@@ -2528,7 +2527,6 @@
       },
       "name" : "Apr 2009 / 5.8.9.1 / 32bit / without USE_64_BIT_INT",
       "numver" : 5.008009001,
-      "relnotes" : "http://strawberryperl.com/release-notes/5.8.9.1.html",
       "version" : "5.8.9.1"
    },
    {
@@ -2544,7 +2542,6 @@
       },
       "name" : "Jan 2009 / 5.10.0.4 / 32bit / without USE_64_BIT_INT",
       "numver" : 5.010000004,
-      "relnotes" : "http://strawberryperl.com/release-notes/5.10.0.4.html",
       "version" : "5.10.0.4"
    },
    {
@@ -2560,7 +2557,6 @@
       },
       "name" : "Jan 2009 / 5.8.8.4 / 32bit / without USE_64_BIT_INT",
       "numver" : 5.008008004,
-      "relnotes" : "http://strawberryperl.com/release-notes/5.8.8.4.html",
       "version" : "5.8.8.4"
    },
    {
@@ -2576,7 +2572,6 @@
       },
       "name" : "Oct 2008 / 5.10.0.3 / 32bit / without USE_64_BIT_INT",
       "numver" : 5.010000003,
-      "relnotes" : "http://strawberryperl.com/release-notes/5.10.0.3.html",
       "version" : "5.10.0.3"
    },
    {
@@ -2592,7 +2587,6 @@
       },
       "name" : "Oct 2008 / 5.8.8.3 / 32bit / without USE_64_BIT_INT",
       "numver" : 5.008008003,
-      "relnotes" : "http://strawberryperl.com/release-notes/5.8.8.3.html",
       "version" : "5.8.8.3"
    },
    {
@@ -2608,7 +2602,6 @@
       },
       "name" : "Aug 2008 / 5.10.0.2 / 32bit / without USE_64_BIT_INT",
       "numver" : 5.010000002,
-      "relnotes" : "http://strawberryperl.com/release-notes/5.10.0.2.html",
       "version" : "5.10.0.2"
    },
    {
@@ -2624,7 +2617,6 @@
       },
       "name" : "Aug 2008 / 5.8.8.2 / 32bit / without USE_64_BIT_INT",
       "numver" : 5.008008002,
-      "relnotes" : "http://strawberryperl.com/release-notes/5.8.8.2.html",
       "version" : "5.8.8.2"
    }
 ]
