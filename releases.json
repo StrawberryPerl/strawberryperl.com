@@ -28,7 +28,7 @@
             "url" : "http://strawberryperl.com/download/5.24.1.1/strawberry-perl-5.24.1.1-64bit.zip"
          }
       },
-      "name" : "January 2017 / 5.24.1.1 / 64bit",
+      "name" : "Jan 2017 / 5.24.1.1 / 64bit",
       "numver" : "5.024001001",
       "relnotes" : "http://strawberryperl.com/release-notes/5.24.1.1-64bit.html",
       "version" : "5.24.1.1"
@@ -62,7 +62,7 @@
             "url" : "http://strawberryperl.com/download/5.24.1.1/strawberry-perl-5.24.1.1-32bit.zip"
          }
       },
-      "name" : "January 2017 / 5.24.1.1 / 32bit / with USE_64_BIT_INT",
+      "name" : "Jan 2017 / 5.24.1.1 / 32bit / with USE_64_BIT_INT",
       "numver" : "5.024001001",
       "relnotes" : "http://strawberryperl.com/release-notes/5.24.1.1-32bit.html",
       "version" : "5.24.1.1"
@@ -84,7 +84,7 @@
             "url" : "http://strawberryperl.com/download/5.24.1.1/strawberry-perl-no64-5.24.1.1-32bit.zip"
          }
       },
-      "name" : "January 2017 / 5.24.1.1 / 32bit / without USE_64_BIT_INT",
+      "name" : "Jan 2017 / 5.24.1.1 / 32bit / without USE_64_BIT_INT",
       "numver" : "5.024001001",
       "version" : "5.24.1.1"
    },
@@ -99,7 +99,7 @@
             "url" : "http://strawberryperl.com/download/5.24.1.1/strawberry-perl-ld-5.24.1.1-64bit-PDL.zip"
          }
       },
-      "name" : "January 2017 / 5.24.1.1 / 64bit / with USE_LONG_DOUBLE",
+      "name" : "Jan 2017 / 5.24.1.1 / 64bit / with USE_LONG_DOUBLE",
       "numver" : "5.024001001",
       "version" : "5.24.1.1"
    },
@@ -132,7 +132,7 @@
             "url" : "http://strawberryperl.com/download/5.22.3.1/strawberry-perl-5.22.3.1-64bit.zip"
          }
       },
-      "name" : "January 2017 / 5.22.3.1 / 64bit",
+      "name" : "Jan 2017 / 5.22.3.1 / 64bit",
       "numver" : "5.022003001",
       "relnotes" : "http://strawberryperl.com/release-notes/5.22.3.1-64bit.html",
       "version" : "5.22.3.1"
@@ -166,7 +166,7 @@
             "url" : "http://strawberryperl.com/download/5.22.3.1/strawberry-perl-5.22.3.1-32bit.zip"
          }
       },
-      "name" : "January 2017 / 5.22.3.1 / 32bit / with USE_64_BIT_INT",
+      "name" : "Jan 2017 / 5.22.3.1 / 32bit / with USE_64_BIT_INT",
       "numver" : "5.022003001",
       "relnotes" : "http://strawberryperl.com/release-notes/5.22.3.1-32bit.html",
       "version" : "5.22.3.1"
@@ -188,7 +188,7 @@
             "url" : "http://strawberryperl.com/download/5.22.3.1/strawberry-perl-no64-5.22.3.1-32bit.zip"
          }
       },
-      "name" : "January 2017 / 5.22.3.1 / 32bit / without USE_64_BIT_INT",
+      "name" : "Jan 2017 / 5.22.3.1 / 32bit / without USE_64_BIT_INT",
       "numver" : "5.022003001",
       "version" : "5.22.3.1"
    },
@@ -203,7 +203,7 @@
             "url" : "http://strawberryperl.com/download/5.22.3.1/strawberry-perl-ld-5.22.3.1-64bit-PDL.zip"
          }
       },
-      "name" : "January 2017 / 5.22.3.1 / 64bit / with USE_LONG_DOUBLE",
+      "name" : "Jan 2017 / 5.22.3.1 / 64bit / with USE_LONG_DOUBLE",
       "numver" : "5.022003001",
       "version" : "5.22.3.1"
    },
