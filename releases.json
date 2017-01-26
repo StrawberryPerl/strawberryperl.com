@@ -1142,9 +1142,9 @@
             "url" : "http://strawberryperl.com/download/5.18.4.1/strawberry-perl-5.18.4.1-64bit.msi"
          },
          "portable" : {
-            "sha1" : "653d616d779e0ede4ed84c4a146393ffc73a84d6",
-            "sha256" : "a8166845a46cde42a5c136bf53b561940e4c567fc243727d770f44e46c781eec",
-            "size" : 106766868,
+            "sha1" : "e396258ce08a22d102540315e8df67e5a0a17bb8",
+            "sha256" : "c7f9777c9ee8600c8e43e06d0a5a66eaa3f1a16ae04906b3abc9c23548a620ed",
+            "size" : 111680546,
             "url" : "http://strawberryperl.com/download/5.18.4.1/strawberry-perl-5.18.4.1-64bit-portable.zip"
          },
          "zip" : {
@@ -1164,9 +1164,9 @@
       "date" : "2014-10-02",
       "edition" : {
          "portable" : {
-            "sha1" : "4b8c581a7fb0450315fe636930b7b2aaaa031f37",
-            "sha256" : "c7ce1471fca09d58c918428e668f5709350dc560cb99bada6ffadd17d19ee69d",
-            "size" : 98313955,
+            "sha1" : "7e02e8fc30614f001ebdaebbe3e5e21a3c9aef59",
+            "sha256" : "6a5da46a952413eff0a023d00ca7408249e3d828b098dbf1234f12e1066369b6",
+            "size" : 102733394,
             "url" : "http://strawberryperl.com/download/5.18.4.1/strawberry-perl-no64-5.18.4.1-32bit-portable.zip"
          },
          "zip" : {
@@ -1192,9 +1192,9 @@
             "url" : "http://strawberryperl.com/download/5.18.4.1/strawberry-perl-5.18.4.1-32bit.msi"
          },
          "portable" : {
-            "sha1" : "1b4e3c72022d8b195b1fc3bd547e4749b10c68de",
-            "sha256" : "825af596c2473360831549d9d4b2d7c7d536ade6a9f75f29e2d2d012a3fd093b",
-            "size" : 98432007,
+            "sha1" : "8ff44654df738d5750be070d4801d14a7f49541b",
+            "sha256" : "e7ded0a414b021dea369ec3f2d61fedc3a46c2ac0da09d825d2302f366932fcc",
+            "size" : 102857580,
             "url" : "http://strawberryperl.com/download/5.18.4.1/strawberry-perl-5.18.4.1-32bit-portable.zip"
          },
          "zip" : {
@@ -1400,9 +1400,9 @@
             "url" : "http://strawberryperl.com/download/5.18.2.2/strawberry-perl-5.18.2.2-64bit.msi"
          },
          "portable" : {
-            "sha1" : "011d0323db6d3f4dda8cc559e69d68dd89758767",
-            "sha256" : "8a584ba36d496c4978645564f3d7ef16acdbe74c410f3f8c733bbbc4623fff5e",
-            "size" : 106442510,
+            "sha1" : "4ac194f1d63b7eb260b172d8067a786f479e1386",
+            "sha256" : "03f1fa5131ac91da0f333ee6f9d89e23cf4cda5e5918f0fc51f6c1e1a344407c",
+            "size" : 111347428,
             "url" : "http://strawberryperl.com/download/5.18.2.2/strawberry-perl-5.18.2.2-64bit-portable.zip"
          },
          "zip" : {
@@ -1422,9 +1422,9 @@
       "date" : "2014-04-15",
       "edition" : {
          "portable" : {
-            "sha1" : "6d821d8d70803b18d0e0261e1c4ae7e19bd9fd2a",
-            "sha256" : "c0bdd0305f60fa653c5116b635f75709674f1e11240d0b9cce7ae4ad2150e2fe",
-            "size" : 98007234,
+            "sha1" : "f5b7b19c70b469918989df7ccb7eaf9f0250fb03",
+            "sha256" : "688a6cd88f2805ca091e31ece21f4bbad223bcacd5d7d19d2903da269d338ce5",
+            "size" : 102419581,
             "url" : "http://strawberryperl.com/download/5.18.2.2/strawberry-perl-no64-5.18.2.2-32bit-portable.zip"
          },
          "zip" : {
@@ -1450,9 +1450,9 @@
             "url" : "http://strawberryperl.com/download/5.18.2.2/strawberry-perl-5.18.2.2-32bit.msi"
          },
          "portable" : {
-            "sha1" : "6ae2917e0e1107fc82c2747d2354f9153d5953a5",
-            "sha256" : "7af16f61fe950487c1660a3af7d7f3cacaeeadcf733f895d60ed92333da0d6c0",
-            "size" : 98091712,
+            "sha1" : "d5dce76eea24d12a03fe3ebd6012e1c1c9f6afba",
+            "sha256" : "f7254f061a08cca92d571c7dae895ec6c6a6cba113c1ef4c61632a384f8d07f2",
+            "size" : 102508204,
             "url" : "http://strawberryperl.com/download/5.18.2.2/strawberry-perl-5.18.2.2-32bit-portable.zip"
          },
          "zip" : {
@@ -1478,9 +1478,9 @@
             "url" : "http://strawberryperl.com/download/5.18.2.1/strawberry-perl-5.18.2.1-64bit.msi"
          },
          "portable" : {
-            "sha1" : "51a3e7ac8b87d8908674889b20f3cbb1265bf480",
-            "sha256" : "4ee94edcacfa575be2bb69ec12d1fd142719570a4fda396ed4208fd6edea90be",
-            "size" : 107321784,
+            "sha1" : "78447b49b9e3c03ac037f56a177eaf95175ec06f",
+            "sha256" : "cbcd147bf37412ce6067fb49cd2a5784b0b9a292283ea65ea373f78fbb9ed9af",
+            "size" : 112309197,
             "url" : "http://strawberryperl.com/download/5.18.2.1/strawberry-perl-5.18.2.1-64bit-portable.zip"
          },
          "zip" : {
@@ -1500,9 +1500,9 @@
       "date" : "2014-01-08",
       "edition" : {
          "portable" : {
-            "sha1" : "18c9ae8c05ab4e03e664bd9773dbe9ab5b4c2a59",
-            "sha256" : "8fd64452b256690319ae0ed2d210cb7b97e7df3e6d9113f3415073b9e8fc4c36",
-            "size" : 100117233,
+            "sha1" : "ea09c306b13368fa3af154e2126c980fe55dd8c9",
+            "sha256" : "0c6f9cd8d2fe553b18440401f412bfc99770d5f6e71197c848ffcc3514225e23",
+            "size" : 104649023,
             "url" : "http://strawberryperl.com/download/5.18.2.1/strawberry-perl-no64-5.18.2.1-32bit-portable.zip"
          },
          "zip" : {
@@ -1528,9 +1528,9 @@
             "url" : "http://strawberryperl.com/download/5.18.2.1/strawberry-perl-5.18.2.1-32bit.msi"
          },
          "portable" : {
-            "sha1" : "a341aa0615652f51330fa47650295180ebbe321d",
-            "sha256" : "d32c5a23a1552ee9018c68ee13ece836efc5da76bb0839b22b54ac1b9611a33e",
-            "size" : 100444157,
+            "sha1" : "1000f2177164abe31f889e8eb5143c3243d5eba6",
+            "sha256" : "e87ed6735b9f0ee862b2276c3801a73756258969cfd4937667c8b8756554d487",
+            "size" : 104984752,
             "url" : "http://strawberryperl.com/download/5.18.2.1/strawberry-perl-5.18.2.1-32bit-portable.zip"
          },
          "zip" : {
@@ -1556,9 +1556,9 @@
             "url" : "http://strawberryperl.com/download/5.18.1.1/strawberry-perl-5.18.1.1-64bit.msi"
          },
          "portable" : {
-            "sha1" : "f6e12e83d38b950b1998841406a18cf64a61c54d",
-            "sha256" : "7d3ddbcaeace04e80c61987fe8330514197c1203d329392867a5b2426054a4a0",
-            "size" : 107730707,
+            "sha1" : "3345dfea0d321db7023d08eac9ac4c8c5fcdb623",
+            "sha256" : "af14fa9ad192ef39cf5872442afc5e1fd0fd052e7ee552c21b13a9036f4edd59",
+            "size" : 112767013,
             "url" : "http://strawberryperl.com/download/5.18.1.1/strawberry-perl-5.18.1.1-64bit-portable.zip"
          },
          "zip" : {
@@ -1584,9 +1584,9 @@
             "url" : "http://strawberryperl.com/download/5.18.1.1/strawberry-perl-5.18.1.1-32bit.msi"
          },
          "portable" : {
-            "sha1" : "a12f701d836299deaa8f915dd2890e0f20854ba4",
-            "sha256" : "e4820a532e3fd55ef833de62275ae523d17633c81d2e1a8e6b39ea660f4a8738",
-            "size" : 100659762,
+            "sha1" : "e349d0ec212462e39828bc2431b74544f471ab0b",
+            "sha256" : "6f00396eb4fd3ef9b1a04f0e7b9c83f1be079d4326d3f336a284b7a895c83db5",
+            "size" : 105236534,
             "url" : "http://strawberryperl.com/download/5.18.1.1/strawberry-perl-5.18.1.1-32bit-portable.zip"
          },
          "zip" : {
@@ -1612,9 +1612,9 @@
             "url" : "http://strawberryperl.com/download/5.18.0.1/strawberry-perl-5.18.0.1-64bit.msi"
          },
          "portable" : {
-            "sha1" : "3266cddc325802eff587503d8c6d0d86948a2aba",
-            "sha256" : "ab51ab179c18757dfda242f97d773f991c2131eefb1127ee25f210cde098e49f",
-            "size" : 94105992,
+            "sha1" : "4a839d2d7a253ad25b1ca4b3ac26b8e88bd86cac",
+            "sha256" : "279012a1ccc9462342384b93171dd1737312c2da97631287fa7631965a5be4fa",
+            "size" : 98259506,
             "url" : "http://strawberryperl.com/download/5.18.0.1/strawberry-perl-5.18.0.1-64bit-portable.zip"
          },
          "zip" : {
@@ -1640,9 +1640,9 @@
             "url" : "http://strawberryperl.com/download/5.18.0.1/strawberry-perl-5.18.0.1-32bit.msi"
          },
          "portable" : {
-            "sha1" : "b8dd01a995f51c2915d316d76a569d61337531ec",
-            "sha256" : "a1ec4094b828c1784570e124b274f0e155e676f754d9fc17da0154600d647e0a",
-            "size" : 87590913,
+            "sha1" : "7250860dcf0992748924aad9401b681079ddc238",
+            "sha256" : "8a68764675539b11190254a914046d50fdae1fcb4cc8d7ff1f23147a5ac46bd4",
+            "size" : 91326135,
             "url" : "http://strawberryperl.com/download/5.18.0.1/strawberry-perl-5.18.0.1-32bit-portable.zip"
          },
          "zip" : {
@@ -1668,9 +1668,9 @@
             "url" : "http://strawberryperl.com/download/5.16.3.1/strawberry-perl-5.16.3.1-64bit.msi"
          },
          "portable" : {
-            "sha1" : "80c09bd7178becb01825aab0b96cc09e11e93cc0",
-            "sha256" : "0e846d5af4afbb596e3c1f47d5e66abd339e5bb49f3048a5887eb5c9f77fbb3b",
-            "size" : 93704488,
+            "sha1" : "d5ce587a76ecaf1a9f4c331021d57347c56c6a8d",
+            "sha256" : "d7f5f67af6d7050eaad69f3df47bbc2394b719450cb3a90fa68edf6d225c883e",
+            "size" : 97855869,
             "url" : "http://strawberryperl.com/download/5.16.3.1/strawberry-perl-5.16.3.1-64bit-portable.zip"
          },
          "zip" : {
@@ -1696,9 +1696,9 @@
             "url" : "http://strawberryperl.com/download/5.16.3.1/strawberry-perl-5.16.3.1-32bit.msi"
          },
          "portable" : {
-            "sha1" : "7f6da2c3e1b7a808f27969976777f47a7a7c6544",
-            "sha256" : "e108bdc5fc51f40a6ec79dbe71b17e78635feff7fa0666393dca2abc857c9f69",
-            "size" : 87256059,
+            "sha1" : "00ba29e351e2f74a7dbceaad5d9bc20159dd7003",
+            "sha256" : "86e73b646f2af72bfa7c9500d83c16e2549b14fa1caaa2a1cea9402eb6d5b6a9",
+            "size" : 90991932,
             "url" : "http://strawberryperl.com/download/5.16.3.1/strawberry-perl-5.16.3.1-32bit-portable.zip"
          },
          "zip" : {
@@ -1724,9 +1724,9 @@
             "url" : "http://strawberryperl.com/download/5.14.4.1/strawberry-perl-5.14.4.1-64bit.msi"
          },
          "portable" : {
-            "sha1" : "1a307e455de7ba60b8ba5a8fab6ad47d56058842",
-            "sha256" : "2750fc88cb21699d99fca90aaa05220bd7658ffdc9da9607ca63bca5270d4ed3",
-            "size" : 93744091,
+            "sha1" : "45d958931211679f6f62d3c573149514e4f46d8d",
+            "sha256" : "f1843fcd272534aa842ba77a84fcc4db1bddccf1ede704fbe6936087fb2fc7d2",
+            "size" : 97878276,
             "url" : "http://strawberryperl.com/download/5.14.4.1/strawberry-perl-5.14.4.1-64bit-portable.zip"
          },
          "zip" : {
@@ -1752,9 +1752,9 @@
             "url" : "http://strawberryperl.com/download/5.14.4.1/strawberry-perl-5.14.4.1-32bit.msi"
          },
          "portable" : {
-            "sha1" : "ce6df67a45f11b3100dff586efb1680f7c2613e3",
-            "sha256" : "802a89e0a120b148febef58169930d1c06f118d4e2f64efc5ea665f1dff4d707",
-            "size" : 87295787,
+            "sha1" : "e6808c5fdd0409dfc5eb6fb68b519eebffd83d68",
+            "sha256" : "a82d69dec0a52ea2f6914bfd04d509ddb5cbc80631eb7bb6c0407b3966243e8d",
+            "size" : 91015804,
             "url" : "http://strawberryperl.com/download/5.14.4.1/strawberry-perl-5.14.4.1-32bit-portable.zip"
          },
          "zip" : {
@@ -1780,9 +1780,9 @@
             "url" : "http://strawberryperl.com/download/5.16.2.2/strawberry-perl-5.16.2.2-64bit.msi"
          },
          "portable" : {
-            "sha1" : "2399ee476dde1b0694b468cdbb63021d8b05227e",
-            "sha256" : "c781a0615babd188774ed30858ddfc74c56fcdb8fc0bac1541db1215cc417e26",
-            "size" : 93666293,
+            "sha1" : "3c255adf9fecc07c857948417d41b5f335a37a60",
+            "sha256" : "c1f506f7e12cdf7c1d1a17602a2f653e1d1061208dbf8592813db20ffc98364d",
+            "size" : 97816167,
             "url" : "http://strawberryperl.com/download/5.16.2.2/strawberry-perl-5.16.2.2-64bit-portable.zip"
          },
          "zip" : {
@@ -1808,9 +1808,9 @@
             "url" : "http://strawberryperl.com/download/5.16.2.2/strawberry-perl-5.16.2.2-32bit.msi"
          },
          "portable" : {
-            "sha1" : "9635d4bdcbf4add82fa88ef3e8e909b8e5874e06",
-            "sha256" : "3e47a782f4735713486ee21002b6cd2e440de59760432d3e616028e70b575768",
-            "size" : 87217573,
+            "sha1" : "8172a78bd47c35357b91fdc2332b29eb45e37fe6",
+            "sha256" : "c77ab226656bded0cd1de0c9ed3eaf432559069751e360cf5ca3367ffc5330c7",
+            "size" : 90951879,
             "url" : "http://strawberryperl.com/download/5.16.2.2/strawberry-perl-5.16.2.2-32bit-portable.zip"
          },
          "zip" : {
@@ -1836,9 +1836,9 @@
             "url" : "http://strawberryperl.com/download/5.16.2.1/strawberry-perl-5.16.2.1-64bit.msi"
          },
          "portable" : {
-            "sha1" : "ba3c3cc3ef01cd0f403a8735357126f6c2b52bf6",
-            "sha256" : "8cd00f7d0463807cba9929ba37288a0f5d6334ce64f18de05dc57367d8dd8c3f",
-            "size" : 93310977,
+            "sha1" : "7067eacef8dae2a8cee4dbb85be1d821cf895364",
+            "sha256" : "ba357e87e53c3d1e8b9367ea6ea40899de69a962dd11400624bd092beb153a14",
+            "size" : 97451098,
             "url" : "http://strawberryperl.com/download/5.16.2.1/strawberry-perl-5.16.2.1-64bit-portable.zip"
          },
          "zip" : {
@@ -1864,9 +1864,9 @@
             "url" : "http://strawberryperl.com/download/5.16.2.1/strawberry-perl-5.16.2.1-32bit.msi"
          },
          "portable" : {
-            "sha1" : "4b84e141af7431cfc23f9bc9c4cd3e7b32f8184e",
-            "sha256" : "807b3a179a8747667eeab5f49ae44266e5c26d81a8c03d619ac3f95949574898",
-            "size" : 86888771,
+            "sha1" : "3a02223ef5b3dcf6b2d0c555d1b3835dd28b8742",
+            "sha256" : "ed2b43f13339e5ee8aa4f5a43197ee9fed079f6cff05e33e5ec7fb31e98f40b3",
+            "size" : 90614399,
             "url" : "http://strawberryperl.com/download/5.16.2.1/strawberry-perl-5.16.2.1-32bit-portable.zip"
          },
          "zip" : {
@@ -1892,9 +1892,9 @@
             "url" : "http://strawberryperl.com/download/5.14.3.1/strawberry-perl-5.14.3.1-64bit.msi"
          },
          "portable" : {
-            "sha1" : "7d9d1fc7fe7f785200a73716cf2d177f40f9aeef",
-            "sha256" : "ca0d10d8a5e8ae8ae4ae99e98047b897c9789c58e03ca4d1fedb75d5ffd90fc3",
-            "size" : 92944291,
+            "sha1" : "861a608f78c4c33262592c24b1e55d7987b66dd2",
+            "sha256" : "5351acd1849d38514a69c9c7593a8274a06effaf792bda0f8e3240f237b91ab0",
+            "size" : 97049921,
             "url" : "http://strawberryperl.com/download/5.14.3.1/strawberry-perl-5.14.3.1-64bit-portable.zip"
          },
          "zip" : {
@@ -1920,9 +1920,9 @@
             "url" : "http://strawberryperl.com/download/5.14.3.1/strawberry-perl-5.14.3.1-32bit.msi"
          },
          "portable" : {
-            "sha1" : "bdc92884523cd66f49aec96f8c436201da2fdc3a",
-            "sha256" : "95091ace29e523b54c9a05b6a564d0d3c7a16cdc9629e8f748c443903aa0e64f",
-            "size" : 86532030,
+            "sha1" : "3b154581bc27b060a1529156669fc047c77e5d39",
+            "sha256" : "fe15c4dd85c6682e19616faac24bffa4cb8cd211f950ec03385dc98ea742acd7",
+            "size" : 90223841,
             "url" : "http://strawberryperl.com/download/5.14.3.1/strawberry-perl-5.14.3.1-32bit-portable.zip"
          },
          "zip" : {
@@ -1948,9 +1948,9 @@
             "url" : "http://strawberryperl.com/download/5.16.1.1/strawberry-perl-5.16.1.1-64bit.msi"
          },
          "portable" : {
-            "sha1" : "6f31bafc99cd805933ee782f432e3bbdea77049f",
-            "sha256" : "c294f76d1cfdeeb1501ce60186fa3e9c8d433c627156735ec2897a0f5d97a499",
-            "size" : 91128668,
+            "sha1" : "85621d8c00f97bd3960656d4f6c9ff430b03ec7b",
+            "sha256" : "414e9be9463d3ff912067594bcc43b82fb1d75431befbd1175e9d69d6931ccbc",
+            "size" : 95187499,
             "url" : "http://strawberryperl.com/download/5.16.1.1/strawberry-perl-5.16.1.1-64bit-portable.zip"
          },
          "zip" : {
@@ -1976,9 +1976,9 @@
             "url" : "http://strawberryperl.com/download/5.16.1.1/strawberry-perl-5.16.1.1-32bit.msi"
          },
          "portable" : {
-            "sha1" : "382604f994db37abf43d24ab90ae10154b45ad91",
-            "sha256" : "4bb01f2e940a617c5e773d6969d62b54cc022556faaeb6bc943fa3b4a8e87cd6",
-            "size" : 84849702,
+            "sha1" : "78f3ec03a575651a060291aca363103c4fcfef31",
+            "sha256" : "2025859a271f46a74513b24246c0391982082c83f454ea8fc23bbb915ab31ae2",
+            "size" : 88510131,
             "url" : "http://strawberryperl.com/download/5.16.1.1/strawberry-perl-5.16.1.1-32bit-portable.zip"
          },
          "zip" : {
@@ -2004,9 +2004,9 @@
             "url" : "http://strawberryperl.com/download/5.16.0.1/strawberry-perl-5.16.0.1-64bit.msi"
          },
          "portable" : {
-            "sha1" : "6c3a1400c21c19ceebe97496d36b8e635d37abb4",
-            "sha256" : "d98690fece04476f793da2b699114277ce916fb0c2fc9fcbfd92638fc32754e6",
-            "size" : 90869652,
+            "sha1" : "506151cd8cc1385fa2cf94e84e91881776a5ff25",
+            "sha256" : "9f0f11897c2ac918e19af386261810c7564475d2ebd0cd3faf4da656d9359bef",
+            "size" : 94919282,
             "url" : "http://strawberryperl.com/download/5.16.0.1/strawberry-perl-5.16.0.1-64bit-portable.zip"
          },
          "zip" : {
@@ -2032,9 +2032,9 @@
             "url" : "http://strawberryperl.com/download/5.16.0.1/strawberry-perl-5.16.0.1-32bit.msi"
          },
          "portable" : {
-            "sha1" : "7fbb6ce17657258887fc09352043d8dcc30223f8",
-            "sha256" : "2f142ca0a4441da18957a8810e2d4e7739a2082ce9a7a4fdea1503257d133fea",
-            "size" : 84584888,
+            "sha1" : "9f84fb0130dee9c175af6a506022636baaf5ae22",
+            "sha256" : "59927fc2caeff456cf1c53ed227f54ea0184546557c3d8e3b55d6aa679bb07de",
+            "size" : 88236738,
             "url" : "http://strawberryperl.com/download/5.16.0.1/strawberry-perl-5.16.0.1-32bit-portable.zip"
          },
          "zip" : {
@@ -2060,9 +2060,9 @@
             "url" : "http://strawberryperl.com/download/5.14.2.1/strawberry-perl-5.14.2.1-64bit.msi"
          },
          "portable" : {
-            "sha1" : "bd994d585d63f35eb6ccf9ebc978dc36250d22ad",
-            "sha256" : "0525bd74bb9d6cff8fd09c3a08e4759d41369f668be206b6eae9b6c857b81c98",
-            "size" : 61496361,
+            "sha1" : "f5faec67f6eccc6506f4787d5eace930d12695e3",
+            "sha256" : "ab897d3cad56adc5d0d5e4c19c041c1fe5e7191483e6eb9ce3908ae25df74619",
+            "size" : 64071220,
             "url" : "http://strawberryperl.com/download/5.14.2.1/strawberry-perl-5.14.2.1-64bit-portable.zip"
          },
          "zip" : {
@@ -2088,9 +2088,9 @@
             "url" : "http://strawberryperl.com/download/5.14.2.1/strawberry-perl-5.14.2.1-32bit.msi"
          },
          "portable" : {
-            "sha1" : "e266aadf4510f36ce44a3886de67f925692dbca5",
-            "sha256" : "d7ed6dacae45a41c5a53677a0f70ba6050f381635378de2b93310c47d3885bf1",
-            "size" : 57357990,
+            "sha1" : "bee13bab8096a3bd2cd1242bd1d981e86400232a",
+            "sha256" : "8d3b7f0fb58658ed5f644fb799e9548af424fd9f770d59f23f79adb579d8de4b",
+            "size" : 59824660,
             "url" : "http://strawberryperl.com/download/5.14.2.1/strawberry-perl-5.14.2.1-32bit-portable.zip"
          },
          "zip" : {
@@ -2116,9 +2116,9 @@
             "url" : "http://strawberryperl.com/download/5.12.3.0/strawberry-perl-5.12.3.0-64bit.msi"
          },
          "portable" : {
-            "sha1" : "0e267fc2cf5a16126da6f9520cc7664db63d2b57",
-            "sha256" : "b273db04ac40a889a79ef5d51cef2b5ac96ef0979b255ee4dc1afbe1b0fb0070",
-            "size" : 54669542,
+            "sha1" : "309ad7a9ba74614fcd0c65bff7ea4400c10fa92f",
+            "sha256" : "313233f7bc3bb24e1bf50ba44a03a2e420ea2adb81c33236a6762b68892e9886",
+            "size" : 57051612,
             "url" : "http://strawberryperl.com/download/5.12.3.0/strawberry-perl-5.12.3.0-portable.zip"
          },
          "zip" : {
@@ -2166,9 +2166,9 @@
             "url" : "http://strawberryperl.com/download/5.12.2.0/strawberry-perl-5.12.2.0-64bit.msi"
          },
          "portable" : {
-            "sha1" : "96030dd1e1c4bd695e3074be486291cbe5f14549",
-            "sha256" : "697bbc4372ea883d776a269a3e8c4ac57871a6cad4a59bd9b3c502784c2c7604",
-            "size" : 55507303,
+            "sha1" : "a9cb634d734a3246db2a5d4cda1bfa107413bb7d",
+            "sha256" : "d17c69a0b325a561a6209acb4b72bff03448e3be129374a740fc100b924ea43b",
+            "size" : 57915951,
             "url" : "http://strawberryperl.com/download/5.12.2.0/strawberry-perl-5.12.2.0-portable.zip"
          },
          "zip" : {
@@ -2216,9 +2216,9 @@
             "url" : "http://strawberryperl.com/download/5.12.1.0/strawberry-perl-5.12.1.0-64bit.msi"
          },
          "portable" : {
-            "sha1" : "64c700eccef46bb54195ceab05425a7fbb128c79",
-            "sha256" : "bcfbe7ae3b6c679f8d1506ad3cc65ab9fd91807c3e6d390588ae513a2ed9bacc",
-            "size" : 54015034,
+            "sha1" : "6dac74ba4a26ea76001f7b241337d7feb854f370",
+            "sha256" : "a9a508edd235fa967a2d12e440108c01b1cbc7abe77429fa5bdf7fa9c4ee717f",
+            "size" : 56335114,
             "url" : "http://strawberryperl.com/download/5.12.1.0/strawberry-perl-5.12.1.0-portable.zip"
          },
          "zip" : {
@@ -2310,9 +2310,9 @@
             "url" : "http://strawberryperl.com/download/5.10.1.2/strawberry-perl-5.10.1.2.msi"
          },
          "portable" : {
-            "sha1" : "d1cb7641aa969d6a8483a614de900a5b81c7a8a2",
-            "sha256" : "4c21dc371f4cba79922b9cde9b74c05a81c1780bc1b93729b661c393d3547364",
-            "size" : 42457491,
+            "sha1" : "995eb4cad778c7ff4a2986ee301b6a6650e090af",
+            "sha256" : "cedc3401a519d55a432f9cf41bc305501aab41ccc612570e08f01656dfe842a7",
+            "size" : 44287678,
             "url" : "http://strawberryperl.com/download/5.10.1.2/strawberry-perl-5.10.1.2-portable.zip"
          },
          "zip" : {
@@ -2360,9 +2360,9 @@
             "url" : "http://strawberryperl.com/download/5.10.1.1/strawberry-perl-5.10.1.1.msi"
          },
          "portable" : {
-            "sha1" : "f4d6d280930fa5dcd0c38160882dc580e07e10a0",
-            "sha256" : "61d61bbea7d2de5a520b8718d82cde1e72402c7ca6edbda336eadcfc91024473",
-            "size" : 40747983,
+            "sha1" : "6d9d73de54babb4f5aaeef5c57df29729a17cf31",
+            "sha256" : "9da0cc11166e13ce0a9077cb0b42c4909ed849647c094f71aebb2eaf7550bd68",
+            "size" : 42503604,
             "url" : "http://strawberryperl.com/download/5.10.1.1/strawberry-perl-5.10.1.1-portable.zip"
          },
          "zip" : {
@@ -2454,9 +2454,9 @@
             "url" : "http://strawberryperl.com/download/5.10.0/strawberry-perl-5.10.0.6.msi"
          },
          "portable" : {
-            "sha1" : "c75cb1814abbe21d8540df81132a70b669312f3b",
-            "sha256" : "4d4eff6ccbbd28b99312f6fdada76b36a99a1355e91d30529d98074723828429",
-            "size" : 36948867,
+            "sha1" : "b8d98872f2bcc82c4514a1e6a5bd30e2b4487b14",
+            "sha256" : "45a7949051c9fe185aad3bed146e285b3e3e347ee1eb9dd6678d3f9a3a0d3441",
+            "size" : 38659310,
             "url" : "http://strawberryperl.com/download/5.10.0/strawberry-perl-5.10.0.6-portable.zip"
          },
          "zip" : {
@@ -2498,9 +2498,9 @@
       "date" : "2009-04-30",
       "edition" : {
          "portable" : {
-            "sha1" : "6e4dd69bb763d0d65b547cf312617eba4e138916",
-            "sha256" : "66e5e1400b24f7cc64b0fd88a1cc9ac7db143d37b2d803f53b8226567fe023ab",
-            "size" : 38855936,
+            "sha1" : "e34be4895e81b81fe81c028b9647b146afa58f1b",
+            "sha256" : "26d8031fe3848011ee3fa78d5e3b21c06e450a6de5890521d478dd5bfd71e2af",
+            "size" : 40530150,
             "url" : "http://strawberryperl.com/download/5.10.0/strawberry-perl-5.10.0.5-portable.zip"
          },
          "zip" : {
