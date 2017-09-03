@@ -10,8 +10,8 @@ sub json_load_and_sort {
   my $rel = Cpanel::JSON::XS->new->decode(read_text($filename));
   my %map = (
       "MSWin32-x64-multi-thread"       => "9",
-      "MSWin32-x86-multi-thread"       => "8",
-      "MSWin32-x86-multi-thread-64int" => "7",
+      "MSWin32-x86-multi-thread-64int" => "8",
+      "MSWin32-x86-multi-thread"       => "7",
       "MSWin32-x64-multi-thread-ld"    => "6",
   );
   $rel = [ reverse sort {

@@ -25,7 +25,7 @@ for my $dir (@ARGV) {
 
       warn "processing: $file\n";
       my $archname = "MSWin32-".($bits eq '32bit' ? 'x86' : 'x64')."-multi-thread";
-      $archname .= "-64int" unless $arch ne '-no64';
+      $archname .= "-64int" if $arch ne '-no64' && $bits eq '32bit';
       $archname .= "-ld" if $arch eq '-ld';
       my $edition = $extension;
       $edition = "pdl" if $edit eq '-PDL';
@@ -44,8 +44,8 @@ for my $dir (@ARGV) {
 
       my %map = (
         "MSWin32-x64-multi-thread"       => "1009",
-        "MSWin32-x86-multi-thread"       => "1008",
-        "MSWin32-x86-multi-thread-64int" => "1007",
+        "MSWin32-x86-multi-thread-64int" => "1008",
+        "MSWin32-x86-multi-thread"       => "1007",
         "MSWin32-x64-multi-thread-ld"    => "1006",
       );
       my $key = "$numver-".($map{$archname} // "1000$archname");
