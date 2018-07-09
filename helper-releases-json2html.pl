@@ -1,3 +1,5 @@
+#!/usr/bin/env perl
+
 use Modern::Perl;
 use FindBin;
 use File::Slurper qw(read_text write_text);

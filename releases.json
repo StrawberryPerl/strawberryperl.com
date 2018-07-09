@@ -1,6 +1,95 @@
 [
    {
       "archname" : "MSWin32-x64-multi-thread",
+      "date" : "2018-06-23",
+      "edition" : {
+         "msi" : {
+            "sha1" : "c33dfcff68db3cbec05c65fd06f5cb8e123753dd",
+            "sha256" : "215fe9db4338904062065afaac9bf5cb7273c5fc6b943d0fdc60036df8755821",
+            "size" : 99828460,
+            "url" : "http://strawberryperl.com/download/5.28.0.1/strawberry-perl-5.28.0.1-64bit.msi"
+         },
+         "pdl" : {
+            "sha1" : "b3c39861a3ecd0bddfc7d6d2bbb505a880aa61de",
+            "sha256" : "ac3c7a59ebeb05d1305a3e57e459293eb22b8ddc8006e864c6a08f6a0878b1f8",
+            "size" : 173608480,
+            "url" : "http://strawberryperl.com/download/5.28.0.1/strawberry-perl-5.28.0.1-64bit-PDL.zip"
+         },
+         "portable" : {
+            "sha1" : "22a773ae058119a02577e97447fa298926cee67e",
+            "sha256" : "dcdc5f4d54e6def73a472bbd4820aa7a22d336f6004fc35e180818f3d388c7e1",
+            "size" : 148105977,
+            "url" : "http://strawberryperl.com/download/5.28.0.1/strawberry-perl-5.28.0.1-64bit-portable.zip"
+         },
+         "zip" : {
+            "sha1" : "61025ea3c87a16845cc388e7251ef895db4d1a30",
+            "sha256" : "b71483007b164a9f4eb8e9a475d3f9465c926980b5e216079be89d49661200d2",
+            "size" : 148069147,
+            "url" : "http://strawberryperl.com/download/5.28.0.1/strawberry-perl-5.28.0.1-64bit.zip"
+         }
+      },
+      "name" : "June 2018 / 5.28.0.1 / 64bit",
+      "numver" : 5.028000001,
+      "relnotes" : "http://strawberryperl.com/release-notes/5.28.0.1-64bit.html",
+      "version" : "5.28.0.1"
+   },
+   {
+      "archname" : "MSWin32-x86-multi-thread-64int",
+      "date" : "2018-06-23",
+      "edition" : {
+         "msi" : {
+            "sha1" : "8cc2ec971202a9371517e2531692b2a99cc45164",
+            "sha256" : "652c5ade0785bf6745a6c0d61de2f28ba6caf8f5859f7c19915ebc65dd095667",
+            "size" : 97516422,
+            "url" : "http://strawberryperl.com/download/5.28.0.1/strawberry-perl-5.28.0.1-32bit.msi"
+         },
+         "pdl" : {
+            "sha1" : "2f14c3cdda6872ee9945642c0cd1815d3f697425",
+            "sha256" : "ad5539d573a73302a69b208e58936ca84cf0978ccb9c55d0223c906e1986e83e",
+            "size" : 167270280,
+            "url" : "http://strawberryperl.com/download/5.28.0.1/strawberry-perl-5.28.0.1-32bit-PDL.zip"
+         },
+         "portable" : {
+            "sha1" : "4366c4d616d94154f0c82e74f9e1ee26ea5fe220",
+            "sha256" : "1330f05d4bbe067aeff0e380d4a14a792083122dca766699876de88bc6d63838",
+            "size" : 142753767,
+            "url" : "http://strawberryperl.com/download/5.28.0.1/strawberry-perl-5.28.0.1-32bit-portable.zip"
+         },
+         "zip" : {
+            "sha1" : "44180e69ac54a0f76363d2be5b3737f8d8a2db3c",
+            "sha256" : "83d1adb506901003cb95c80210881ee696425075a57442b599160048cc555b18",
+            "size" : 142716941,
+            "url" : "http://strawberryperl.com/download/5.28.0.1/strawberry-perl-5.28.0.1-32bit.zip"
+         }
+      },
+      "name" : "June 2018 / 5.28.0.1 / 32bit / with USE_64_BIT_INT",
+      "numver" : 5.028000001,
+      "relnotes" : "http://strawberryperl.com/release-notes/5.28.0.1-32bit.html",
+      "version" : "5.28.0.1"
+   },
+   {
+      "archname" : "MSWin32-x86-multi-thread",
+      "date" : "2018-06-23",
+      "edition" : {
+         "portable" : {
+            "sha1" : "25bbb0d1fa1278aba0567b6de7b08c9116db5c41",
+            "sha256" : "b083c2f9c02de4a8d03226625e1c359a952067532030773f804524295c160e2d",
+            "size" : 142521264,
+            "url" : "http://strawberryperl.com/download/5.28.0.1/strawberry-perl-no64-5.28.0.1-32bit-portable.zip"
+         },
+         "zip" : {
+            "sha1" : "9be861e399199bb48320ced248235ccc82b095ad",
+            "sha256" : "f7bca8ac5cb7e58a731eb0de85fa7e5be2d4d227b3f220ceb763926cbc9c7c7b",
+            "size" : 142484437,
+            "url" : "http://strawberryperl.com/download/5.28.0.1/strawberry-perl-no64-5.28.0.1-32bit.zip"
+         }
+      },
+      "name" : "June 2018 / 5.28.0.1 / 32bit / without USE_64_BIT_INT",
+      "numver" : 5.028000001,
+      "version" : "5.28.0.1"
+   },
+   {
+      "archname" : "MSWin32-x64-multi-thread",
       "date" : "2018-04-15",
       "edition" : {
          "msi" : {

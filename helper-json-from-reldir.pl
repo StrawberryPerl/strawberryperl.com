@@ -1,3 +1,5 @@
+#!/usr/bin/env perl
+
 use Modern::Perl;
 use DateTime;
 use Crypt::Digest 'digest_file_hex';
