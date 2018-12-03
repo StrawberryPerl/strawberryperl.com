@@ -1,6 +1,184 @@
 [
    {
       "archname" : "MSWin32-x64-multi-thread",
+      "date" : "2018-12-02",
+      "edition" : {
+         "msi" : {
+            "sha1" : "9b92a6edcd32f3ae0a41a5f62dc4dfc34a2c0ebb",
+            "sha256" : "99a8d7230537c01e8a82dc6635392ec15a770202f868f631781b21aee5cd805c",
+            "size" : 100021362,
+            "url" : "http://strawberryperl.com/download/5.28.1.1/strawberry-perl-5.28.1.1-64bit.msi"
+         },
+         "pdl" : {
+            "sha1" : "f6fc2dffb405f7b178de81ecea955cfad53a1fc3",
+            "sha256" : "338e9ea9fda5cdb561a5facd6a2d1082e2148c1561df5d673fc0b65ea8a6ef07",
+            "size" : 174226730,
+            "url" : "http://strawberryperl.com/download/5.28.1.1/strawberry-perl-5.28.1.1-64bit-PDL.zip"
+         },
+         "portable" : {
+            "sha1" : "51dbc993d93069190606e2534bd64b9c9bf1b9e3",
+            "sha256" : "935c95ba096fa11c4e1b5188732e3832d330a2a79e9882ab7ba8460ddbca810d",
+            "size" : 148591915,
+            "url" : "http://strawberryperl.com/download/5.28.1.1/strawberry-perl-5.28.1.1-64bit-portable.zip"
+         },
+         "zip" : {
+            "sha1" : "75c38efbf7b85ef2a83d28e8157a67c3f895050a",
+            "sha256" : "297c5b27f66c40190ad9b6757204513877a0d7b5bab57eeaec0d7053c928e89d",
+            "size" : 148555266,
+            "url" : "http://strawberryperl.com/download/5.28.1.1/strawberry-perl-5.28.1.1-64bit.zip"
+         }
+      },
+      "name" : "December 2018 / 5.28.1.1 / 64bit",
+      "numver" : 5.028001001,
+      "relnotes" : "http://strawberryperl.com/release-notes/5.28.1.1-64bit.html",
+      "version" : "5.28.1.1"
+   },
+   {
+      "archname" : "MSWin32-x86-multi-thread-64int",
+      "date" : "2018-12-02",
+      "edition" : {
+         "msi" : {
+            "sha1" : "c98d0af2dc67ff738da2a29cde3f13d4aefb3178",
+            "sha256" : "5966c7134f2bdcdf563a71e8905511932b7815fa5f1ddb65e670a4518d535d09",
+            "size" : 97895156,
+            "url" : "http://strawberryperl.com/download/5.28.1.1/strawberry-perl-5.28.1.1-32bit.msi"
+         },
+         "pdl" : {
+            "sha1" : "bc53f5b8b1ab2d6b94053b33a5f5f893f2dda7e5",
+            "sha256" : "671656bf042a83ebccf2a745879d6730f447aff81f6eeb9171286ca12f38bf55",
+            "size" : 167893852,
+            "url" : "http://strawberryperl.com/download/5.28.1.1/strawberry-perl-5.28.1.1-32bit-PDL.zip"
+         },
+         "portable" : {
+            "sha1" : "241a11fd0c3a51bade0aea222d4c7b7dc623a642",
+            "sha256" : "8b15c7c9574989568254a7859e473b7d5f68a1145d2e4418036600a81b13805c",
+            "size" : 143242779,
+            "url" : "http://strawberryperl.com/download/5.28.1.1/strawberry-perl-5.28.1.1-32bit-portable.zip"
+         },
+         "zip" : {
+            "sha1" : "3038cf347397fc5afbdd0dedc2fab3e702cf1a2f",
+            "sha256" : "18e0ef1efb746d84500f14498bf0237977ea7a334b04dca14a98359cca2249aa",
+            "size" : 143206134,
+            "url" : "http://strawberryperl.com/download/5.28.1.1/strawberry-perl-5.28.1.1-32bit.zip"
+         }
+      },
+      "name" : "December 2018 / 5.28.1.1 / 32bit / with USE_64_BIT_INT",
+      "numver" : 5.028001001,
+      "relnotes" : "http://strawberryperl.com/release-notes/5.28.1.1-32bit.html",
+      "version" : "5.28.1.1"
+   },
+   {
+      "archname" : "MSWin32-x86-multi-thread",
+      "date" : "2018-12-02",
+      "edition" : {
+         "portable" : {
+            "sha1" : "f157e72a41bc438f69fe4eae29f338030659e72f",
+            "sha256" : "d87fc12f9a902832044f56c8d5e4ee244135ac6f202d12eb2785d3890f9e8ff0",
+            "size" : 143001381,
+            "url" : "http://strawberryperl.com/download/5.28.1.1/strawberry-perl-no64-5.28.1.1-32bit-portable.zip"
+         },
+         "zip" : {
+            "sha1" : "cc9d83155ad6d4af6ad40609dc8c67b8cef3f922",
+            "sha256" : "0f8461f1c84c1ab556a19ffa22966c9452d8f4c5d8a241841e7921ad3deb9480",
+            "size" : 142964737,
+            "url" : "http://strawberryperl.com/download/5.28.1.1/strawberry-perl-no64-5.28.1.1-32bit.zip"
+         }
+      },
+      "name" : "December 2018 / 5.28.1.1 / 32bit / without USE_64_BIT_INT",
+      "numver" : 5.028001001,
+      "version" : "5.28.1.1"
+   },
+   {
+      "archname" : "MSWin32-x64-multi-thread",
+      "date" : "2018-12-02",
+      "edition" : {
+         "msi" : {
+            "sha1" : "f5d1d0aeae96160f7e22f9cdac5fe5ac70647110",
+            "sha256" : "e680fb02c19abe158393832ce90b1206fcd62a0654c1a0703447c312e424fba6",
+            "size" : 99799053,
+            "url" : "http://strawberryperl.com/download/5.26.3.1/strawberry-perl-5.26.3.1-64bit.msi"
+         },
+         "pdl" : {
+            "sha1" : "00c4e23b4ef8e045763c8a214c9adbb37c294743",
+            "sha256" : "5fa33ced2882650f90003fb32b230feb836b9fb2105007a1bb36fb1ba2805d76",
+            "size" : 173639233,
+            "url" : "http://strawberryperl.com/download/5.26.3.1/strawberry-perl-5.26.3.1-64bit-PDL.zip"
+         },
+         "portable" : {
+            "sha1" : "04dcda8a5e4cdd00414a18676240739e51773dbf",
+            "sha256" : "4fd8aac9e3e8cf774dccc20471c58c408e1ca6dec9e94e5bbcf2a498d4bd88b5",
+            "size" : 148004692,
+            "url" : "http://strawberryperl.com/download/5.26.3.1/strawberry-perl-5.26.3.1-64bit-portable.zip"
+         },
+         "zip" : {
+            "sha1" : "6f41365bce1cab8693e328574210a550bd248a08",
+            "sha256" : "d18faedac82bdd59ae6105e73a6424f378a6a4fe6965d831cbefd6dc85c29d54",
+            "size" : 147968127,
+            "url" : "http://strawberryperl.com/download/5.26.3.1/strawberry-perl-5.26.3.1-64bit.zip"
+         }
+      },
+      "name" : "December 2018 / 5.26.3.1 / 64bit",
+      "numver" : 5.026003001,
+      "relnotes" : "http://strawberryperl.com/release-notes/5.26.3.1-64bit.html",
+      "version" : "5.26.3.1"
+   },
+   {
+      "archname" : "MSWin32-x86-multi-thread-64int",
+      "date" : "2018-12-02",
+      "edition" : {
+         "msi" : {
+            "sha1" : "cbae77136579836110cd7055c53c647ba67662e7",
+            "sha256" : "7a3a95783543d3f904a48dc132833fb3a8d71acef663475bd69cedbe03ab9479",
+            "size" : 96861179,
+            "url" : "http://strawberryperl.com/download/5.26.3.1/strawberry-perl-5.26.3.1-32bit.msi"
+         },
+         "pdl" : {
+            "sha1" : "6a11fb9d2f54af25e47ecdbde05be22e0512d9c1",
+            "sha256" : "b93ac22cd0d8b3aaeb5c306057f6d01aecbcc383aa8f226156e3bd3c17c02a33",
+            "size" : 167319918,
+            "url" : "http://strawberryperl.com/download/5.26.3.1/strawberry-perl-5.26.3.1-32bit-PDL.zip"
+         },
+         "portable" : {
+            "sha1" : "4ca969d273c823cf812b302dc157a7549cf0aaa1",
+            "sha256" : "23988073547490d476f77fb4e8ba51a013b8ee51f300a1237b365d3d960ab4c2",
+            "size" : 142669955,
+            "url" : "http://strawberryperl.com/download/5.26.3.1/strawberry-perl-5.26.3.1-32bit-portable.zip"
+         },
+         "zip" : {
+            "sha1" : "bf44efc46da83252f41d06f86691796a551cd5b7",
+            "sha256" : "c645237749d4b7e23d5f15f142000717f433c07335d482127ded0c79f90c25b8",
+            "size" : 142633393,
+            "url" : "http://strawberryperl.com/download/5.26.3.1/strawberry-perl-5.26.3.1-32bit.zip"
+         }
+      },
+      "name" : "December 2018 / 5.26.3.1 / 32bit / with USE_64_BIT_INT",
+      "numver" : 5.026003001,
+      "relnotes" : "http://strawberryperl.com/release-notes/5.26.3.1-32bit.html",
+      "version" : "5.26.3.1"
+   },
+   {
+      "archname" : "MSWin32-x86-multi-thread",
+      "date" : "2018-12-02",
+      "edition" : {
+         "portable" : {
+            "sha1" : "8c9fa0c8b8a76ff2e88e2eb329b020d061e80023",
+            "sha256" : "abb97ed135f3a6fd4675c440fa7d8bd55f8cf9d0abab15b4485342ff769bee72",
+            "size" : 142419180,
+            "url" : "http://strawberryperl.com/download/5.26.3.1/strawberry-perl-no64-5.26.3.1-32bit-portable.zip"
+         },
+         "zip" : {
+            "sha1" : "396f10de51dc9558dafc70c9e52c9e39243342e8",
+            "sha256" : "1c60de39c18bb8cf337d872226240efbca43b1fe754940b4a07c016e080542df",
+            "size" : 142382618,
+            "url" : "http://strawberryperl.com/download/5.26.3.1/strawberry-perl-no64-5.26.3.1-32bit.zip"
+         }
+      },
+      "name" : "December 2018 / 5.26.3.1 / 32bit / without USE_64_BIT_INT",
+      "numver" : 5.026003001,
+      "version" : "5.26.3.1"
+   },
+   {
+      "archname" : "MSWin32-x64-multi-thread",
       "date" : "2018-06-23",
       "edition" : {
          "msi" : {
