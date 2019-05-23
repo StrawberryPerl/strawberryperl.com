@@ -41,7 +41,7 @@ for my $dir (@ARGV) {
       $name .= " / with USE_64_BIT_INT" if $arch ne '-no64' && $bits eq '32bit';
       $name .= " / with USE_LONG_DOUBLE" if $arch eq '-ld';
       my @n = split /\./, $ver;
-      my $numver = sprintf("%s.%09d", $n[0], $n[1]*1000000 +$n[2]*1000 + $n[3]);
+      my $numver = 0 + sprintf("%s.%09d", $n[0], $n[1]*1000000 +$n[2]*1000 + $n[3]); # must be a number not a string
       my $relnotes = "http://strawberryperl.com/release-notes/$ver-$bits.html",
 
       my %map = (
