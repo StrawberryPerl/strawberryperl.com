@@ -1,6 +1,95 @@
 [
    {
       "archname" : "MSWin32-x64-multi-thread",
+      "date" : "2019-05-23",
+      "edition" : {
+         "msi" : {
+            "sha1" : "2ca79fb4f896e3e0e1cda91e38e6e749847828e5",
+            "sha256" : "459de13a284a4c83213208c9caa1c372c81136b6e863a3f13d42f631048e0b12",
+            "size" : 107064681,
+            "url" : "http://strawberryperl.com/download/5.30.0.1/strawberry-perl-5.30.0.1-64bit.msi"
+         },
+         "pdl" : {
+            "sha1" : "5dbf07f1236de298f8a7bbdb5706df414fc704cf",
+            "sha256" : "5373ee35c5082299b040754d250c02893381f2fd0124d973aa1d88e49245562b",
+            "size" : 178853701,
+            "url" : "http://strawberryperl.com/download/5.30.0.1/strawberry-perl-5.30.0.1-64bit-PDL.zip"
+         },
+         "portable" : {
+            "sha1" : "cda71445c20f4e0be0a9e07f65dcc10a047a8097",
+            "sha256" : "9367a64ac1451b21804a224bb6235fe6848dd42f5fa1871583821ac3dfabf013",
+            "size" : 155036983,
+            "url" : "http://strawberryperl.com/download/5.30.0.1/strawberry-perl-5.30.0.1-64bit-portable.zip"
+         },
+         "zip" : {
+            "sha1" : "5d9ad12868dbbbf3d2dff628d1ace16e42fc7997",
+            "sha256" : "aca041116847fe42e6afbe4d30f316baa99d7f53af1bc81263996e3b8088838a",
+            "size" : 155000167,
+            "url" : "http://strawberryperl.com/download/5.30.0.1/strawberry-perl-5.30.0.1-64bit.zip"
+         }
+      },
+      "name" : "May 2019 / 5.30.0.1 / 64bit",
+      "numver" : 5.030000001,
+      "relnotes" : "http://strawberryperl.com/release-notes/5.30.0.1-64bit.html",
+      "version" : "5.30.0.1"
+   },
+   {
+      "archname" : "MSWin32-x86-multi-thread-64int",
+      "date" : "2019-05-23",
+      "edition" : {
+         "msi" : {
+            "sha1" : "8c8285538c0f09a0cea0a0e986a176b76cfadaf8",
+            "sha256" : "94e19ffb75faff7182fb7b17ebf471460b3a452ff853f4bee95e114a74d0b8f7",
+            "size" : 102769889,
+            "url" : "http://strawberryperl.com/download/5.30.0.1/strawberry-perl-5.30.0.1-32bit.msi"
+         },
+         "pdl" : {
+            "sha1" : "84fa91a034fde2c466637af3bd54bf0c3347950f",
+            "sha256" : "916de2ce3d2467e0f1db68b4946c81326e9e0688932c8e9fe3ad3e27661fb4ad",
+            "size" : 173729944,
+            "url" : "http://strawberryperl.com/download/5.30.0.1/strawberry-perl-5.30.0.1-32bit-PDL.zip"
+         },
+         "portable" : {
+            "sha1" : "bd02ad814c690dbbabfdb621ab7c7640e0849d18",
+            "sha256" : "a1d77821c77b7a3298cf3fe381e57cba43f89b9859204398f36d85f33b287837",
+            "size" : 150743342,
+            "url" : "http://strawberryperl.com/download/5.30.0.1/strawberry-perl-5.30.0.1-32bit-portable.zip"
+         },
+         "zip" : {
+            "sha1" : "bddeeaedd1cc7d58318c7a575cdcf541f112c34b",
+            "sha256" : "eb296d3f1ad1bcc2023f1317ed1969aed4c74cc57c1341784705653512e8c5a5",
+            "size" : 150706532,
+            "url" : "http://strawberryperl.com/download/5.30.0.1/strawberry-perl-5.30.0.1-32bit.zip"
+         }
+      },
+      "name" : "May 2019 / 5.30.0.1 / 32bit / with USE_64_BIT_INT",
+      "numver" : 5.030000001,
+      "relnotes" : "http://strawberryperl.com/release-notes/5.30.0.1-32bit.html",
+      "version" : "5.30.0.1"
+   },
+   {
+      "archname" : "MSWin32-x86-multi-thread",
+      "date" : "2019-05-23",
+      "edition" : {
+         "portable" : {
+            "sha1" : "6e9f1b813c47d7d5fa0f0dcc79489f09e9625e91",
+            "sha256" : "533f2d35b775818773f627b65801c2e97a3b3dcd4aaf4a222f3e902d2ce400ac",
+            "size" : 150481924,
+            "url" : "http://strawberryperl.com/download/5.30.0.1/strawberry-perl-no64-5.30.0.1-32bit-portable.zip"
+         },
+         "zip" : {
+            "sha1" : "a6e3cce57924e36a009d0e47d771511d4976b175",
+            "sha256" : "a32609e3987198a87f0b94130a9bd138a749f49c84fb87409e01e3b835d0c1d6",
+            "size" : 150445112,
+            "url" : "http://strawberryperl.com/download/5.30.0.1/strawberry-perl-no64-5.30.0.1-32bit.zip"
+         }
+      },
+      "name" : "May 2019 / 5.30.0.1 / 32bit / without USE_64_BIT_INT",
+      "numver" : 5.030000001,
+      "version" : "5.30.0.1"
+   },
+   {
+      "archname" : "MSWin32-x64-multi-thread",
       "date" : "2019-05-02",
       "edition" : {
          "msi" : {
