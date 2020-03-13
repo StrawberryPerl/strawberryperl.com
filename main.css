@@ -2,9 +2,9 @@ body {
 	background-color: #fff;
 	color: #111;
 	font-family: Georgia, "Times New Roman", Times, serif;
-	margin-top: 0px;
-	padding-top: 0px;
-	margin-right: 0px;
+	margin-top: 0;
+	padding-top: 0;
+	margin-right: 0;
 }
 
 h1 {
@@ -34,8 +34,8 @@ table.file td {
 
 table.file p {
 	font-size: 10pt;
-	margin: 0px;
-	padding: 0px;
+	margin: 0;
+	padding: 0;
 }
 
 table.file a {
@@ -63,8 +63,8 @@ table.future td {
 
 table.future p {
 	font-size: 0.9em;
-	margin: 0px;
-	padding: 0px;
+	margin: 0;
+	padding: 0;
 }
 
 table.future a {
