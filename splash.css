@@ -7,22 +7,21 @@ body {
 	padding: 0;
 }
 
-#top {
-	border-bottom-color: #FF9999;
-	border-bottom-width: 1px;
-	border-bottom-style: solid;
-}
-
-#leader {
+.need-help {
+	border-bottom: #FF9999 1px solid;
 	font-family: Arial, sans-serif;
 	font-size: 14px;
 	color: #666666;
-	width: 70em;
+	padding: 4px 0;
 }
 
-#leader a {
+.need-help a {
+	text-align: right;
+	display: block;
 	text-decoration: underline;
 	color: #6666FF;
+	width: 1000px;
+	margin: 0 auto;
 }
 
 #content {
