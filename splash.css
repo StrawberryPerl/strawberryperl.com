@@ -9,10 +9,6 @@ body {
     text-align: right;
 }
 
-div {
-    overflow: auto;
-}
-
 h1 {
     display: block;
     width: 100%;
@@ -48,6 +44,7 @@ a:hover {
 
 .content {
     background: url(images/strawberry3.jpg) no-repeat;
+    overflow: auto;
 }
 
 .text-1, .text-2, .text-3 {
@@ -101,10 +98,6 @@ a:hover {
 
 .sponsor {
     text-align: left;
-    padding-bottom: 1.5em;
     width: 100%;
-}
-
-.sponsor p {
-    margin: 0.3em;
+    margin-bottom: 64px;
 }
