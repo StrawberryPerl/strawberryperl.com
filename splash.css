@@ -26,7 +26,6 @@ p {
 
 .need-help {
     border-bottom: #FF9999 1px solid;
-    font-family: Arial, sans-serif;
     font-size: 14px;
     color: #666666;
     padding: 4px 0;
@@ -85,7 +84,6 @@ p {
 .downloads p {
     display: block;
     text-align: left;
-    /*font-family: Arial, Helvetica, sans-serif;*/
     font-size: 1.8em;
     padding: 0.3em;
     margin: 0;
@@ -93,7 +91,6 @@ p {
 
 .downloads a {
     display: block;
-    /*font-family: Arial, Helvetica, sans-serif;*/
     font-size: 1.3em;
     padding: 5px;
     text-decoration: none;
@@ -120,7 +117,6 @@ p {
 }
 
 .sponsor p {
-    font-family: Geneva, Arial, Helvetica, sans-serif;
     font-size: 1.1em;
     margin: 0.3em;
 }
