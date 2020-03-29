@@ -46,10 +46,6 @@ p {
     background: url(images/strawberry3.jpg) no-repeat;
 }
 
-.maintd {
-    background: url(images/strawberry3.jpg) no-repeat left bottom;
-}
-
 .maintd a {
     color: #900;
 }
