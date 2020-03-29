@@ -53,6 +53,7 @@ a:hover {
 
 .content {
     background: url(images/strawberry3.jpg) no-repeat;
+    margin-bottom: 64px;
 }
 
 .text {
