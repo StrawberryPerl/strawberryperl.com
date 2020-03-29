@@ -9,10 +9,19 @@ body {
     text-align: right;
 }
 
+div {
+    overflow: auto;
+    overflow-y: hidden;
+}
+
 h1 {
     display: block;
     width: 100%;
     margin-bottom: 1.25em;
+}
+
+p {
+    margin-bottom: 1em;
 }
 
 a {
@@ -44,7 +53,14 @@ a:hover {
 
 .content {
     background: url(images/strawberry3.jpg) no-repeat;
-    overflow: auto;
+}
+
+.text {
+    margin-bottom: 64px;
+}
+
+.text p:last-child {
+    margin-bottom: 0;
 }
 
 .text-1, .text-2, .text-3 {
@@ -52,7 +68,6 @@ a:hover {
     float: right;
     clear: both;
     display: inline;
-    margin: 0.5em 0 0.8em;
 }
 
 .text-1 {
