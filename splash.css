@@ -50,18 +50,6 @@ p {
     color: #900;
 }
 
-.sponsor p {
-    font-family: Geneva, Arial, Helvetica, sans-serif;
-    font-size: 1.1em;
-    margin: 0.3em;
-}
-
-.sponsor {
-    text-align: left;
-    padding-bottom: 1.5em;
-    width: 100%;
-}
-
 .lr1, .lr2, .lr3 {
     text-align: left;
     float: right;
@@ -123,4 +111,16 @@ p {
     font-style: normal;
     color: #990000;
     text-decoration: underline;
+}
+
+.sponsor {
+    text-align: left;
+    padding-bottom: 1.5em;
+    width: 100%;
+}
+
+.sponsor p {
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+    margin: 0.3em;
 }
