@@ -8,6 +8,10 @@ body {
     text-align: right;
 }
 
+div {
+    overflow: auto;
+}
+
 h1 {
     font-family: Geneva, Arial, Helvetica, sans-serif;
     font-size: 4.1em;
@@ -59,6 +63,7 @@ p {
 .sponsor {
     text-align: left;
     padding-bottom: 1.5em;
+    width: 100%;
 }
 
 .lr1, .lr2, .lr3 {
