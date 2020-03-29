@@ -73,8 +73,7 @@ a:hover {
     float: right;
     clear: both;
     width: 24em;
-    padding: 0;
-    list-style: none;
+    padding: 12px;
     border: #aa0000 1px solid;
     background-color: #ffdddd;
     margin-bottom: 0.8em;
@@ -94,13 +93,9 @@ a:hover {
     margin: 0;
 }
 
-.downloads a b {
-    color: #aa0000;
-}
-
-.downloads a i {
-    font-style: normal;
-    color: #aa0000;
+.downloads a:hover {
+    text-decoration: underline;
+    color: #242424;
 }
 
 .sponsor {
