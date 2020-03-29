@@ -2,7 +2,7 @@ body {
     background-color: #FFFFFF;
     color: #111111;
     font-family: Georgia, "Times New Roman", Times, serif;
-    font-size: 10px;
+    font-size: 18px;
     margin: 0;
     padding: 0;
     text-align: right;
@@ -14,19 +14,14 @@ div {
 
 h1 {
     font-family: Geneva, Arial, Helvetica, sans-serif;
-    font-size: 4.1em;
+    font-size: 2.4em;
     margin: 0.2em auto;
     display: block;
     width: 1000px;
 }
 
-p {
-    font-size: 1.8em;
-}
-
 .help {
     border-bottom: #FF9999 1px solid;
-    font-size: 14px;
     color: #666666;
     padding: 4px 0;
 }
@@ -72,10 +67,9 @@ p {
 .downloads {
     float: right;
     clear: both;
-    width: 37em;
+    width: 24em;
     padding: 0;
     list-style: none;
-    font-size: 1em;
     border: 2px solid #900;
     background-color: #fcc;
     margin-bottom: 0.8em;
@@ -84,14 +78,12 @@ p {
 .downloads p {
     display: block;
     text-align: left;
-    font-size: 1.8em;
     padding: 0.3em;
     margin: 0;
 }
 
 .downloads a {
     display: block;
-    font-size: 1.3em;
     padding: 5px;
     text-decoration: none;
     color: #990000;
@@ -100,7 +92,6 @@ p {
 
 .downloads a b {
     color: #990000;
-    font-size: 1.15em;
     text-decoration: underline;
 }
 
@@ -117,6 +108,5 @@ p {
 }
 
 .sponsor p {
-    font-size: 1.1em;
     margin: 0.3em;
 }
