@@ -31,7 +31,8 @@ a:hover {
 
 .help {
     border-bottom: #ffdddd 1px solid;
-    padding: 4px 0;
+    padding: 12px 0;
+    margin-bottom: 32px;
 }
 
 .help a {
