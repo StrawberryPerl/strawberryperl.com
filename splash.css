@@ -30,7 +30,7 @@ a:hover {
 }
 
 .help {
-    border-bottom: #FF9999 1px solid;
+    border-bottom: #ffdddd 1px solid;
     padding: 4px 0;
 }
 
@@ -75,8 +75,8 @@ a:hover {
     width: 24em;
     padding: 0;
     list-style: none;
-    border: 2px solid #900;
-    background-color: #fcc;
+    border: #aa0000 1px solid;
+    background-color: #ffdddd;
     margin-bottom: 0.8em;
 }
 
@@ -91,18 +91,18 @@ a:hover {
     display: block;
     padding: 5px;
     text-decoration: none;
-    color: #990000;
+    color: #aa0000;
     margin: 0;
 }
 
 .downloads a b {
-    color: #990000;
+    color: #aa0000;
     text-decoration: underline;
 }
 
 .downloads a i {
     font-style: normal;
-    color: #990000;
+    color: #aa0000;
     text-decoration: underline;
 }
 
