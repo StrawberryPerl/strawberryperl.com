@@ -21,7 +21,7 @@ h1 {
 
 a {
     color: #0088ff;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 a:hover {
@@ -90,20 +90,17 @@ a:hover {
 .downloads a {
     display: block;
     padding: 5px;
-    text-decoration: none;
     color: #aa0000;
     margin: 0;
 }
 
 .downloads a b {
     color: #aa0000;
-    text-decoration: underline;
 }
 
 .downloads a i {
     font-style: normal;
     color: #aa0000;
-    text-decoration: underline;
 }
 
 .sponsor {
