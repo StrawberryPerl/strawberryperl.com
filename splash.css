@@ -24,14 +24,14 @@ p {
     font-size: 1.8em;
 }
 
-.need-help {
+.help {
     border-bottom: #FF9999 1px solid;
     font-size: 14px;
     color: #666666;
     padding: 4px 0;
 }
 
-.need-help a {
+.help a {
     display: block;
     text-decoration: underline;
     color: #6666FF;
@@ -45,11 +45,11 @@ p {
     background: url(images/strawberry3.jpg) no-repeat;
 }
 
-.maintd a {
+.text a {
     color: #900;
 }
 
-.lr1, .lr2, .lr3 {
+.text-1, .text-2, .text-3 {
     text-align: left;
     float: right;
     clear: both;
@@ -57,15 +57,15 @@ p {
     margin: 0.5em 0 0.8em;
 }
 
-.lr1 {
+.text-1 {
     width: 36em;
 }
 
-.lr2 {
+.text-2 {
     width: 34em;
 }
 
-.lr3 {
+.text-3 {
     width: 32em;
 }
 
