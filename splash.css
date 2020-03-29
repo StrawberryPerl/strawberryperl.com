@@ -17,7 +17,12 @@ h1 {
     font-size: 2.4em;
     margin: 0.2em auto;
     display: block;
-    width: 1000px;
+    width: 100%;
+}
+
+a {
+    color: #6666FF;
+    text-decoration: underline;
 }
 
 .help {
@@ -28,15 +33,16 @@ h1 {
 
 .help a {
     display: block;
-    text-decoration: underline;
-    color: #6666FF;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.mainframe {
     width: 1000px;
     margin: 0 auto;
 }
 
 .content {
-    width: 1000px;
-    margin: 0 auto;
     background: url(images/strawberry3.jpg) no-repeat;
 }
 
