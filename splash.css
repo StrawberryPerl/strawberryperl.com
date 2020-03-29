@@ -71,13 +71,9 @@ p {
 .downloads {
 	float: right;
 	clear: both;
-	margin: 1em 3em 0 0;
 	width: 37em;
 	padding: 0;
 	list-style: none;
-}
-
-.downloads li {
 	font-size: 1em;
 	border: 2px solid #900;
 	background-color: #fcc;
