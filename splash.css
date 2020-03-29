@@ -1,112 +1,112 @@
 body {
-	background-color: #FFFFFF;
-	color: #111111;
-	font-family: Georgia, "Times New Roman", Times, serif;
-	font-size: 10px;
-	margin: 0;
-	padding: 0;
-	text-align: right;
+    background-color: #FFFFFF;
+    color: #111111;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 10px;
+    margin: 0;
+    padding: 0;
+    text-align: right;
 }
 
 h1 {
-	font-family: Geneva, Arial, Helvetica, sans-serif;
-	font-size: 4.1em;
-	margin: 0.2em auto;
-	display: block;
-	width: 1000px;
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+    font-size: 4.1em;
+    margin: 0.2em auto;
+    display: block;
+    width: 1000px;
 }
 
 p {
-	font-size: 1.8em;
+    font-size: 1.8em;
 }
 
 .need-help {
-	border-bottom: #FF9999 1px solid;
-	font-family: Arial, sans-serif;
-	font-size: 14px;
-	color: #666666;
-	padding: 4px 0;
+    border-bottom: #FF9999 1px solid;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #666666;
+    padding: 4px 0;
 }
 
 .need-help a {
-	display: block;
-	text-decoration: underline;
-	color: #6666FF;
-	width: 1000px;
-	margin: 0 auto;
+    display: block;
+    text-decoration: underline;
+    color: #6666FF;
+    width: 1000px;
+    margin: 0 auto;
 }
 
 .content {
-	width: 1000px;
-	margin: 0 auto;
-	background: url(images/strawberry3.jpg) no-repeat;
+    width: 1000px;
+    margin: 0 auto;
+    background: url(images/strawberry3.jpg) no-repeat;
 }
 
 .maintd {
-	background: url(images/strawberry3.jpg) no-repeat left bottom;
+    background: url(images/strawberry3.jpg) no-repeat left bottom;
 }
 
 .maintd a {
-	color: #900;
+    color: #900;
 }
 
 .sponsor p {
-	font-family: Geneva, Arial, Helvetica, sans-serif;
-	font-size: 1.1em;
-        margin: 0.3em;
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+    margin: 0.3em;
 }
 
 .sponsor {
-        padding-bottom: 1.5em;
+    padding-bottom: 1.5em;
 }
 
 .lr {
-	text-align: left;
-	float: right;
-	clear: both;
-	display: inline;
-	margin: 0.5em 0 0.8em;
+    text-align: left;
+    float: right;
+    clear: both;
+    display: inline;
+    margin: 0.5em 0 0.8em;
 }
 
 .downloads {
-	float: right;
-	clear: both;
-	width: 37em;
-	padding: 0;
-	list-style: none;
-	font-size: 1em;
-	border: 2px solid #900;
-	background-color: #fcc;
-	margin-bottom: 0.8em;
+    float: right;
+    clear: both;
+    width: 37em;
+    padding: 0;
+    list-style: none;
+    font-size: 1em;
+    border: 2px solid #900;
+    background-color: #fcc;
+    margin-bottom: 0.8em;
 }
 
 .downloads p {
-	display: block;
-	text-align: left;
-	/*font-family: Arial, Helvetica, sans-serif;*/
-	font-size: 1.8em;
-	padding: 0.3em;
-	margin: 0;
+    display: block;
+    text-align: left;
+    /*font-family: Arial, Helvetica, sans-serif;*/
+    font-size: 1.8em;
+    padding: 0.3em;
+    margin: 0;
 }
 
 .downloads a {
-	display: block;
-	/*font-family: Arial, Helvetica, sans-serif;*/
-	font-size: 1.3em;
-	padding: 5px;
-	text-decoration: none;
-	color: #990000;
-        margin: 0;
+    display: block;
+    /*font-family: Arial, Helvetica, sans-serif;*/
+    font-size: 1.3em;
+    padding: 5px;
+    text-decoration: none;
+    color: #990000;
+    margin: 0;
 }
 
 .downloads a b {
-	color: #990000;
-	font-size: 1.15em;
-	text-decoration: underline;
+    color: #990000;
+    font-size: 1.15em;
+    text-decoration: underline;
 }
 
 .downloads a i {
-	font-style: normal;
-	color: #990000;
-	text-decoration: underline;
+    font-style: normal;
+    color: #990000;
+    text-decoration: underline;
 }
