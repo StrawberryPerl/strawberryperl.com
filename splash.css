@@ -5,12 +5,15 @@ body {
 	font-size: 10px;
 	margin: 0;
 	padding: 0;
+	text-align: right;
 }
 
 h1 {
 	font-family: Geneva, Arial, Helvetica, sans-serif;
 	font-size: 4.1em;
-	margin: 0.2em 0;
+	margin: 0.2em auto;
+	display: block;
+	width: 1000px;
 }
 
 p {
@@ -26,7 +29,6 @@ p {
 }
 
 .need-help a {
-	text-align: right;
 	display: block;
 	text-decoration: underline;
 	color: #6666FF;
@@ -37,7 +39,6 @@ p {
 .content {
 	width: 1000px;
 	margin: 0 auto;
-	text-align: right;
 	background: url(images/strawberry3.jpg) no-repeat;
 }
 
