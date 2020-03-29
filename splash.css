@@ -49,10 +49,6 @@ a:hover {
     background: url(images/strawberry3.jpg) no-repeat;
 }
 
-.text a {
-    color: #900;
-}
-
 .text-1, .text-2, .text-3 {
     text-align: left;
     float: right;
