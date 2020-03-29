@@ -24,17 +24,11 @@ body {
 	margin: 0 auto;
 }
 
-#content {
-	width: 100em;
-	height: 55em;
-}
-
-#main {
-	background: url(images/strawberry.jpg) no-repeat left bottom;
-}
-
-#main a {
-	color: #900;
+.content {
+	width: 1000px;
+	margin: 0 auto;
+	text-align: right;
+	background: url(images/strawberry3.jpg) no-repeat;
 }
 
 #maintd {
