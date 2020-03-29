@@ -2,7 +2,7 @@
 
 body {
     background-color: #FFFFFF;
-    color: #111111;
+    color: #242424;
     font-family: 'PT Sans', sans-serif;
     margin: 0;
     padding: 0;
@@ -31,7 +31,6 @@ a:hover {
 
 .help {
     border-bottom: #FF9999 1px solid;
-    color: #666666;
     padding: 4px 0;
 }
 
