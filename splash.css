@@ -14,9 +14,9 @@ div {
 }
 
 h1 {
-    margin: 0.2em auto;
     display: block;
     width: 100%;
+    margin-bottom: 1.25em;
 }
 
 a {
