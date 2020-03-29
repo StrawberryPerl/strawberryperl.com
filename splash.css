@@ -61,12 +61,24 @@ p {
     padding-bottom: 1.5em;
 }
 
-.lr {
+.lr1, .lr2, .lr3 {
     text-align: left;
     float: right;
     clear: both;
     display: inline;
     margin: 0.5em 0 0.8em;
+}
+
+.lr1 {
+    width: 36em;
+}
+
+.lr2 {
+    width: 34em;
+}
+
+.lr3 {
+    width: 32em;
 }
 
 .downloads {
