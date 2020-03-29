@@ -7,6 +7,16 @@ body {
 	padding: 0;
 }
 
+h1 {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 4.1em;
+	margin: 0.2em 0;
+}
+
+p {
+	font-size: 1.8em;
+}
+
 .need-help {
 	border-bottom: #FF9999 1px solid;
 	font-family: Arial, sans-serif;
@@ -31,32 +41,22 @@ body {
 	background: url(images/strawberry3.jpg) no-repeat;
 }
 
-#maintd {
+.maintd {
 	background: url(images/strawberry3.jpg) no-repeat left bottom;
 }
 
-#maintd a {
+.maintd a {
 	color: #900;
 }
 
-#sponsor p {
+.sponsor p {
 	font-family: Geneva, Arial, Helvetica, sans-serif;
 	font-size: 1.1em;
         margin: 0.3em;
 }
 
-#sponsor {
+.sponsor {
         padding-bottom: 1.5em;
-}
-
-h1 {
-	font-family: Geneva, Arial, Helvetica, sans-serif;
-	font-size: 4.1em;
-	margin: 0.2em 0;
-}
-
-p {
-	font-size: 1.8em;
 }
 
 .lr {
