@@ -1,0 +1,297 @@
+/**
+* InitStyles.
+*
+* Initial styles for overwriting of default styles of different browsers for identity of view.
+* Browser support: Opera 55+, Google Chrome 69+, Mozilla Firefox 62+, Microsoft Edge 42+, Internet Explorer 11+.
+*
+* CSS level 3.
+*
+* @package   InitStyles
+* @author    Elena Abrazhevich <vaselena-info@mail.ru >
+* @copyright 2018-2019 Elena Abrazhevich
+* @version   0.3.0
+*/
+
+/*
+Table of content
+
+    General. Reseting styles
+    General. Fixing styles
+    General. Initial styles
+    Typography. Reseting styles
+    Typography. Initial styles
+    Colors. Reseting styles
+*/
+
+/*
+ * ----------------------------------------------------------------
+ * General. Reseting styles
+ * ----------------------------------------------------------------
+ */
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+q {
+    quotes: none;
+}
+
+/*
+ * ----------------------------------------------------------------
+ * General. Fixing styles
+ * ----------------------------------------------------------------
+ */
+
+/* Fix "inline" rendering of <main> in IE11. */
+main {
+    display: block;
+}
+
+/* Fix "inline" rendering of <details> in IE11, Edge. */
+details {
+    display: block;
+}
+
+/* Fix "inline" rendering of <summary> in IE11, Edge. */
+summary {
+    display: list-item;
+}
+
+/* Prevent horizontal scrolling if text is wider than screen in IE11, Edge. */
+legend {
+    max-width: 100%;
+}
+
+/* Remove default vertical scrollbar in IE11. */
+textarea {
+    overflow: auto;
+}
+
+/*
+ * ----------------------------------------------------------------
+ * General. Initial styles
+ * ----------------------------------------------------------------
+ */
+
+hr {
+    border-bottom: 1px solid;
+}
+
+sub,
+sup {
+    line-height: 0;
+    position: relative;
+}
+
+sub {
+    bottom: -0.22em;
+}
+
+sup {
+    top: -0.56em;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+button,
+input[type="button"],
+input[type="submit"],
+input[type="reset"] {
+    cursor: pointer;
+}
+
+textarea {
+    resize: vertical;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+canvas,
+embed,
+iframe,
+object,
+picture,
+video {
+    max-width: 100%;
+}
+
+ul,
+ol {
+    padding-left: 3em;
+}
+
+li > ul,
+li > ol {
+    padding-left: 0.8em;
+}
+
+ul {
+    list-style: disc;
+}
+
+ol {
+    list-style: decimal;
+}
+
+pre {
+    overflow: auto;
+}
+
+/*
+ * ----------------------------------------------------------------
+ * Typography. Reseting styles
+ * ----------------------------------------------------------------
+ */
+
+* {
+    font: inherit;
+    text-decoration: none;
+}
+
+/*
+ * ----------------------------------------------------------------
+ * Typography. Initial styles
+ * ----------------------------------------------------------------
+ */
+
+body {
+    line-height: 1.2;
+    font-size: 18px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+abbr {
+    border-bottom: 2px dotted;
+}
+
+abbr[title] {
+    cursor: help;
+}
+
+address {
+    font-style: italic;
+}
+
+b {
+    font-weight: bolder;
+}
+
+cite {
+    font-style: italic;
+}
+
+code {
+    font-family: monospace;
+}
+
+dt {
+    font-weight: bolder;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+dfn {
+    font-style: italic;
+}
+
+em {
+    font-style: italic;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bolder;
+}
+
+/* Scale = 1.250 (Major Third). */
+h1 { font-size: 2.441em; }
+h2 { font-size: 1.953em; }
+h3 { font-size: 1.563em; }
+h4 { font-size: 1.25em; }
+h5 { font-size: 1em; }
+h6 { font-size: 0.8em; }
+
+i {
+    font-style: italic;
+}
+
+ins {
+    border-bottom: 1px solid;
+}
+
+kbd {
+    font-family: monospace;
+}
+
+pre {
+    font-family: monospace;
+}
+
+q {
+    font-style: italic;
+}
+
+s {
+    text-decoration: line-through;
+}
+
+samp {
+    font-family: monospace;
+}
+
+small {
+    font-size: 0.8em;
+}
+
+strong {
+    font-weight: bolder;
+}
+
+sub,
+sup {
+    font-size: 0.64em;
+}
+
+var {
+    font-style: italic;
+}
+
+u {
+    border-bottom: 1px solid;
+}
+
+/*
+ * ----------------------------------------------------------------
+ * Colors. Reseting styles
+ * ----------------------------------------------------------------
+ */
+
+* {
+    color: inherit;
+}
+
+button,
+input[type="button"],
+input[type="submit"],
+input[type="reset"],
+mark {
+    background: transparent;
+}
