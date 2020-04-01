@@ -1,4 +1,52 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"><html><head><meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"><title>Strawberry Perl for Windows - 5.10.1.1 Release Notes</title><link rel="shortcut icon" type="image/vnd.microsoft.icon" href="http://strawberryperl.com/favicon.ico"><link rel="stylesheet" type="text/css" href="http://strawberryperl.com/main.css"><style>.releasenotes .hidden { display: none; }.releasenotes .unhidden { display: block; }.releasenotes .switchoff { display: none; }.releasenotes .switchon { text-decoration: none; display: inline; }.releasenotes .switch { font-size: 80% }</style></head><body class="releasenotes"><img src="http://strawberryperl.com/images/320554_9491.jpg" alt="strawberries" width="357" height="728" border="0" align="right"><br /><h2>Strawberry Perl Release Notes</h2><p><i>Version 5.10.1.1, released 28 Jan 2010</i></p><p>Check out what is new, what known issues there are, and frequently asked questions about this version of Strawberry Perl. As always, you're encouraged to tell us what you think.</p><h3>What's new in Strawberry Perl 5.10.1.1: <span class="switch"><a href="javascript:unhide('whatsnew', 'whatsnew_switch')" id="whatsnew_switch">Collapse</a><br /></span><hr /></h3><div id="whatsnew"><p>A new update to Strawberry Perl!</p><ul><li>All  modules updated to current versions as of the end of January.</li><li>GDBM_File and Test::Exception have been added to the included modules.</li><li>Internal preparations for "Strawberry Professional" (beta version should be coming out soon)</li></ul></div><br /><h3>Known issues: <span class="switch"><a href="javascript:unhide('issues', 'issues_switch')" id="issues_switch">Collapse</a></span><hr /></h3><div id="issues"><ul><li>No known issues yet. Identified issues will be linked here as they occur.</li></ul></div><br /><h3>List of distributions added to Perl 5.10.1: <span class="switch"><a href="javascript:unhide('distlist', 'distlist_switch')" id="distlist_switch">Collapse</a></span><hr /></h3><div id="distlist" class="unhidden"><table><tr><td><b>Distribution</b></td><td><b>Version</b></td></tr><tr><td>ExtUtils-MakeMaker</td><td>6.56</td></tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+<title>Strawberry Perl for Windows - 5.10.1.1 Release Notes</title>
+
+<link rel="shortcut icon" type="image/vnd.microsoft.icon" href="http://strawberryperl.com/favicon.ico">
+<link rel="stylesheet" type="text/css" href="http://strawberryperl.com/main.css">
+
+<style>
+.releasenotes .hidden { display: none; }
+.releasenotes .unhidden { display: block; }
+.releasenotes .switchoff { display: none; }
+.releasenotes .switchon { text-decoration: none; display: inline; }
+.releasenotes .switch { font-size: 80% }
+</style>
+</head>
+<body class="releasenotes">
+
+<img src="http://strawberryperl.com/images/strawberry_03.jpg" alt="strawberries" width="357" height="728" border="0" align="right">
+<br /><h2>Strawberry Perl Release Notes</h2>
+<p><i>Version 5.10.1.1, released 28 Jan 2010</i></p>
+<p>Check out what is new, what known issues there are, and frequently asked questions about this version of Strawberry Perl. As always, you're encouraged to tell us what you think.</p>
+<h3>What's new in Strawberry Perl 5.10.1.1: <span class="switch"><a href="javascript:unhide('whatsnew', 'whatsnew_switch')" id="whatsnew_switch">Collapse</a><br /></span>
+<hr /></h3>
+<div id="whatsnew">
+<p>A new update to Strawberry Perl!</p>
+<ul>
+<li>All  modules updated to current versions as of the end of January.</li>
+<li>GDBM_File and Test::Exception have been added to the included modules.</li>
+<li>Internal preparations for "Strawberry Professional" (beta version should be coming out soon)</li>
+</ul>
+</div>
+<br />
+<h3>Known issues: <span class="switch"><a href="javascript:unhide('issues', 'issues_switch')" id="issues_switch">Collapse</a></span>
+<hr /></h3>
+<div id="issues">
+<ul>
+<li>No known issues yet. Identified issues will be linked here as they occur.</li>
+</ul>
+</div>
+<br />
+<h3>List of distributions added to Perl 5.10.1: <span class="switch"><a href="javascript:unhide('distlist', 'distlist_switch')" id="distlist_switch">Collapse</a></span>
+<hr /></h3>
+<div id="distlist" class="unhidden">
+<table>
+<tr><td><b>Distribution</b></td><td><b>Version</b></td></tr>
+<tr><td>ExtUtils-MakeMaker</td><td>6.56</td></tr>
 <tr><td>File-Path</td><td>2.08</td></tr>
 <tr><td>ExtUtils-Manifest</td><td>1.58</td></tr>
 <tr><td>Test-Harness</td><td>3.20</td></tr>
@@ -169,4 +217,37 @@
 <tr><td>Algorithm-Diff</td><td>1.1902</td></tr>
 <tr><td>Text-Diff</td><td>1.37</td></tr>
 <tr><td>Module-Signature</td><td>0.61</td></tr>
-</table><p>The list of packages used in the toolchain is available <a href="toolchain-july2009.html">here</a>.</p></div><script type="text/javascript">function unhide(divID, switchID) {  // Hide or unhide the available item.  var item = document.getElementById(divID);  if (item) {    item.className = ( item.className == 'hidden' ) ? 'unhidden' : 'hidden';  }  // Swap what the link says.  var switchitem = document.getElementById(switchID);  if (switchitem) {	switchitem.innerHTML = ( switchitem.innerHTML == 'Expand' ) ? 'Collapse' : 'Expand' ;	switchitem.className = 'switchon';  }}</script><script type="text/javascript">  // Leave whatsnew expanded by default  var switchitem = document.getElementById('whatsnew_switch');  if (switchitem) {	switchitem.className = 'switchon';  }  // Shrink others.  unhide('issues', 'issues_switch');  unhide('distlist', 'distlist_switch');</script></body></html>
+</table>
+<p>The list of packages used in the toolchain is available <a href="toolchain-july2009.html">here</a>.</p>
+</div>
+<script type="text/javascript">
+function unhide(divID, switchID) {
+  // Hide or unhide the available item.
+  var item = document.getElementById(divID);
+  if (item) {
+    item.className = ( item.className == 'hidden' ) ? 'unhidden' : 'hidden';
+  }
+  // Swap what the link says.
+  var switchitem = document.getElementById(switchID);
+  if (switchitem) {
+	switchitem.innerHTML = ( switchitem.innerHTML == 'Expand' ) ? 'Collapse' : 'Expand' ;
+	switchitem.className = 'switchon';
+  }
+}
+</script>
+<script type="text/javascript">
+  // Leave whatsnew expanded by default
+  var switchitem = document.getElementById('whatsnew_switch');
+  if (switchitem) {
+	switchitem.className = 'switchon';
+  }
+  // Shrink others.
+  unhide('issues', 'issues_switch');
+  unhide('distlist', 'distlist_switch');
+</script>
+
+
+
+
+</body>
+</html>
