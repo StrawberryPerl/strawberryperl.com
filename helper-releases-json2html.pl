@@ -87,7 +87,7 @@ __DATA__
 </head>
 <body>
 
-<img src="images/strawberry_03.jpg" alt="strawberries" width="357" height="728" border="0" align="right">
+<img src="/images/strawberry_03.jpg" alt="strawberries" width="357" height="728" border="0" align="right">
 <table border="0" cellspacing="0" cellpadding="0">
   <tr>
     <td>
