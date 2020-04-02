@@ -70,8 +70,8 @@ __DATA__
 
 <title>Strawberry Perl for Windows - Releases</title>
 
-<link rel="shortcut icon" type="image/vnd.microsoft.icon" href="favicon.ico">
-<link rel="stylesheet" type="text/css" href="main.css">
+<link rel="shortcut icon" type="image/vnd.microsoft.icon" href="/favicon.ico">
+<link rel="stylesheet" type="text/css" href="/main.css">
 
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
