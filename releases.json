@@ -1,5 +1,183 @@
 [
    {
+      "archname" : "MSWin32-x86-multi-thread",
+      "date" : "2020-07-21",
+      "edition" : {
+         "portable" : {
+            "sha1" : "cec7c449ecf0ca5e36174fb9d25189bb016ed5d5",
+            "sha256" : "870210cd6657b1dd6fd9dcb447666790258c711f2862cf2cc719228cd029e50e",
+            "size" : 151807795,
+            "url" : "http://strawberryperl.com/download/5.32.0.1/strawberry-perl-no64-5.32.0.1-32bit-portable.zip"
+         },
+         "zip" : {
+            "sha1" : "9e4cf8b3bbceba05d0980425b16d7260f7dc11a8",
+            "sha256" : "8a29808e94e60bc5c46b15df8bab8e3ecb928102af9d3599f972615624497eca",
+            "size" : 151778573,
+            "url" : "http://strawberryperl.com/download/5.32.0.1/strawberry-perl-no64-5.32.0.1-32bit.zip"
+         }
+      },
+      "name" : "July 2020 / 5.32.0.1 / 32bit / without USE_64_BIT_INT",
+      "numver" : 5.032000001,
+      "version" : "5.32.0.1"
+   },
+   {
+      "archname" : "MSWin32-x64-multi-thread",
+      "date" : "2020-07-20",
+      "edition" : {
+         "msi" : {
+            "sha1" : "d19bd7e8552871613a29217d65cc6132ae62bd80",
+            "sha256" : "5e51bd499612fdcc1a4c0abe090b257a33d739e8ec74a8b69d4945a822ea0c4d",
+            "size" : 105910415,
+            "url" : "http://strawberryperl.com/download/5.32.0.1/strawberry-perl-5.32.0.1-64bit.msi"
+         },
+         "pdl" : {
+            "sha1" : "cdfa30c4c002d10e778c65c2f66befb66b4cf1c3",
+            "sha256" : "ecffe87e58d911bb663c694b79f68b2ce80518d371da3059e6e07bd009b91d50",
+            "size" : 179122527,
+            "url" : "http://strawberryperl.com/download/5.32.0.1/strawberry-perl-5.32.0.1-64bit-PDL.zip"
+         },
+         "portable" : {
+            "sha1" : "e7d1d1cc4318a6043749a285beb0d0c258fe087a",
+            "sha256" : "525d6a2d8e569f768eaf5d86dfb6d2e46a99593e110df82606eee07c24f5bcf0",
+            "size" : 156359850,
+            "url" : "http://strawberryperl.com/download/5.32.0.1/strawberry-perl-5.32.0.1-64bit-portable.zip"
+         },
+         "zip" : {
+            "sha1" : "6c8fc4e9f75d6f520383fd225a0a0ae2ea049164",
+            "sha256" : "61171015a072f6e4240ad8a658fc232a12461abf696f4af0f16f01cd64605cfa",
+            "size" : 156330621,
+            "url" : "http://strawberryperl.com/download/5.32.0.1/strawberry-perl-5.32.0.1-64bit.zip"
+         }
+      },
+      "name" : "July 2020 / 5.32.0.1 / 64bit",
+      "numver" : 5.032000001,
+      "relnotes" : "http://strawberryperl.com/release-notes/5.32.0.1-64bit.html",
+      "version" : "5.32.0.1"
+   },
+   {
+      "archname" : "MSWin32-x86-multi-thread-64int",
+      "date" : "2020-07-20",
+      "edition" : {
+         "msi" : {
+            "sha1" : "56c9f7994e0730e5f579b0d5884a12684f0111ae",
+            "sha256" : "5ee42ec7c3236defe063cc7d76dc115d4872983e944fea395879654f7ff9a191",
+            "size" : 105052172,
+            "url" : "http://strawberryperl.com/download/5.32.0.1/strawberry-perl-5.32.0.1-32bit.msi"
+         },
+         "pdl" : {
+            "sha1" : "9642850aed23ea96f9c7f110269270246bf858be",
+            "sha256" : "efb132483693226458de60f967a77c5ec20058bc95ea8b0bbfee7a4e49cb180c",
+            "size" : 173996005,
+            "url" : "http://strawberryperl.com/download/5.32.0.1/strawberry-perl-5.32.0.1-32bit-PDL.zip"
+         },
+         "portable" : {
+            "sha1" : "3bcaa76952a21a4549999b4a9797a8e131f37e09",
+            "sha256" : "2fa77449e3c29f4754a822a8cddf686e1e5e498621d779e9da1a03895bb70e6a",
+            "size" : 152076481,
+            "url" : "http://strawberryperl.com/download/5.32.0.1/strawberry-perl-5.32.0.1-32bit-portable.zip"
+         },
+         "zip" : {
+            "sha1" : "635b06c139ad5bad3d2846d2c6c65f8a709926ed",
+            "sha256" : "7c2186b81684898b7a1e378e0d52059cd932fbe374fe41e057788ca163deb8de",
+            "size" : 152047258,
+            "url" : "http://strawberryperl.com/download/5.32.0.1/strawberry-perl-5.32.0.1-32bit.zip"
+         }
+      },
+      "name" : "July 2020 / 5.32.0.1 / 32bit / with USE_64_BIT_INT",
+      "numver" : 5.032000001,
+      "relnotes" : "http://strawberryperl.com/release-notes/5.32.0.1-32bit.html",
+      "version" : "5.32.0.1"
+   },
+   {
+      "archname" : "MSWin32-x64-multi-thread",
+      "date" : "2020-07-13",
+      "edition" : {
+         "msi" : {
+            "sha1" : "a33facf9a25dfc84d9797d0d39049f420e4b3802",
+            "sha256" : "7e853ae54e2ab600385b81ddb7259f1e47aa876bdd3aee75f248754da7995ecb",
+            "size" : 105969277,
+            "url" : "http://strawberryperl.com/download/5.30.3.1/strawberry-perl-5.30.3.1-64bit.msi"
+         },
+         "pdl" : {
+            "sha1" : "dfb81fa057abfea5198d0dcacd8f43d7b695cbca",
+            "sha256" : "9fa025e849b711923c0dff840c075203ceda9513dac82a275d4ccbef5aebc0b7",
+            "size" : 179135203,
+            "url" : "http://strawberryperl.com/download/5.30.3.1/strawberry-perl-5.30.3.1-64bit-PDL.zip"
+         },
+         "portable" : {
+            "sha1" : "487a15ab60bdc41ed72626b6b4fb260d755d4a98",
+            "sha256" : "f8b7c4d92522baeb098764c9e85bcc0261ff29eca50b083fb81d65829ba11937",
+            "size" : 156355663,
+            "url" : "http://strawberryperl.com/download/5.30.3.1/strawberry-perl-5.30.3.1-64bit-portable.zip"
+         },
+         "zip" : {
+            "sha1" : "ac3ce102081ac6f9b3b43d81c30ac77b08493eff",
+            "sha256" : "5f51ffe48256481a273b35b0a28dc867f77093731b530df8b9bcb53ca3173459",
+            "size" : 156323289,
+            "url" : "http://strawberryperl.com/download/5.30.3.1/strawberry-perl-5.30.3.1-64bit.zip"
+         }
+      },
+      "name" : "July 2020 / 5.30.3.1 / 64bit",
+      "numver" : 5.030003001,
+      "relnotes" : "http://strawberryperl.com/release-notes/5.30.3.1-64bit.html",
+      "version" : "5.30.3.1"
+   },
+   {
+      "archname" : "MSWin32-x86-multi-thread-64int",
+      "date" : "2020-07-13",
+      "edition" : {
+         "msi" : {
+            "sha1" : "ddc8fcfdfeeb58772fdb7ab26a69384b4c489e78",
+            "sha256" : "64f51b7ea411796fd4ce5193450058dc5d1bc143cf1f882de559630b0acce62e",
+            "size" : 105307642,
+            "url" : "http://strawberryperl.com/download/5.30.3.1/strawberry-perl-5.30.3.1-32bit.msi"
+         },
+         "pdl" : {
+            "sha1" : "f907418ba49e5f4408bd7ca713af6ada395598dc",
+            "sha256" : "d7b8ad6f26e73e4309f01cf0dc5e208b1bac8b651e6cd73098f37e4d8062cfe8",
+            "size" : 174006300,
+            "url" : "http://strawberryperl.com/download/5.30.3.1/strawberry-perl-5.30.3.1-32bit-PDL.zip"
+         },
+         "portable" : {
+            "sha1" : "bbda07beadaeaf82b54bbfdc8635d8ec2e5adaba",
+            "sha256" : "0d697a5c3e3e7c691034c1353457402a0f3c96e6fbd431b5c90a68aa73a076d5",
+            "size" : 152070665,
+            "url" : "http://strawberryperl.com/download/5.30.3.1/strawberry-perl-5.30.3.1-32bit-portable.zip"
+         },
+         "zip" : {
+            "sha1" : "154916651533cc8bf5b11d7626fb865f686a0fe5",
+            "sha256" : "c6ceaf6636529729f27ef9fac08abdd4d9047505397ec3ff32dc7c3c0401efda",
+            "size" : 152038298,
+            "url" : "http://strawberryperl.com/download/5.30.3.1/strawberry-perl-5.30.3.1-32bit.zip"
+         }
+      },
+      "name" : "July 2020 / 5.30.3.1 / 32bit / with USE_64_BIT_INT",
+      "numver" : 5.030003001,
+      "relnotes" : "http://strawberryperl.com/release-notes/5.30.3.1-32bit.html",
+      "version" : "5.30.3.1"
+   },
+   {
+      "archname" : "MSWin32-x86-multi-thread",
+      "date" : "2020-07-13",
+      "edition" : {
+         "portable" : {
+            "sha1" : "c4211d4651620506412f757ea221ee6088f2ed91",
+            "sha256" : "88787b0a361666a619f5222c95fce332a50c6a61a5127f458da8239654a36058",
+            "size" : 151810238,
+            "url" : "http://strawberryperl.com/download/5.30.3.1/strawberry-perl-no64-5.30.3.1-32bit-portable.zip"
+         },
+         "zip" : {
+            "sha1" : "81b031730c5963a78059f2b7ebeb2e14a2a4c3e2",
+            "sha256" : "0e92e92037c892d953fd2404de3d3259fffb333c4470e84f6d5f5a4c9851b748",
+            "size" : 151777870,
+            "url" : "http://strawberryperl.com/download/5.30.3.1/strawberry-perl-no64-5.30.3.1-32bit.zip"
+         }
+      },
+      "name" : "July 2020 / 5.30.3.1 / 32bit / without USE_64_BIT_INT",
+      "numver" : 5.030003001,
+      "version" : "5.30.3.1"
+   },
+   {
       "archname" : "MSWin32-x64-multi-thread",
       "date" : "2020-03-17",
       "edition" : {
