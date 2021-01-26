@@ -42,7 +42,7 @@ for my $dir (@ARGV) {
       $name .= " / with USE_LONG_DOUBLE" if $arch eq '-ld';
       my @n = split /\./, $ver;
       my $numver = 0 + sprintf("%s.%09d", $n[0], $n[1]*1000000 +$n[2]*1000 + $n[3]); # must be a number not a string
-      my $relnotes = "http://strawberryperl.com/release-notes/$ver-$bits.html",
+      my $relnotes = "https://strawberryperl.com/release-notes/$ver-$bits.html",
 
       my %map = (
         "MSWin32-x64-multi-thread"       => "1009",
@@ -62,7 +62,7 @@ for my $dir (@ARGV) {
          "sha1"   => digest_file_hex("SHA1", $file),
          "sha256" => digest_file_hex("SHA256", $file),
          "size"   => -s $file,
-         "url"    => "http://strawberryperl.com/download/$ver/$basename",
+         "url"    => "https://strawberryperl.com/download/$ver/$basename",
       };
     }
     else {
