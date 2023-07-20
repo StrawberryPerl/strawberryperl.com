@@ -1,6 +1,62 @@
 [
    {
       "archname" : "MSWin32-x64-multi-thread",
+      "date" : "2023-07-20",
+      "edition" : {
+         "msi" : {
+            "sha1" : "c733450821b13f6dd72be1298f293343dfbc4880",
+            "sha256" : "a9b44e50424dcc7e40b8f67d906c76a15469af3d5998e04635fa8465a0a56877",
+            "size" : 181887108,
+            "url" : "https://strawberryperl.com/download/5.38.0.1/strawberry-perl-5.38.0.1-64bit.msi"
+         },
+         "pdl" : {
+            "sha1" : "e6cc344cc48d4f97b1c067741c998c911f66a668",
+            "sha256" : "2120905d6145cad9c670f5dd0d306b0e1b45f941fd737c945ad99228292f7a38",
+            "size" : 320539270,
+            "url" : "https://strawberryperl.com/download/5.38.0.1/strawberry-perl-5.38.0.1-64bit-PDL.zip"
+         },
+         "portable" : {
+            "sha1" : "987c870cc2401e481e3ddbdd1462d2a52da34187",
+            "sha256" : "ca6402a466939d5d658cc0d09a20dc59635ae68f6903a92a747a802539e40908",
+            "size" : 266777616,
+            "url" : "https://strawberryperl.com/download/5.38.0.1/strawberry-perl-5.38.0.1-64bit-portable.zip"
+         }
+      },
+      "name" : "July 2023 / 5.38.0.1 / 64bit",
+      "numver" : 5.038000001,
+      "relnotes" : "https://strawberryperl.com/release-notes/5.38.0.1-64bit.html",
+      "version" : "5.38.0.1"
+   },
+   {
+      "archname" : "MSWin32-x64-multi-thread",
+      "date" : "2023-07-20",
+      "edition" : {
+         "msi" : {
+            "sha1" : "6ee0d641a444b73cebea326188f848b78766eaf3",
+            "sha256" : "a33e5cfec12bab823b5072dccc869016aeb15b1f3c6513a14f4d0441304a5264",
+            "size" : 181765721,
+            "url" : "https://strawberryperl.com/download/5.36.1.1/strawberry-perl-5.36.1.1-64bit.msi"
+         },
+         "pdl" : {
+            "sha1" : "b3b966fc1768ac0017ddc054c59b5ae9efa97dfc",
+            "sha256" : "505f7655aa6c42a48ca33a6c5208051b80863356967c14f8f6412e00e565214b",
+            "size" : 320281129,
+            "url" : "https://strawberryperl.com/download/5.36.1.1/strawberry-perl-5.36.1.1-64bit-PDL.zip"
+         },
+         "portable" : {
+            "sha1" : "480059a7aa336eb777ef578bcb8b3b9cce973a91",
+            "sha256" : "96dc0fc440e3123dd8d58df3498e41caba20610f33ed67af937a61b296c4786c",
+            "size" : 266490963,
+            "url" : "https://strawberryperl.com/download/5.36.1.1/strawberry-perl-5.36.1.1-64bit-portable.zip"
+         }
+      },
+      "name" : "July 2023 / 5.36.1.1 / 64bit",
+      "numver" : 5.036001001,
+      "relnotes" : "https://strawberryperl.com/release-notes/5.36.1.1-64bit.html",
+      "version" : "5.36.1.1"
+   },
+   {
+      "archname" : "MSWin32-x64-multi-thread",
       "date" : "2021-01-24",
       "edition" : {
          "msi" : {
