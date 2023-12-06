@@ -1,1 +1,7 @@
 /tmp*
+/.svn
+/.well-known
+/download/
+favicon.gif
+/package
+
