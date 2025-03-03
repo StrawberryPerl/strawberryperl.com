@@ -1,4 +1,26 @@
 [
+    {
+       "archname" : "MSWin32-x64-multi-thread",
+       "date" : "2025-03-03",
+       "edition" : {
+          "msi" : {
+             "sha1" : "1f050728c17fe9cff18b8e2b9d69f13c7af5d9ef",
+             "sha256" : "cba8edd3e57280b714daac6a8702a6bc9a7db570dac479b593e8af33b38fc980",
+             "size" : 107769912,
+             "url" : "https://github.com/StrawberryPerl/Perl-Dist-Strawberry/releases/download/sp5.34.3.1/strawberry-perl-5.34.3.1-64bit.msi"
+          },
+          "portable" : {
+             "sha1" : "96a139118d95a35f58dff937ad1019c4a8b87016",
+             "sha256" : "94d312ed536bb5bec8d4d8a069c19cf5f275364b94bb4dd93da1c1aa5ef7652a",
+             "size" : 158214239,
+             "url" : "https://github.com/StrawberryPerl/Perl-Dist-Strawberry/releases/download/sp5.34.3.1/strawberry-perl-5.34.3.1-64bit-portable.zip"
+          },
+       },
+       "name" : "Mar 2025 / 5.34.3.1 / 64bit",
+       "numver" : 5.034003001,
+       "relnotes" : "https://strawberryperl.com/release-notes/strawberry-perl-5.34.3.1-64bit.html",
+       "version" : "5.34.3.1"
+    },
    {
       "archname" : "MSWin32-x64-multi-thread",
       "date" : "2024-08-10",
