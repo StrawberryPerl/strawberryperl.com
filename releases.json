@@ -14,7 +14,7 @@
              "sha256" : "94d312ed536bb5bec8d4d8a069c19cf5f275364b94bb4dd93da1c1aa5ef7652a",
              "size" : 158214239,
              "url" : "https://github.com/StrawberryPerl/Perl-Dist-Strawberry/releases/download/sp5.34.3.1/strawberry-perl-5.34.3.1-64bit-portable.zip"
-          },
+          }
        },
        "name" : "Mar 2025 / 5.34.3.1 / 64bit",
        "numver" : 5.034003001,
