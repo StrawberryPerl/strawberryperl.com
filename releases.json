@@ -9,13 +9,13 @@
             "size": 208041862,
             "url": "https://github.com/StrawberryPerl/Perl-Dist-Strawberry/releases/download/SP_54201_64bit/strawberry-perl-5.42.0.1-64bit.msi"
          },
-         "pdl_zip": {
+         "pdl": {
             "sha1": "5735fab5f64d8e01107c23565c2b66ecf34e0a6f",
             "sha256": "3b7305590ba39bfd23b939b9b7e9c5269f002ae4bb73e82c2f87770799e32012",
             "size": 324020862,
             "url": "https://github.com/StrawberryPerl/Perl-Dist-Strawberry/releases/download/SP_54201_64bit/strawberry-perl-5.42.0.1-64bit-PDL.zip"
          },
-         "portable_zip": {
+         "portable": {
             "sha1": "55e3cced51ca6c1639bc79ae66a2ea62612547c1",
             "sha256": "a1cde185656cf307b51670eed69f648b9eff15b5c518cb136e027c628e650b71",
             "size": 302439100,
@@ -37,13 +37,13 @@
             "size": 178255810,
             "url": "https://github.com/StrawberryPerl/Perl-Dist-Strawberry/releases/download/SP_53841_64bit/strawberry-perl-5.38.4.1-64bit.msi"
          },
-         "pdl_zip": {
+         "pdl": {
             "sha1": "f25e4b51e518fcdd5aab781e09e95b2dc8a7a04c",
             "sha256": "5628f6d171f40b0f6b616848ca653146781bf6f89a92e1f6763b55e1529b1caa",
             "size": 284502099,
             "url": "https://github.com/StrawberryPerl/Perl-Dist-Strawberry/releases/download/SP_53841_64bit/strawberry-perl-5.38.4.1-64bit-PDL.zip"
          },
-         "portable_zip": {
+         "portable": {
             "sha1": "97f294c52b9f75d80fd6eb5ae994f4c862ec803e",
             "sha256": "207e359c94c1431e618a4fb0ea54d810ef70b040abd71b9e31862146932b14b7",
             "size": 262934584,
@@ -65,13 +65,13 @@
             "size": 207742051,
             "url": "https://github.com/StrawberryPerl/Perl-Dist-Strawberry/releases/download/SP_54022_64bit/strawberry-perl-5.40.2.2-64bit.msi"
          },
-         "pdl_zip": {
+         "pdl": {
             "sha1": "a7e3f18fc73655c9e97799bdf64b15fce6e88826",
             "sha256": "eda6b8c31450386c51dc10e8c8e076d1b937ec64b29a69ee36aa088bddcc75bb",
             "size": 323493933,
             "url": "https://github.com/StrawberryPerl/Perl-Dist-Strawberry/releases/download/SP_54022_64bit/strawberry-perl-5.40.2.2-64bit-PDL.zip"
          },
-         "portable_zip": {
+         "portable": {
             "sha1": "7d7071e1a10b7ad3e7f54fc0cae407e7ce477de1",
             "sha256": "7df5cdc41e8638c00b2aa00cccc69ec8cd5a5ad0ec265c81f389beffb53b6920",
             "size": 301912109,
