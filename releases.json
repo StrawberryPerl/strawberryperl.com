@@ -24,7 +24,7 @@
       },
       "name": "Aug 2025 / 5.42.0.1 / 64bit",
       "numver": 5.042000001,
-      "relnotes": "https://strawberryperl.com/release-notes/strawberry-perl-5.42.0.1-64bit.html",
+      "relnotes": "https://strawberryperl.com/release-notes/5.42.0.1-64bit.html",
       "version": "5.42.0.1"
    },
    {
@@ -52,7 +52,7 @@
       },
       "name": "Jun 2025 / 5.38.4.1 / 64bit",
       "numver": 5.038004001,
-      "relnotes": "https://strawberryperl.com/release-notes/strawberry-perl-5.38.4.1-64bit.html",
+      "relnotes": "https://strawberryperl.com/release-notes/5.38.4.1-64bit.html",
       "version": "5.38.4.1"
    },
    {
@@ -86,7 +86,7 @@
       },
       "name": "May 2025 / 5.40.2.2 / 64bit",
       "numver": 5.040002002,
-      "relnotes": "https://strawberryperl.com/release-notes/strawberry-perl-5.40.2.2-64bit.html",
+      "relnotes": "https://strawberryperl.com/release-notes/5.40.2.2-64bit.html",
       "version": "5.40.2.2"
    },
    {
@@ -114,7 +114,7 @@
       },
       "name": "May 2025 / 5.40.2.1 / 64bit",
       "numver": 5.040002001,
-      "relnotes": "https://strawberryperl.com/release-notes/strawberry-perl-5.40.2.1-64bit.html",
+      "relnotes": "https://strawberryperl.com/release-notes/5.40.2.1-64bit.html",
       "version": "5.40.2.1"
    },
    {
@@ -136,7 +136,7 @@
       },
       "name": "Mar 2025 / 5.34.3.1 / 64bit",
       "numver": 5.034003001,
-      "relnotes": "https://strawberryperl.com/release-notes/strawberry-perl-5.34.3.1-64bit.html",
+      "relnotes": "https://strawberryperl.com/release-notes/5.34.3.1-64bit.html",
       "version": "5.34.3.1"
    },
    {
@@ -164,7 +164,7 @@
       },
       "name": "Aug 2024 / 5.40.0.1 / 64bit",
       "numver": 5.040000001,
-      "relnotes": "https://strawberryperl.com/release-notes/strawberry-perl-5.40.0.1-64bit.html",
+      "relnotes": "https://strawberryperl.com/release-notes/5.40.0.1-64bit.html",
       "version": "5.40.0.1"
    },
    {
@@ -242,7 +242,7 @@
       },
       "name": "Nov 2023 / 5.38.2.1 / 32bit",
       "numver": 5.038002001,
-      "relnotes": "https://strawberryperl.com/release-notes/strawberry-perl-5.38.2.1-32bit.html",
+      "relnotes": "https://strawberryperl.com/release-notes/5.38.2.1-32bit.html",
       "version": "5.38.2.1"
    },
    {
