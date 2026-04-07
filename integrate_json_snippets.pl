@@ -35,8 +35,8 @@ foreach my $snippet_file (@snippets) {
     close $fh;
     
     #  make these conform
-    $snippet =~ s/"portable_zip"/"portable"/ms;
-    $snippet =~ s/"pdl_zip"/"portable"/ms;
+    $snippet_data =~ s/"portable_zip"/"portable"/ms;
+    $snippet_data =~ s/"pdl_zip"/"portable"/ms;
     
     my $snippet = decode_json $snippet_data;
     push @$struct, $snippet;
