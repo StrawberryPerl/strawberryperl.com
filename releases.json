@@ -256,14 +256,14 @@
       "date": "2023-11-30",
       "edition": {
          "msi": {
-            "sha1": "09a93255b6fc1b13eae0003b9c256b8282b2e723",
-            "sha256": "42fbb8b0aed56d48b6cadbfe44f47f6be1aee6703e513fe759c408835a517129",
+            "sha1": "c1c9579a5b07154639bcebec8130ec3510671c61",
+            "sha256": "c996bdbe52a706a95e0a769e675b0608caddd7201d9e2c27d92f2835a4cc9ece",
             "size": 100602476,
             "url": "https://github.com/StrawberryPerl/Perl-Dist-Strawberry/releases/download/SP_5382_32bit/strawberry-perl-5.38.2.1-32bit.msi"
          },
          "portable": {
-            "sha1": "04610a5eba037cfa2e9d065834f3ebb0a59a7313",
-            "sha256": "581615b2a060729babcc623c9a67f6709f9fe90be35a72ba36b556d45f94e2c3",
+            "sha1": "342f41be946c67277e5b93ba05de35ce646eb389",
+            "sha256": "c09a06d1e10e81a70b5f251938303b425680dad829ff738501ce96de99c640d9",
             "size": 148408030,
             "url": "https://github.com/StrawberryPerl/Perl-Dist-Strawberry/releases/download/SP_5382_32bit/strawberry-perl-5.38.2.1-32bit-portable.zip"
          }
