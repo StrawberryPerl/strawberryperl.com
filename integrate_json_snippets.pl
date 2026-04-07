@@ -37,6 +37,7 @@ foreach my $snippet_file (@snippets) {
     #  make these conform
     $snippet_data =~ s/"portable_zip"/"portable"/ms;
     $snippet_data =~ s/"pdl_zip"/"portable"/ms;
+    $snippet_data =~ s{(release-notes/)strawberry-perl-}{$1}ms;
     
     my $snippet = decode_json $snippet_data;
     push @$struct, $snippet;
