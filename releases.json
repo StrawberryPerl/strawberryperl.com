@@ -29,6 +29,34 @@
    },
    {
       "archname": "MSWin32-x64-multi-thread",
+      "date": "2026-04-07",
+      "edition": {
+         "msi": {
+            "sha1": "ecc2d0f24a97d99a5490d8086bd3a2c4b2100a48",
+            "sha256": "1828ab8a18fdccaf22dd0650d6c4194ff4d492a4114c059b90de15a1505dc47f",
+            "size": 209651500,
+            "url": "https://github.com/StrawberryPerl/Perl-Dist-Strawberry/releases/download/SP_54041_64bit/strawberry-perl-5.40.4.1-64bit.msi"
+         },
+         "pdl": {
+            "sha1": "a61233fc92da9066f1855aaf9fa771c880e6c112",
+            "sha256": "c590ddca9788a265dcee140e8d9868f653f5b06c7ea0d2b805d6218a6c5f64b8",
+            "size": 325422190,
+            "url": "https://github.com/StrawberryPerl/Perl-Dist-Strawberry/releases/download/SP_54041_64bit/strawberry-perl-5.40.4.1-64bit-portable.zip"
+         },
+         "portable": {
+            "sha1": "62b79a9117bf50b6c88d34a7c2752aec0b5f882c",
+            "sha256": "aa9052ac082c8a8a0f952823b3f4f0bf9c1d0f84bbe0b3dfe0aa94291d6b1045",
+            "size": 303925336,
+            "url": "https://github.com/StrawberryPerl/Perl-Dist-Strawberry/releases/download/SP_54041_64bit/strawberry-perl-5.40.4.1-64bit-PDL.zip"
+         }
+      },
+      "name": "Apr 2026 / 5.40.4.1 / 64bit",
+      "numver": 5.040004001,
+      "relnotes": "https://strawberryperl.com/release-notes/5.40.4.1-64bit.html",
+      "version": "5.40.4.1"
+   },
+   {
+      "archname": "MSWin32-x64-multi-thread",
       "date": "2025-08-01",
       "edition": {
          "msi": {
